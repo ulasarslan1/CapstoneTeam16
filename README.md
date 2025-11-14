@@ -62,7 +62,7 @@ This section explains how the system operates internally based on the Java class
 
 ### **Step 1: Application Startup**
 
-* `Main` executes.
+* Main executes.
 * The system initializes critical components:
 
   * Inventory
