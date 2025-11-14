@@ -145,6 +145,7 @@ public class HMI extends JFrame {
                 startAgvSimulationThread();
             }
         });
+        seedSampleData();
         stopBtn.addActionListener(e -> stopSystemComponents());
         headerRight.add(startBtn); headerRight.add(stopBtn);
 
