@@ -75,7 +75,7 @@ This section explains how the system operates internally based on the Java class
 
 ### **Step 2: User Interaction**
 
-* The user interacts via the `HMI` class.
+* The user interacts via the HMI class.
 * The HMI prompts the user to:
 
   * Create orders
@@ -86,7 +86,7 @@ This section explains how the system operates internally based on the Java class
 
 ### **Step 3: Order Creation**
 
-* Order details are passed to `OrderManager`.
+* Order details are passed to OrderManager.
 * The system:
 
   * Takes name, medicine type and quantity as an input
