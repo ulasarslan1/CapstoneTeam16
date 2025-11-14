@@ -51,7 +51,7 @@ The system is organized into several cohesive modules, each responsible for a sp
 
 ### **2.7 Main Entry Point**
 
-* Class: `Main`
+* Class: Main
 * Initializes the system and launches the HMI.
 
 ---
