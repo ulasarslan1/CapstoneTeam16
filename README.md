@@ -1,4 +1,4 @@
-# Cpastone Project
+# Capastone Project
 
 Role Distributions
 
