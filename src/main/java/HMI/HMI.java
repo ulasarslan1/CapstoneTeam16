@@ -7,6 +7,8 @@ import StorageManagement.StorageLocation;
 import StorageManagement.StorageManager;
 import TaskManagement.TaskManager;
 import Logging.SystemLogger;
+import Database.DbReader;
+import OrderManagement.Medicine;
 import Exceptions.StorageException;
 
 import javax.swing.*;
@@ -27,7 +29,7 @@ public class HMI extends JFrame {
     private JPanel cards = new JPanel(cardLayout);
 
     // Backend components (may be re-created on restart)
-    private StorageManager storageManager;
+    public StorageManager storageManager;
     private TaskManager taskManager;
     private ChargingManager chargingManager;
     private SystemLogger logger = new SystemLogger();
@@ -255,17 +257,18 @@ public class HMI extends JFrame {
         chargingPanel.add(new JLabel("Charging Stations"), BorderLayout.NORTH);
         chargingPanel.add(chargingScroll, BorderLayout.CENTER);
 
-        // Stock block with medicine name and location separate
+        // Stock block with medicine name and quantity (sourced from medicines.csv)
         // NOTE: removed Order Status column from Inventory as requested
         stockTableModel = new DefaultTableModel(new Object[]{"Medicine","Location","Quantity"}, 0) {
             @Override public boolean isCellEditable(int row, int col) { return false; }
         };
         JTable stockTable = new JTable(stockTableModel);
         JScrollPane stockScroll = new JScrollPane(stockTable);
-        JPanel stockPanel = new JPanel(new BorderLayout());
-        stockPanel.add(new JLabel("Inventory"), BorderLayout.NORTH);
+        JPanel inventoryPanel = new JPanel(new BorderLayout());
+        inventoryPanel.add(new JLabel("Inventory"), BorderLayout.NORTH);
+        inventoryPanel.add(stockScroll, BorderLayout.CENTER);
 
-        // NEW: Orders panel (separate block inside the stock panel, stacked below inventory)
+        // NEW: Orders panel (separate block stacked below inventory)
         orderTableModel = new DefaultTableModel(new Object[]{"Order ID","Order Status"}, 0) {
             @Override public boolean isCellEditable(int row, int col) { return false; }
         };
@@ -275,11 +278,10 @@ public class HMI extends JFrame {
         ordersPanel.add(new JLabel("Orders (real-time)"), BorderLayout.NORTH);
         ordersPanel.add(orderScroll, BorderLayout.CENTER);
 
-        // Stack inventory and orders vertically in the same stock panel (layout unchanged overall)
-        JPanel stockCenter = new JPanel(new BorderLayout());
-        stockCenter.add(stockScroll, BorderLayout.CENTER);
-        stockCenter.add(ordersPanel, BorderLayout.SOUTH);
-        stockPanel.add(stockCenter, BorderLayout.CENTER);
+        // Stack inventory and orders vertically using GridLayout
+        JPanel stockPanel = new JPanel(new GridLayout(2, 1, 0, 8));
+        stockPanel.add(inventoryPanel);
+        stockPanel.add(ordersPanel);
 
         top.add(agvPanel);
         top.add(chargingPanel);
@@ -385,7 +387,7 @@ public class HMI extends JFrame {
                 try {
                     StorageLocation s = storageManager.getStorageLocations().stream().filter(x -> x.getId().equals(loc)).findFirst().orElse(null);
                     if (s != null) {
-                        storageManager.removeStock(s, qty);
+                        storageManager.removeStockSync(s, qty);
                         appendLog("Stock removed: " + qty + " from " + loc, Color.DARK_GRAY);
                     } else {
                         appendLog("Storage location not found for order " + orderId, Color.RED);
@@ -426,28 +428,18 @@ public class HMI extends JFrame {
         medicineCombo.setSelectedIndex(-1);
     }
 
-    // New: single source of medicine list used both for order combo and seeding inventory
+    // Single source of medicine list — load from CSV (resources/database/medicine.csv)
     private String[] getMedicineList() {
-        return new String[]{
-                "Paracetamol",
-                "Ibuprofen",
-                "Aspirin",
-                "Amoxicillin",
-                "Cetirizine",
-                "Metformin",
-                "Simvastatin",
-                "Omeprazole",
-                "Azithromycin",
-                "Atorvastatin",
-                "Loratadine",
-                "Prednisone",
-                "Salbutamol",
-                "Doxycycline",
-                "Warfarin",
-                "Insulin",
-                "Ranitidine",
-                "Metronidazole"
-        };
+        try {
+            List<Medicine> meds = DbReader.loadMedicines();
+            if (meds == null || meds.isEmpty()) return new String[0];
+            String[] names = new String[meds.size()];
+            for (int i = 0; i < meds.size(); i++) names[i] = meds.get(i).getName();
+            return names;
+        } catch (Exception e) {
+            safeAppendLog("Failed to load medicines from CSV: " + e.getMessage());
+            return new String[0];
+        }
     }
 
     private void startBackgroundRefresh() {
@@ -490,14 +482,14 @@ public class HMI extends JFrame {
                     chargingModel.addRow(new Object[]{station, agvId, status, pct});
                 }
 
-                // Stock table
+                // Stock table: load medicines from CSV so ordering and inventory use same source
                 stockTableModel.setRowCount(0);
                 for (Map.Entry<String,String> e : medicineToLocation.entrySet()) {
-                    String med = e.getKey();
-                    String loc = e.getValue();
-                    StorageLocation s = storageManager.getStorageLocations().stream().filter(x -> x.getId().equals(loc)).findFirst().orElse(null);
-                    int qty = s == null ? 0 : storageManager.getInventory().getStock(s);
-                    stockTableModel.addRow(new Object[]{med, loc, qty});
+                String med = e.getKey();
+                String loc = e.getValue();
+                StorageLocation s = storageManager.getStorageLocations().stream().filter(x -> x.getId().equals(loc)).findFirst().orElse(null);
+                int qty = s == null ? 0 : storageManager.getInventory().getStock(s);
+                stockTableModel.addRow(new Object[]{med, loc, qty});
                 }
 
                 // Orders table (NEW): reflect current orderStatus map in real-time
@@ -584,7 +576,7 @@ public class HMI extends JFrame {
                     try {
                         StorageLocation sl = new StorageLocation("LOC-" + i, 100);
                         storageManager.addStorageLocation(sl);
-                        storageManager.addStock(sl, 200 + random.nextInt(200));
+                        storageManager.addStock(sl, 50 + random.nextInt(50));
                     } catch (StorageException se) {
                         // ignore
                     }
