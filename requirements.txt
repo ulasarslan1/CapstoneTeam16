@@ -1,0 +1,8 @@
+- Each station has capacity, availability, location, and status
+- Charging Stations support equipment or robots requiring periodic charging
+- Tasks represent work units in the system (e.g., moving stock, processing orders)
+- Each Task has: ID, type, assigned resource and status
+- Storage Locations have capacity and current load, validated on each operation
+- StorageException, TaskAssignmentException, IllegalArgumentException etc. handled in this project. 
+- All key operations and errors must be logged
+- System should have a unit testes.

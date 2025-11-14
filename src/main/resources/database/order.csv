@@ -1,0 +1,6 @@
+orderId,medicineName,quantity,status,createdAt
+O-3001,Aspirin,2,CREATED,2025-11-12 09:30:00
+O-3002,Ibuprofen,1,PROCESSING,2025-11-12 09:45:00
+O-3003,Cough Syrup,3,COMPLETED,2025-11-12 08:55:00
+O-3004,Paracetamol,1,CANCELLED,2025-11-12 07:40:00
+O-3005,Amoxicillin,4,CREATED,2025-11-12 10:10:00

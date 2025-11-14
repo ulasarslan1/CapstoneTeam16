@@ -1,0 +1,9 @@
+id,batteryLevel,urgentOrder
+AGV-A1,25,true
+AGV-A2,60,false
+AGV-B1,80,false
+AGV-B2,55,true
+AGV-C1,45,true
+AGV-C2,95,false
+AGV-D1,100,false
+AGV-D2,30,true

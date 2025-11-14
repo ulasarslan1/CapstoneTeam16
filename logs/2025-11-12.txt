@@ -1,0 +1,2341 @@
+[2025-11-12T22:34:36.058379500] [INFO] [HMI] Loading database...
+[2025-11-12T22:34:36.067240400] [INFO] [DatabaseGenerator] File creaated: agv.csv
+[2025-11-12T22:34:36.068241300] [INFO] [DatabaseGenerator] File creaated: chargingstation.csv
+[2025-11-12T22:34:36.068241300] [INFO] [DatabaseGenerator] File creaated: roboticarm.csv
+[2025-11-12T22:34:36.069242300] [INFO] [DatabaseGenerator] File creaated: storagelocation.csv
+[2025-11-12T22:34:36.070242300] [INFO] [DatabaseGenerator] File creaated: task.csv
+[2025-11-12T22:34:36.070242300] [INFO] [DatabaseGenerator] CSV databased has been generated: src/main/resources/database/
+[2025-11-12T22:34:36.077241300] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-12T22:34:36.112238300] [INFO] [DatabaseReader] Loaded 10 records from src/main/resources/database/task.csv
+[2025-11-12T22:34:36.115242900] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/storagelocation.csv
+[2025-11-12T22:34:36.116242600] [INFO] [DatabaseReader] Loaded 5 charging stations.
+[2025-11-12T22:34:36.117244600] [INFO] [HMI] Database loaded.
+[2025-11-12T22:34:36.117244600] [INFO] [HMI]  - 8 AGVs
+[2025-11-12T22:34:36.118243700] [INFO] [HMI]  - 5 Charging Stations
+[2025-11-12T22:34:36.119243600] [INFO] [HMI]  - 8 Storage Locations
+[2025-11-12T22:34:36.120243300] [INFO] [HMI]  - 10 Tasks
+[2025-11-12T22:34:36.125239300] [INFO] [ChargingManager] Initialized with 5 stations.
+[2025-11-12T22:34:36.128239] [INFO] [StorageManagement] New storage location added: S1
+[2025-11-12T22:34:36.129239800] [INFO] [StorageManagement] New storage location added: S2
+[2025-11-12T22:34:36.130239400] [INFO] [StorageManagement] New storage location added: S3
+[2025-11-12T22:34:36.130239400] [INFO] [StorageManagement] New storage location added: S4
+[2025-11-12T22:34:36.131240] [INFO] [StorageManagement] New storage location added: S5
+[2025-11-12T22:34:36.132239900] [INFO] [StorageManagement] New storage location added: S6
+[2025-11-12T22:34:36.132239900] [INFO] [StorageManagement] New storage location added: S7
+[2025-11-12T22:34:36.133239100] [INFO] [StorageManagement] New storage location added: S8
+[2025-11-12T22:34:36.135238600] [INFO] [TaskManager] Task added to queue: T-1001
+[2025-11-12T22:34:36.136239700] [INFO] [TaskManager] Task added to queue: T-1002
+[2025-11-12T22:34:36.137244400] [INFO] [TaskManager] Task added to queue: T-1003
+[2025-11-12T22:34:36.137244400] [INFO] [TaskManager] Task added to queue: T-1004
+[2025-11-12T22:34:36.138244600] [INFO] [TaskManager] Task added to queue: T-1005
+[2025-11-12T22:34:36.138244600] [INFO] [TaskManager] Task added to queue: T-1006
+[2025-11-12T22:34:36.139243600] [INFO] [TaskManager] Task added to queue: T-1007
+[2025-11-12T22:34:36.139243600] [INFO] [TaskManager] Task added to queue: T-1008
+[2025-11-12T22:34:36.140244500] [INFO] [TaskManager] Task added to queue: T-1009
+[2025-11-12T22:34:36.140244500] [INFO] [TaskManager] Task added to queue: T-1010
+[2025-11-12T22:34:36.141245700] [INFO] [HMI] System is ready.
+[2025-11-12T22:34:36.141245700] [INFO] [HMI] System initialized successfully.
+[2025-11-12T22:34:43.804908100] [INFO] [HMI] Simulation started.
+[2025-11-12T22:34:43.805898900] [INFO] [HMI] Simulation started.
+[2025-11-12T22:34:43.807897900] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-12T22:34:43.807897900] [INFO] [TaskManager] Assigned task: Task ID: T-1001 ,MOVE, From: S1 To: S2, Status: IN_PROGRESS
+[2025-11-12T22:34:43.809900800] [INFO] [HMI] Added 1 item to S1
+[2025-11-12T22:34:43.809900800] [INFO] [ChargingManager] AGV AGV-A1 added to queue.
+[2025-11-12T22:34:43.809900800] [INFO] [TaskManager] Assigned task: Task ID: T-1002 ,LOAD, From: S2 To: S3, Status: IN_PROGRESS
+[2025-11-12T22:34:43.809900800] [INFO] [StorageManagement] 1 items added to location S1
+[2025-11-12T22:34:43.810900400] [INFO] [TaskManager] Assigned task: Task ID: T-1003 ,UNLOAD, From: S3 To: S1, Status: IN_PROGRESS
+[2025-11-12T22:34:43.810900400] [INFO] [HMI] AGV AGV-A1 sent to charging.
+[2025-11-12T22:34:43.810900400] [INFO] [ChargingManager] Assigning AGV AGV-A1 to ST-01
+[2025-11-12T22:34:43.810900400] [INFO] [TaskManager] Assigned task: Task ID: T-1004 ,CHARGE, From: ST-02 To: ST-03, Status: IN_PROGRESS
+[2025-11-12T22:34:43.811904700] [INFO] [TaskManager] Assigned task: Task ID: T-1005 ,MOVE, From: S5 To: S6, Status: IN_PROGRESS
+[2025-11-12T22:34:43.812901400] [INFO] [TaskManager] Assigned task: Task ID: T-1006 ,LOAD, From: S4 To: S7, Status: IN_PROGRESS
+[2025-11-12T22:34:43.813900300] [INFO] [TaskManager] Assigned task: Task ID: T-1007 ,UNLOAD, From: S8 To: S2, Status: IN_PROGRESS
+[2025-11-12T22:34:43.813900300] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A1
+[2025-11-12T22:34:43.813900300] [INFO] [TaskManager] Assigned task: Task ID: T-1008 ,CHARGE, From: ST-04 To: ST-05, Status: IN_PROGRESS
+[2025-11-12T22:34:43.813900300] [INFO] [TaskManager] Assigned task: Task ID: T-1009 ,MOVE, From: S6 To: S1, Status: IN_PROGRESS
+[2025-11-12T22:34:43.814912800] [INFO] [TaskManager] Assigned task: Task ID: T-1010 ,LOAD, From: S7 To: S8, Status: IN_PROGRESS
+[2025-11-12T22:34:43.814912800] [INFO] [HMI] TaskManager started processing queue.
+[2025-11-12T22:34:44.432857900] [INFO] [Station-ST-01] Finished chargingAGV-A1
+[2025-11-12T22:34:44.621343400] [INFO] [HMI] Removed 1 item from S1
+[2025-11-12T22:34:44.621343400] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:34:44.622351700] [INFO] [HMI] Added 1 item to S2
+[2025-11-12T22:34:44.622351700] [INFO] [StorageManagement] 1 items added to location S2
+[2025-11-12T22:34:44.622351700] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:34:44.623351400] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:34:44.623351400] [INFO] [StorageManagement] 1 items removed from location S1
+[2025-11-12T22:34:44.822295100] [INFO] [ChargingManager] AGV AGV-A2 added to queue.
+[2025-11-12T22:34:44.822295100] [INFO] [TaskManager] Completed task: T-1003
+[2025-11-12T22:34:44.822295100] [INFO] [TaskManager] Completed task: T-1001
+[2025-11-12T22:34:44.822295100] [INFO] [TaskManager] Completed task: T-1002
+[2025-11-12T22:34:44.824223200] [INFO] [HMI] AGV AGV-A2 sent to charging.
+[2025-11-12T22:34:44.824223200] [INFO] [ChargingManager] Assigning AGV AGV-A2 to ST-01
+[2025-11-12T22:34:44.825231100] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A2
+[2025-11-12T22:34:45.430228600] [INFO] [HMI] Removed 1 item from S2
+[2025-11-12T22:34:45.430228600] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:34:45.431115800] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:34:45.431115800] [INFO] [HMI] Added 1 item to S3
+[2025-11-12T22:34:45.431115800] [INFO] [StorageManagement] 1 items added to location S3
+[2025-11-12T22:34:45.431115800] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:34:45.432106400] [INFO] [StorageManagement] 1 items removed from location S2
+[2025-11-12T22:34:45.838930900] [INFO] [ChargingManager] AGV AGV-B1 added to queue.
+[2025-11-12T22:34:45.838930900] [INFO] [TaskManager] Completed task: T-1005
+[2025-11-12T22:34:45.838930900] [INFO] [TaskManager] Completed task: T-1004
+[2025-11-12T22:34:45.838930900] [INFO] [TaskManager] Completed task: T-1006
+[2025-11-12T22:34:45.841969200] [INFO] [HMI] AGV AGV-B1 sent to charging.
+[2025-11-12T22:34:45.841969200] [INFO] [ChargingManager] Assigning AGV AGV-B1 to ST-01
+[2025-11-12T22:34:45.842937900] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B1
+[2025-11-12T22:34:45.983734100] [INFO] [Station-ST-01] Finished chargingAGV-A2
+[2025-11-12T22:34:46.232910100] [INFO] [HMI] Removed 1 item from S3
+[2025-11-12T22:34:46.232910100] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:34:46.232910100] [INFO] [StorageManagement] 1 items added to location S4
+[2025-11-12T22:34:46.232910100] [INFO] [HMI] Added 1 item to S4
+[2025-11-12T22:34:46.233745100] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:34:46.233745100] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:34:46.234741700] [INFO] [StorageManagement] 1 items removed from location S3
+[2025-11-12T22:34:46.637284] [INFO] [Station-ST-01] Finished chargingAGV-B1
+[2025-11-12T22:34:46.843263700] [INFO] [TaskManager] Completed task: T-1007
+[2025-11-12T22:34:46.843263700] [INFO] [ChargingManager] AGV AGV-B2 added to queue.
+[2025-11-12T22:34:46.843263700] [INFO] [TaskManager] Completed task: T-1009
+[2025-11-12T22:34:46.843263700] [INFO] [TaskManager] Completed task: T-1008
+[2025-11-12T22:34:46.846050900] [INFO] [HMI] AGV AGV-B2 sent to charging.
+[2025-11-12T22:34:46.846050900] [INFO] [ChargingManager] Assigning AGV AGV-B2 to ST-01
+[2025-11-12T22:34:46.847036800] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B2
+[2025-11-12T22:34:47.035237800] [INFO] [HMI] Removed 1 item from S4
+[2025-11-12T22:34:47.035237800] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:34:47.036262700] [INFO] [StorageManagement] 1 items added to location S5
+[2025-11-12T22:34:47.036262700] [INFO] [HMI] Added 1 item to S5
+[2025-11-12T22:34:47.036262700] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:34:47.038261600] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:34:47.038261600] [INFO] [StorageManagement] 1 items removed from location S4
+[2025-11-12T22:34:47.717526500] [INFO] [Station-ST-01] Finished chargingAGV-B2
+[2025-11-12T22:34:47.838578600] [INFO] [HMI] Removed 1 item from S5
+[2025-11-12T22:34:47.838578600] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:34:47.839587900] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:34:47.839587900] [INFO] [StorageManagement] 1 items added to location S6
+[2025-11-12T22:34:47.839587900] [INFO] [HMI] Added 1 item to S6
+[2025-11-12T22:34:47.846150100] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:34:47.847158700] [INFO] [StorageManagement] 1 items removed from location S5
+[2025-11-12T22:34:47.857158200] [INFO] [TaskManager] Completed task: T-1010
+[2025-11-12T22:34:47.857158200] [INFO] [ChargingManager] AGV AGV-C1 added to queue.
+[2025-11-12T22:34:47.858163500] [INFO] [ChargingManager] Assigning AGV AGV-C1 to ST-01
+[2025-11-12T22:34:47.858163500] [INFO] [HMI] AGV AGV-C1 sent to charging.
+[2025-11-12T22:34:47.859161400] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C1
+[2025-11-12T22:34:47.862164] [ERROR] [Station-ST-01] Charging error: MALFUNCTION
+[2025-11-12T22:34:48.654762100] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:34:48.654762100] [INFO] [HMI] Removed 1 item from S6
+[2025-11-12T22:34:48.655604100] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:34:48.655604100] [INFO] [StorageManagement] 1 items added to location S7
+[2025-11-12T22:34:48.655604100] [INFO] [HMI] Added 1 item to S7
+[2025-11-12T22:34:48.656600800] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:34:48.656600800] [INFO] [StorageManagement] 1 items removed from location S6
+[2025-11-12T22:34:48.859703500] [INFO] [ChargingManager] AGV AGV-C2 added to queue.
+[2025-11-12T22:34:48.859703500] [INFO] [HMI] AGV AGV-C2 sent to charging.
+[2025-11-12T22:34:48.859703500] [INFO] [ChargingManager] Assigning AGV AGV-C2 to ST-01
+[2025-11-12T22:34:48.860706600] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C2
+[2025-11-12T22:34:49.470748] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:34:49.470748] [INFO] [HMI] Removed 1 item from S7
+[2025-11-12T22:34:49.471518900] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:34:49.471518900] [INFO] [HMI] Added 1 item to S8
+[2025-11-12T22:34:49.471518900] [INFO] [StorageManagement] 1 items added to location S8
+[2025-11-12T22:34:49.472523800] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:34:49.473516300] [INFO] [StorageManagement] 1 items removed from location S7
+[2025-11-12T22:34:49.680519800] [INFO] [Station-ST-01] Finished chargingAGV-C2
+[2025-11-12T22:34:49.865131] [INFO] [ChargingManager] AGV AGV-D1 added to queue.
+[2025-11-12T22:34:49.865976100] [INFO] [ChargingManager] Assigning AGV AGV-D1 to ST-01
+[2025-11-12T22:34:49.865976100] [INFO] [HMI] AGV AGV-D1 sent to charging.
+[2025-11-12T22:34:49.865976100] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D1
+[2025-11-12T22:34:50.273946600] [INFO] [HMI] Removed 1 item from S8
+[2025-11-12T22:34:50.273946600] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:34:50.274765500] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:34:50.275765900] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:34:50.275765900] [INFO] [StorageManagement] 1 items removed from location S8
+[2025-11-12T22:34:50.880717600] [INFO] [ChargingManager] AGV AGV-D2 added to queue.
+[2025-11-12T22:34:50.881731200] [INFO] [HMI] AGV AGV-D2 sent to charging.
+[2025-11-12T22:34:50.881731200] [INFO] [ChargingManager] Assigning AGV AGV-D2 to ST-01
+[2025-11-12T22:34:50.882723300] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D2
+[2025-11-12T22:34:51.186424600] [INFO] [Station-ST-01] Finished chargingAGV-D1
+[2025-11-12T22:34:51.776381700] [INFO] [HMI] Added 1 item to S1
+[2025-11-12T22:34:51.776381700] [INFO] [StorageManagement] 1 items added to location S1
+[2025-11-12T22:34:51.883234400] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-12T22:34:51.883234400] [INFO] [ChargingManager] AGV AGV-A1 added to queue.
+[2025-11-12T22:34:51.884234600] [INFO] [ChargingManager] Assigning AGV AGV-A1 to ST-01
+[2025-11-12T22:34:51.884234600] [INFO] [HMI] AGV AGV-A1 sent to charging.
+[2025-11-12T22:34:51.885253100] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A1
+[2025-11-12T22:34:51.987110] [INFO] [Station-ST-01] Finished chargingAGV-D2
+[2025-11-12T22:34:52.577590800] [INFO] [HMI] Removed 1 item from S1
+[2025-11-12T22:34:52.577590800] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:34:52.578414300] [INFO] [HMI] Added 1 item to S2
+[2025-11-12T22:34:52.578414300] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:34:52.578414300] [INFO] [StorageManagement] 1 items added to location S2
+[2025-11-12T22:34:52.580428900] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:34:52.581412600] [INFO] [StorageManagement] 1 items removed from location S1
+[2025-11-12T22:34:52.854606700] [INFO] [Station-ST-01] Finished chargingAGV-A1
+[2025-11-12T22:34:52.885888400] [INFO] [ChargingManager] AGV AGV-A2 added to queue.
+[2025-11-12T22:34:52.885888400] [INFO] [HMI] AGV AGV-A2 sent to charging.
+[2025-11-12T22:34:52.885888400] [INFO] [ChargingManager] Assigning AGV AGV-A2 to ST-01
+[2025-11-12T22:34:52.886902] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A2
+[2025-11-12T22:34:53.382038400] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:34:53.382038400] [INFO] [HMI] Removed 1 item from S2
+[2025-11-12T22:34:53.383056200] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:34:53.383056200] [INFO] [StorageManagement] 1 items added to location S3
+[2025-11-12T22:34:53.383056200] [INFO] [HMI] Added 1 item to S3
+[2025-11-12T22:34:53.384066100] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:34:53.385049800] [INFO] [StorageManagement] 1 items removed from location S2
+[2025-11-12T22:34:53.802198100] [INFO] [Station-ST-01] Finished chargingAGV-A2
+[2025-11-12T22:34:53.896759800] [INFO] [ChargingManager] AGV AGV-B1 added to queue.
+[2025-11-12T22:34:53.896759800] [INFO] [HMI] AGV AGV-B1 sent to charging.
+[2025-11-12T22:34:53.897785100] [INFO] [ChargingManager] Assigning AGV AGV-B1 to ST-01
+[2025-11-12T22:34:53.898762] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B1
+[2025-11-12T22:34:54.185636100] [INFO] [HMI] Removed 1 item from S3
+[2025-11-12T22:34:54.185636100] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:34:54.186479100] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:34:54.186479100] [INFO] [StorageManagement] 1 items added to location S4
+[2025-11-12T22:34:54.186479100] [INFO] [HMI] Added 1 item to S4
+[2025-11-12T22:34:54.189463] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:34:54.189463] [INFO] [StorageManagement] 1 items removed from location S3
+[2025-11-12T22:34:54.866760200] [INFO] [Station-ST-01] Finished chargingAGV-B1
+[2025-11-12T22:34:54.900712300] [INFO] [ChargingManager] AGV AGV-B2 added to queue.
+[2025-11-12T22:34:54.901729100] [INFO] [ChargingManager] Assigning AGV AGV-B2 to ST-01
+[2025-11-12T22:34:54.901729100] [INFO] [HMI] AGV AGV-B2 sent to charging.
+[2025-11-12T22:34:54.902716800] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B2
+[2025-11-12T22:34:54.989629800] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:34:54.989629800] [INFO] [HMI] Removed 1 item from S4
+[2025-11-12T22:34:54.990667400] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:34:54.990667400] [INFO] [StorageManagement] 1 items added to location S5
+[2025-11-12T22:34:54.990667400] [INFO] [HMI] Added 1 item to S5
+[2025-11-12T22:34:54.990667400] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:34:54.991653100] [INFO] [StorageManagement] 1 items removed from location S4
+[2025-11-12T22:34:55.422029] [INFO] [Station-ST-01] Finished chargingAGV-B2
+[2025-11-12T22:34:55.791980400] [INFO] [HMI] Removed 1 item from S5
+[2025-11-12T22:34:55.791980400] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:34:55.793002200] [INFO] [StorageManagement] 1 items added to location S6
+[2025-11-12T22:34:55.793002200] [INFO] [HMI] Added 1 item to S6
+[2025-11-12T22:34:55.793002200] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:34:55.794751300] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:34:55.794751300] [INFO] [StorageManagement] 1 items removed from location S5
+[2025-11-12T22:34:55.916362400] [INFO] [ChargingManager] AGV AGV-C1 added to queue.
+[2025-11-12T22:34:55.916362400] [INFO] [HMI] AGV AGV-C1 sent to charging.
+[2025-11-12T22:34:55.916362400] [INFO] [ChargingManager] Assigning AGV AGV-C1 to ST-01
+[2025-11-12T22:34:55.917388100] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C1
+[2025-11-12T22:34:56.608638700] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:34:56.608638700] [INFO] [HMI] Removed 1 item from S6
+[2025-11-12T22:34:56.609641] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:34:56.609641] [INFO] [StorageManagement] 1 items added to location S7
+[2025-11-12T22:34:56.609641] [INFO] [HMI] Added 1 item to S7
+[2025-11-12T22:34:56.610639900] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:34:56.610639900] [INFO] [StorageManagement] 1 items removed from location S6
+[2025-11-12T22:34:56.919634300] [INFO] [ChargingManager] AGV AGV-C2 added to queue.
+[2025-11-12T22:34:56.919634300] [INFO] [HMI] AGV AGV-C2 sent to charging.
+[2025-11-12T22:34:56.919634300] [INFO] [ChargingManager] Assigning AGV AGV-C2 to ST-01
+[2025-11-12T22:34:56.920640] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C2
+[2025-11-12T22:34:57.160637400] [INFO] [Station-ST-01] Finished chargingAGV-C1
+[2025-11-12T22:34:57.412118300] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:34:57.412118300] [INFO] [HMI] Removed 1 item from S7
+[2025-11-12T22:34:57.413136200] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:34:57.413136200] [INFO] [HMI] Added 1 item to S8
+[2025-11-12T22:34:57.413136200] [INFO] [StorageManagement] 1 items added to location S8
+[2025-11-12T22:34:57.414127100] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:34:57.415126] [INFO] [StorageManagement] 1 items removed from location S7
+[2025-11-12T22:34:57.920772] [INFO] [ChargingManager] AGV AGV-D1 added to queue.
+[2025-11-12T22:34:57.921472100] [INFO] [ChargingManager] Assigning AGV AGV-D1 to ST-01
+[2025-11-12T22:34:57.921472100] [INFO] [HMI] AGV AGV-D1 sent to charging.
+[2025-11-12T22:34:57.922471800] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D1
+[2025-11-12T22:34:58.085567700] [INFO] [Station-ST-01] Finished chargingAGV-C2
+[2025-11-12T22:34:58.216693700] [INFO] [HMI] Removed 1 item from S8
+[2025-11-12T22:34:58.216693700] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:34:58.217472500] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:34:58.217472500] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:34:58.218470600] [INFO] [StorageManagement] 1 items removed from location S8
+[2025-11-12T22:34:58.428206300] [INFO] [Station-ST-01] Finished chargingAGV-D1
+[2025-11-12T22:34:58.923160200] [INFO] [ChargingManager] AGV AGV-D2 added to queue.
+[2025-11-12T22:34:58.923160200] [INFO] [ChargingManager] Assigning AGV AGV-D2 to ST-01
+[2025-11-12T22:34:58.923160200] [INFO] [HMI] AGV AGV-D2 sent to charging.
+[2025-11-12T22:34:58.926171600] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D2
+[2025-11-12T22:34:59.718713200] [INFO] [StorageManagement] 1 items added to location S1
+[2025-11-12T22:34:59.718713200] [INFO] [HMI] Added 1 item to S1
+[2025-11-12T22:34:59.929628600] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-12T22:34:59.929628600] [INFO] [ChargingManager] AGV AGV-A1 added to queue.
+[2025-11-12T22:34:59.930629400] [INFO] [ChargingManager] Assigning AGV AGV-A1 to ST-01
+[2025-11-12T22:34:59.930629400] [INFO] [HMI] AGV AGV-A1 sent to charging.
+[2025-11-12T22:34:59.930629400] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A1
+[2025-11-12T22:35:00.274826800] [INFO] [Station-ST-01] Finished chargingAGV-D2
+[2025-11-12T22:35:00.519972200] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:00.519972200] [INFO] [HMI] Removed 1 item from S1
+[2025-11-12T22:35:00.520982300] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:00.520982300] [INFO] [StorageManagement] 1 items added to location S2
+[2025-11-12T22:35:00.520982300] [INFO] [HMI] Added 1 item to S2
+[2025-11-12T22:35:00.521976600] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:00.522985200] [INFO] [StorageManagement] 1 items removed from location S1
+[2025-11-12T22:35:00.703526200] [INFO] [Station-ST-01] Finished chargingAGV-A1
+[2025-11-12T22:35:00.932093700] [INFO] [ChargingManager] AGV AGV-A2 added to queue.
+[2025-11-12T22:35:00.932935100] [INFO] [HMI] AGV AGV-A2 sent to charging.
+[2025-11-12T22:35:00.932935100] [INFO] [ChargingManager] Assigning AGV AGV-A2 to ST-01
+[2025-11-12T22:35:00.933917] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A2
+[2025-11-12T22:35:01.322769500] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:01.322769500] [INFO] [HMI] Removed 1 item from S2
+[2025-11-12T22:35:01.322769500] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:01.322769500] [INFO] [HMI] Added 1 item to S3
+[2025-11-12T22:35:01.322769500] [INFO] [StorageManagement] 1 items added to location S3
+[2025-11-12T22:35:01.323759700] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:01.323759700] [INFO] [StorageManagement] 1 items removed from location S2
+[2025-11-12T22:35:01.864245500] [INFO] [Station-ST-01] Finished chargingAGV-A2
+[2025-11-12T22:35:01.945478100] [INFO] [ChargingManager] AGV AGV-B1 added to queue.
+[2025-11-12T22:35:01.945478100] [INFO] [HMI] AGV AGV-B1 sent to charging.
+[2025-11-12T22:35:01.945478100] [INFO] [ChargingManager] Assigning AGV AGV-B1 to ST-01
+[2025-11-12T22:35:01.946502800] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B1
+[2025-11-12T22:35:02.124129900] [INFO] [HMI] Removed 1 item from S3
+[2025-11-12T22:35:02.124129900] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:02.125170200] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:02.125170200] [INFO] [StorageManagement] 1 items added to location S4
+[2025-11-12T22:35:02.125170200] [INFO] [HMI] Added 1 item to S4
+[2025-11-12T22:35:02.126150300] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:02.127140] [INFO] [StorageManagement] 1 items removed from location S3
+[2025-11-12T22:35:02.927285900] [INFO] [HMI] Removed 1 item from S4
+[2025-11-12T22:35:02.927285900] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:02.928036500] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:02.928036500] [INFO] [HMI] Added 1 item to S5
+[2025-11-12T22:35:02.928036500] [INFO] [StorageManagement] 1 items added to location S5
+[2025-11-12T22:35:02.929037400] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:02.930033800] [INFO] [StorageManagement] 1 items removed from location S4
+[2025-11-12T22:35:02.931052900] [INFO] [Station-ST-01] Finished chargingAGV-B1
+[2025-11-12T22:35:02.959809400] [INFO] [ChargingManager] AGV AGV-B2 added to queue.
+[2025-11-12T22:35:02.960687300] [INFO] [HMI] AGV AGV-B2 sent to charging.
+[2025-11-12T22:35:02.960687300] [INFO] [ChargingManager] Assigning AGV AGV-B2 to ST-01
+[2025-11-12T22:35:02.961683400] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B2
+[2025-11-12T22:35:03.465248100] [INFO] [Station-ST-01] Finished chargingAGV-B2
+[2025-11-12T22:35:03.730689800] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:03.730689800] [INFO] [HMI] Removed 1 item from S5
+[2025-11-12T22:35:03.731547700] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:03.731547700] [INFO] [StorageManagement] 1 items added to location S6
+[2025-11-12T22:35:03.731547700] [INFO] [HMI] Added 1 item to S6
+[2025-11-12T22:35:03.732556100] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:03.733553600] [INFO] [StorageManagement] 1 items removed from location S5
+[2025-11-12T22:35:03.971805200] [INFO] [ChargingManager] AGV AGV-C1 added to queue.
+[2025-11-12T22:35:03.971805200] [INFO] [HMI] AGV AGV-C1 sent to charging.
+[2025-11-12T22:35:03.971805200] [INFO] [ChargingManager] Assigning AGV AGV-C1 to ST-01
+[2025-11-12T22:35:03.972790500] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C1
+[2025-11-12T22:35:04.536331600] [INFO] [HMI] Removed 1 item from S6
+[2025-11-12T22:35:04.536331600] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:04.537338600] [INFO] [HMI] Added 1 item to S7
+[2025-11-12T22:35:04.537338600] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:04.537338600] [INFO] [StorageManagement] 1 items added to location S7
+[2025-11-12T22:35:04.539336800] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:04.539336800] [INFO] [StorageManagement] 1 items removed from location S6
+[2025-11-12T22:35:04.974688700] [INFO] [ChargingManager] AGV AGV-C2 added to queue.
+[2025-11-12T22:35:04.975642400] [INFO] [ChargingManager] Assigning AGV AGV-C2 to ST-01
+[2025-11-12T22:35:04.975642400] [INFO] [HMI] AGV AGV-C2 sent to charging.
+[2025-11-12T22:35:04.976638700] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C2
+[2025-11-12T22:35:05.095536200] [INFO] [Station-ST-01] Finished chargingAGV-C1
+[2025-11-12T22:35:05.339693200] [INFO] [HMI] Removed 1 item from S7
+[2025-11-12T22:35:05.339693200] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:05.340702100] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:05.340702100] [INFO] [StorageManagement] 1 items added to location S8
+[2025-11-12T22:35:05.340702100] [INFO] [HMI] Added 1 item to S8
+[2025-11-12T22:35:05.342698500] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:05.342698500] [INFO] [StorageManagement] 1 items removed from location S7
+[2025-11-12T22:35:05.778007500] [INFO] [Station-ST-01] Finished chargingAGV-C2
+[2025-11-12T22:35:05.977697700] [INFO] [ChargingManager] AGV AGV-D1 added to queue.
+[2025-11-12T22:35:05.977697700] [INFO] [ChargingManager] Assigning AGV AGV-D1 to ST-01
+[2025-11-12T22:35:05.977697700] [INFO] [HMI] AGV AGV-D1 sent to charging.
+[2025-11-12T22:35:05.978718500] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D1
+[2025-11-12T22:35:06.144082300] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:06.144082300] [INFO] [HMI] Removed 1 item from S8
+[2025-11-12T22:35:06.144867100] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:06.144867100] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:06.144867100] [INFO] [StorageManagement] 1 items removed from location S8
+[2025-11-12T22:35:06.990421300] [INFO] [ChargingManager] AGV AGV-D2 added to queue.
+[2025-11-12T22:35:06.990421300] [INFO] [ChargingManager] Assigning AGV AGV-D2 to ST-01
+[2025-11-12T22:35:06.990421300] [INFO] [HMI] AGV AGV-D2 sent to charging.
+[2025-11-12T22:35:06.991425400] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D2
+[2025-11-12T22:35:07.221425100] [INFO] [Station-ST-01] Finished chargingAGV-D1
+[2025-11-12T22:35:07.645253400] [INFO] [StorageManagement] 1 items added to location S1
+[2025-11-12T22:35:07.645253400] [INFO] [HMI] Added 1 item to S1
+[2025-11-12T22:35:07.878786900] [INFO] [Station-ST-01] Finished chargingAGV-D2
+[2025-11-12T22:35:07.991997100] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-12T22:35:07.992763800] [INFO] [ChargingManager] AGV AGV-A1 added to queue.
+[2025-11-12T22:35:07.992763800] [INFO] [HMI] AGV AGV-A1 sent to charging.
+[2025-11-12T22:35:07.992763800] [INFO] [ChargingManager] Assigning AGV AGV-A1 to ST-01
+[2025-11-12T22:35:07.993761300] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A1
+[2025-11-12T22:35:08.446689100] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:08.446689100] [INFO] [HMI] Removed 1 item from S1
+[2025-11-12T22:35:08.447714800] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:08.447714800] [INFO] [HMI] Added 1 item to S2
+[2025-11-12T22:35:08.447714800] [INFO] [StorageManagement] 1 items added to location S2
+[2025-11-12T22:35:08.447714800] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:08.448696100] [INFO] [StorageManagement] 1 items removed from location S1
+[2025-11-12T22:35:08.651383600] [INFO] [Station-ST-01] Finished chargingAGV-A1
+[2025-11-12T22:35:08.999162200] [INFO] [ChargingManager] AGV AGV-A2 added to queue.
+[2025-11-12T22:35:09.000169700] [INFO] [ChargingManager] Assigning AGV AGV-A2 to ST-01
+[2025-11-12T22:35:09.000169700] [INFO] [HMI] AGV AGV-A2 sent to charging.
+[2025-11-12T22:35:09.000169700] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A2
+[2025-11-12T22:35:09.249938600] [INFO] [HMI] Removed 1 item from S2
+[2025-11-12T22:35:09.249938600] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:09.250637300] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:09.250637300] [INFO] [StorageManagement] 1 items added to location S3
+[2025-11-12T22:35:09.250637300] [INFO] [HMI] Added 1 item to S3
+[2025-11-12T22:35:09.252624700] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:09.252624700] [INFO] [StorageManagement] 1 items removed from location S2
+[2025-11-12T22:35:09.608410800] [INFO] [Station-ST-01] Finished chargingAGV-A2
+[2025-11-12T22:35:10.003065400] [INFO] [ChargingManager] AGV AGV-B1 added to queue.
+[2025-11-12T22:35:10.004076] [INFO] [ChargingManager] Assigning AGV AGV-B1 to ST-01
+[2025-11-12T22:35:10.004076] [INFO] [HMI] AGV AGV-B1 sent to charging.
+[2025-11-12T22:35:10.004076] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B1
+[2025-11-12T22:35:10.005076200] [ERROR] [Station-ST-01] Charging error: MALFUNCTION
+[2025-11-12T22:35:10.053882900] [INFO] [HMI] Removed 1 item from S3
+[2025-11-12T22:35:10.053882900] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:10.053882900] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:10.053882900] [INFO] [HMI] Added 1 item to S4
+[2025-11-12T22:35:10.053882900] [INFO] [StorageManagement] 1 items added to location S4
+[2025-11-12T22:35:10.054880800] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:10.054880800] [INFO] [StorageManagement] 1 items removed from location S3
+[2025-11-12T22:35:10.863923900] [INFO] [HMI] Removed 1 item from S4
+[2025-11-12T22:35:10.863923900] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:10.864937400] [INFO] [HMI] Added 1 item to S5
+[2025-11-12T22:35:10.864937400] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:10.864937400] [INFO] [StorageManagement] 1 items added to location S5
+[2025-11-12T22:35:10.866928600] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:10.866928600] [INFO] [StorageManagement] 1 items removed from location S4
+[2025-11-12T22:35:11.005439] [INFO] [ChargingManager] AGV AGV-B2 added to queue.
+[2025-11-12T22:35:11.005439] [INFO] [ChargingManager] Assigning AGV AGV-B2 to ST-01
+[2025-11-12T22:35:11.005439] [INFO] [HMI] AGV AGV-B2 sent to charging.
+[2025-11-12T22:35:11.006300] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B2
+[2025-11-12T22:35:11.600547900] [INFO] [Station-ST-01] Finished chargingAGV-B2
+[2025-11-12T22:35:11.677503900] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:11.677503900] [INFO] [HMI] Removed 1 item from S5
+[2025-11-12T22:35:11.678520400] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:11.678520400] [INFO] [HMI] Added 1 item to S6
+[2025-11-12T22:35:11.678520400] [INFO] [StorageManagement] 1 items added to location S6
+[2025-11-12T22:35:11.678520400] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:11.679561100] [INFO] [StorageManagement] 1 items removed from location S5
+[2025-11-12T22:35:12.007200300] [INFO] [ChargingManager] AGV AGV-C1 added to queue.
+[2025-11-12T22:35:12.007200300] [INFO] [HMI] AGV AGV-C1 sent to charging.
+[2025-11-12T22:35:12.007200300] [INFO] [ChargingManager] Assigning AGV AGV-C1 to ST-01
+[2025-11-12T22:35:12.008208600] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C1
+[2025-11-12T22:35:12.492945900] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:12.492945900] [INFO] [HMI] Removed 1 item from S6
+[2025-11-12T22:35:12.493760500] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:12.493760500] [INFO] [HMI] Added 1 item to S7
+[2025-11-12T22:35:12.493760500] [INFO] [StorageManagement] 1 items added to location S7
+[2025-11-12T22:35:12.493760500] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:12.494758900] [INFO] [StorageManagement] 1 items removed from location S6
+[2025-11-12T22:35:12.542761200] [INFO] [Station-ST-01] Finished chargingAGV-C1
+[2025-11-12T22:35:13.010648] [INFO] [ChargingManager] AGV AGV-C2 added to queue.
+[2025-11-12T22:35:13.010648] [INFO] [HMI] AGV AGV-C2 sent to charging.
+[2025-11-12T22:35:13.010648] [INFO] [ChargingManager] Assigning AGV AGV-C2 to ST-01
+[2025-11-12T22:35:13.011635400] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C2
+[2025-11-12T22:35:13.295644900] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:13.295644900] [INFO] [HMI] Removed 1 item from S7
+[2025-11-12T22:35:13.295644900] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:13.295644900] [INFO] [StorageManagement] 1 items added to location S8
+[2025-11-12T22:35:13.295644900] [INFO] [HMI] Added 1 item to S8
+[2025-11-12T22:35:13.296645400] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:13.296645400] [INFO] [StorageManagement] 1 items removed from location S7
+[2025-11-12T22:35:14.023502800] [INFO] [ChargingManager] AGV AGV-D1 added to queue.
+[2025-11-12T22:35:14.023502800] [INFO] [HMI] AGV AGV-D1 sent to charging.
+[2025-11-12T22:35:14.023502800] [INFO] [ChargingManager] Assigning AGV AGV-D1 to ST-01
+[2025-11-12T22:35:14.025519900] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D1
+[2025-11-12T22:35:14.098546600] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:14.098546600] [INFO] [HMI] Removed 1 item from S8
+[2025-11-12T22:35:14.099552700] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:14.099552700] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:14.099552700] [INFO] [StorageManagement] 1 items removed from location S8
+[2025-11-12T22:35:14.104545600] [INFO] [TaskManager] Task added to queue: T-798
+[2025-11-12T22:35:14.105545100] [INFO] [HMI] Task created: T-798 (MOVE)
+[2025-11-12T22:35:14.487942500] [INFO] [Station-ST-01] Finished chargingAGV-C2
+[2025-11-12T22:35:15.003640700] [INFO] [Station-ST-01] Finished chargingAGV-D1
+[2025-11-12T22:35:15.026640200] [INFO] [ChargingManager] AGV AGV-D2 added to queue.
+[2025-11-12T22:35:15.026640200] [INFO] [ChargingManager] Assigning AGV AGV-D2 to ST-01
+[2025-11-12T22:35:15.026640200] [INFO] [HMI] AGV AGV-D2 sent to charging.
+[2025-11-12T22:35:15.027629500] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D2
+[2025-11-12T22:35:15.600869600] [INFO] [StorageManagement] 1 items added to location S1
+[2025-11-12T22:35:15.600869600] [INFO] [HMI] Added 1 item to S1
+[2025-11-12T22:35:16.030009500] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-12T22:35:16.030009500] [INFO] [ChargingManager] AGV AGV-A1 added to queue.
+[2025-11-12T22:35:16.030009500] [INFO] [HMI] AGV AGV-A1 sent to charging.
+[2025-11-12T22:35:16.030009500] [INFO] [ChargingManager] Assigning AGV AGV-A1 to ST-01
+[2025-11-12T22:35:16.030989500] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A1
+[2025-11-12T22:35:16.403321400] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:16.403321400] [INFO] [HMI] Removed 1 item from S1
+[2025-11-12T22:35:16.404331900] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:16.404331900] [INFO] [StorageManagement] 1 items added to location S2
+[2025-11-12T22:35:16.404331900] [INFO] [HMI] Added 1 item to S2
+[2025-11-12T22:35:16.405344200] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:16.405344200] [INFO] [StorageManagement] 1 items removed from location S1
+[2025-11-12T22:35:16.477605700] [INFO] [Station-ST-01] Finished chargingAGV-D2
+[2025-11-12T22:35:17.031576600] [INFO] [ChargingManager] AGV AGV-A2 added to queue.
+[2025-11-12T22:35:17.031576600] [INFO] [HMI] AGV AGV-A2 sent to charging.
+[2025-11-12T22:35:17.031576600] [INFO] [ChargingManager] Assigning AGV AGV-A2 to ST-01
+[2025-11-12T22:35:17.031576600] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A2
+[2025-11-12T22:35:17.179846600] [INFO] [Station-ST-01] Finished chargingAGV-A1
+[2025-11-12T22:35:17.206822800] [INFO] [HMI] Removed 1 item from S2
+[2025-11-12T22:35:17.206822800] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:17.207838300] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:17.207838300] [INFO] [HMI] Added 1 item to S3
+[2025-11-12T22:35:17.207838300] [INFO] [StorageManagement] 1 items added to location S3
+[2025-11-12T22:35:17.208832700] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:17.209833700] [INFO] [StorageManagement] 1 items removed from location S2
+[2025-11-12T22:35:17.691284200] [INFO] [HMI] Manually added stock to S1
+[2025-11-12T22:35:17.691284200] [INFO] [StorageManagement] 1 items added to location S1
+[2025-11-12T22:35:18.010082900] [INFO] [HMI] Removed 1 item from S3
+[2025-11-12T22:35:18.010082900] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:18.011093500] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:18.011093500] [INFO] [StorageManagement] 1 items added to location S4
+[2025-11-12T22:35:18.011093500] [INFO] [HMI] Added 1 item to S4
+[2025-11-12T22:35:18.013092700] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:18.013092700] [INFO] [StorageManagement] 1 items removed from location S3
+[2025-11-12T22:35:18.032968200] [INFO] [ChargingManager] AGV AGV-B1 added to queue.
+[2025-11-12T22:35:18.032968200] [INFO] [HMI] AGV AGV-B1 sent to charging.
+[2025-11-12T22:35:18.032968200] [INFO] [ChargingManager] Assigning AGV AGV-B1 to ST-01
+[2025-11-12T22:35:18.033707700] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B1
+[2025-11-12T22:35:18.207262800] [INFO] [Station-ST-01] Finished chargingAGV-A2
+[2025-11-12T22:35:18.815644900] [INFO] [HMI] Removed 1 item from S4
+[2025-11-12T22:35:18.815644900] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:18.816666700] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:18.816666700] [INFO] [HMI] Added 1 item to S5
+[2025-11-12T22:35:18.816666700] [INFO] [StorageManagement] 1 items added to location S5
+[2025-11-12T22:35:18.818652800] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:18.818652800] [INFO] [StorageManagement] 1 items removed from location S4
+[2025-11-12T22:35:18.914540900] [INFO] [Station-ST-01] Finished chargingAGV-B1
+[2025-11-12T22:35:19.035328500] [INFO] [ChargingManager] AGV AGV-B2 added to queue.
+[2025-11-12T22:35:19.036098900] [INFO] [ChargingManager] Assigning AGV AGV-B2 to ST-01
+[2025-11-12T22:35:19.036098900] [INFO] [HMI] AGV AGV-B2 sent to charging.
+[2025-11-12T22:35:19.037112400] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B2
+[2025-11-12T22:35:19.618949200] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:19.618949200] [INFO] [HMI] Removed 1 item from S5
+[2025-11-12T22:35:19.619957800] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:19.619957800] [INFO] [HMI] Added 1 item to S6
+[2025-11-12T22:35:19.619957800] [INFO] [StorageManagement] 1 items added to location S6
+[2025-11-12T22:35:19.620956200] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:19.620956200] [INFO] [StorageManagement] 1 items removed from location S5
+[2025-11-12T22:35:19.759425] [INFO] [Station-ST-01] Finished chargingAGV-B2
+[2025-11-12T22:35:20.037724200] [INFO] [ChargingManager] AGV AGV-C1 added to queue.
+[2025-11-12T22:35:20.037724200] [INFO] [HMI] AGV AGV-C1 sent to charging.
+[2025-11-12T22:35:20.037724200] [INFO] [ChargingManager] Assigning AGV AGV-C1 to ST-01
+[2025-11-12T22:35:20.039732200] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C1
+[2025-11-12T22:35:20.421729100] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:20.421729100] [INFO] [HMI] Removed 1 item from S6
+[2025-11-12T22:35:20.422541500] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:20.422541500] [INFO] [HMI] Added 1 item to S7
+[2025-11-12T22:35:20.422541500] [INFO] [StorageManagement] 1 items added to location S7
+[2025-11-12T22:35:20.422541500] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:20.423546800] [INFO] [StorageManagement] 1 items removed from location S6
+[2025-11-12T22:35:21.041609300] [INFO] [ChargingManager] AGV AGV-C2 added to queue.
+[2025-11-12T22:35:21.041609300] [INFO] [ChargingManager] Assigning AGV AGV-C2 to ST-01
+[2025-11-12T22:35:21.041609300] [INFO] [HMI] AGV AGV-C2 sent to charging.
+[2025-11-12T22:35:21.042610500] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C2
+[2025-11-12T22:35:21.225594400] [INFO] [HMI] Removed 1 item from S7
+[2025-11-12T22:35:21.225594400] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:21.225594400] [INFO] [StorageManagement] 1 items added to location S8
+[2025-11-12T22:35:21.225594400] [INFO] [HMI] Added 1 item to S8
+[2025-11-12T22:35:21.225594400] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:21.226563500] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:21.226563500] [INFO] [StorageManagement] 1 items removed from location S7
+[2025-11-12T22:35:21.354816500] [INFO] [Station-ST-01] Finished chargingAGV-C1
+[2025-11-12T22:35:21.960559700] [INFO] [Station-ST-01] Finished chargingAGV-C2
+[2025-11-12T22:35:22.027560300] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:22.027560300] [INFO] [HMI] Removed 1 item from S8
+[2025-11-12T22:35:22.027560300] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:22.027560300] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:22.027560300] [INFO] [StorageManagement] 1 items removed from location S8
+[2025-11-12T22:35:22.044011100] [INFO] [ChargingManager] AGV AGV-D1 added to queue.
+[2025-11-12T22:35:22.044933100] [INFO] [HMI] AGV AGV-D1 sent to charging.
+[2025-11-12T22:35:22.044933100] [INFO] [ChargingManager] Assigning AGV AGV-D1 to ST-01
+[2025-11-12T22:35:22.044933100] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D1
+[2025-11-12T22:35:22.363719500] [INFO] [HMI] Manually removed stock from S1
+[2025-11-12T22:35:22.363719500] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:22.363719500] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:22.363719500] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:22.364719] [INFO] [StorageManagement] 1 items removed from location S1
+[2025-11-12T22:35:23.058229100] [INFO] [ChargingManager] AGV AGV-D2 added to queue.
+[2025-11-12T22:35:23.059021900] [INFO] [ChargingManager] Assigning AGV AGV-D2 to ST-01
+[2025-11-12T22:35:23.059021900] [INFO] [HMI] AGV AGV-D2 sent to charging.
+[2025-11-12T22:35:23.060032500] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D2
+[2025-11-12T22:35:23.445192600] [INFO] [Station-ST-01] Finished chargingAGV-D1
+[2025-11-12T22:35:23.528454900] [INFO] [StorageManagement] 1 items added to location S1
+[2025-11-12T22:35:23.528454900] [INFO] [HMI] Added 1 item to S1
+[2025-11-12T22:35:24.009552900] [INFO] [Station-ST-01] Finished chargingAGV-D2
+[2025-11-12T22:35:24.060729] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-12T22:35:24.060729] [INFO] [ChargingManager] AGV AGV-A1 added to queue.
+[2025-11-12T22:35:24.060729] [INFO] [HMI] AGV AGV-A1 sent to charging.
+[2025-11-12T22:35:24.060729] [INFO] [ChargingManager] Assigning AGV AGV-A1 to ST-01
+[2025-11-12T22:35:24.061728400] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A1
+[2025-11-12T22:35:24.329812500] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:24.329812500] [INFO] [HMI] Removed 1 item from S1
+[2025-11-12T22:35:24.329812500] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:24.329812500] [INFO] [HMI] Added 1 item to S2
+[2025-11-12T22:35:24.329812500] [INFO] [StorageManagement] 1 items added to location S2
+[2025-11-12T22:35:24.331825700] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:24.332819800] [INFO] [StorageManagement] 1 items removed from location S1
+[2025-11-12T22:35:24.989512900] [INFO] [TaskManager] Assigned task: Task ID: T-798 ,MOVE, From: ZONE-A To: ZONE-B, Status: IN_PROGRESS
+[2025-11-12T22:35:24.990507500] [INFO] [HMI] Task assigned: T-798
+[2025-11-12T22:35:25.063642400] [INFO] [ChargingManager] AGV AGV-A2 added to queue.
+[2025-11-12T22:35:25.063642400] [INFO] [ChargingManager] Assigning AGV AGV-A2 to ST-01
+[2025-11-12T22:35:25.063642400] [INFO] [HMI] AGV AGV-A2 sent to charging.
+[2025-11-12T22:35:25.065386300] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A2
+[2025-11-12T22:35:25.133461400] [INFO] [HMI] Removed 1 item from S2
+[2025-11-12T22:35:25.133461400] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:25.134495500] [INFO] [StorageManagement] 1 items added to location S3
+[2025-11-12T22:35:25.134495500] [INFO] [HMI] Added 1 item to S3
+[2025-11-12T22:35:25.134495500] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:25.136470500] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:25.136470500] [INFO] [StorageManagement] 1 items removed from location S2
+[2025-11-12T22:35:25.295180600] [INFO] [Station-ST-01] Finished chargingAGV-A1
+[2025-11-12T22:35:25.937546900] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:25.937546900] [INFO] [HMI] Removed 1 item from S3
+[2025-11-12T22:35:25.937546900] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:25.937546900] [INFO] [HMI] Added 1 item to S4
+[2025-11-12T22:35:25.937546900] [INFO] [StorageManagement] 1 items added to location S4
+[2025-11-12T22:35:25.937546900] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:25.938547800] [INFO] [StorageManagement] 1 items removed from location S3
+[2025-11-12T22:35:26.065569900] [INFO] [ChargingManager] AGV AGV-B1 added to queue.
+[2025-11-12T22:35:26.065569900] [INFO] [HMI] AGV AGV-B1 sent to charging.
+[2025-11-12T22:35:26.065569900] [INFO] [ChargingManager] Assigning AGV AGV-B1 to ST-01
+[2025-11-12T22:35:26.066571700] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B1
+[2025-11-12T22:35:26.489702900] [INFO] [Station-ST-01] Finished chargingAGV-A2
+[2025-11-12T22:35:26.738742100] [INFO] [HMI] Removed 1 item from S4
+[2025-11-12T22:35:26.738742100] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:26.739518200] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:26.739518200] [INFO] [HMI] Added 1 item to S5
+[2025-11-12T22:35:26.739518200] [INFO] [StorageManagement] 1 items added to location S5
+[2025-11-12T22:35:26.741545] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:26.741545] [INFO] [StorageManagement] 1 items removed from location S4
+[2025-11-12T22:35:27.066610500] [INFO] [ChargingManager] AGV AGV-B2 added to queue.
+[2025-11-12T22:35:27.066610500] [INFO] [HMI] AGV AGV-B2 sent to charging.
+[2025-11-12T22:35:27.066610500] [INFO] [ChargingManager] Assigning AGV AGV-B2 to ST-01
+[2025-11-12T22:35:27.067591100] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B2
+[2025-11-12T22:35:27.159610800] [INFO] [Station-ST-01] Finished chargingAGV-B1
+[2025-11-12T22:35:27.543309800] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:27.543309800] [INFO] [HMI] Removed 1 item from S5
+[2025-11-12T22:35:27.544321300] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:27.544321300] [INFO] [HMI] Added 1 item to S6
+[2025-11-12T22:35:27.544321300] [INFO] [StorageManagement] 1 items added to location S6
+[2025-11-12T22:35:27.544321300] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:27.546321300] [INFO] [StorageManagement] 1 items removed from location S5
+[2025-11-12T22:35:27.855194600] [INFO] [Station-ST-01] Finished chargingAGV-B2
+[2025-11-12T22:35:28.067724200] [INFO] [ChargingManager] AGV AGV-C1 added to queue.
+[2025-11-12T22:35:28.067724200] [INFO] [HMI] AGV AGV-C1 sent to charging.
+[2025-11-12T22:35:28.067724200] [INFO] [ChargingManager] Assigning AGV AGV-C1 to ST-01
+[2025-11-12T22:35:28.067724200] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C1
+[2025-11-12T22:35:28.348671400] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:28.348671400] [INFO] [HMI] Removed 1 item from S6
+[2025-11-12T22:35:28.349476100] [INFO] [HMI] Added 1 item to S7
+[2025-11-12T22:35:28.349476100] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:28.349476100] [INFO] [StorageManagement] 1 items added to location S7
+[2025-11-12T22:35:28.351486100] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:28.351486100] [INFO] [StorageManagement] 1 items removed from location S6
+[2025-11-12T22:35:29.081868700] [INFO] [ChargingManager] AGV AGV-C2 added to queue.
+[2025-11-12T22:35:29.081868700] [INFO] [ChargingManager] Assigning AGV AGV-C2 to ST-01
+[2025-11-12T22:35:29.081868700] [INFO] [HMI] AGV AGV-C2 sent to charging.
+[2025-11-12T22:35:29.083875300] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C2
+[2025-11-12T22:35:29.119750] [INFO] [Station-ST-01] Finished chargingAGV-C1
+[2025-11-12T22:35:29.151840100] [INFO] [HMI] Removed 1 item from S7
+[2025-11-12T22:35:29.151840100] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:29.151840100] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:29.151840100] [INFO] [HMI] Added 1 item to S8
+[2025-11-12T22:35:29.151840100] [INFO] [StorageManagement] 1 items added to location S8
+[2025-11-12T22:35:29.154850600] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:29.154850600] [INFO] [StorageManagement] 1 items removed from location S7
+[2025-11-12T22:35:29.278975700] [INFO] [HMI] No task in progress.
+[2025-11-12T22:35:29.655390100] [INFO] [Station-ST-01] Finished chargingAGV-C2
+[2025-11-12T22:35:29.969102800] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:29.969102800] [INFO] [HMI] Removed 1 item from S8
+[2025-11-12T22:35:29.969914100] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:29.969914100] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:29.969914100] [INFO] [StorageManagement] 1 items removed from location S8
+[2025-11-12T22:35:30.084208600] [INFO] [ChargingManager] AGV AGV-D1 added to queue.
+[2025-11-12T22:35:30.084208600] [INFO] [HMI] AGV AGV-D1 sent to charging.
+[2025-11-12T22:35:30.084208600] [INFO] [ChargingManager] Assigning AGV AGV-D1 to ST-01
+[2025-11-12T22:35:30.085221100] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D1
+[2025-11-12T22:35:30.941731600] [INFO] [Station-ST-01] Finished chargingAGV-D1
+[2025-11-12T22:35:31.098728700] [INFO] [ChargingManager] AGV AGV-D2 added to queue.
+[2025-11-12T22:35:31.098728700] [INFO] [ChargingManager] Assigning AGV AGV-D2 to ST-01
+[2025-11-12T22:35:31.098728700] [INFO] [HMI] AGV AGV-D2 sent to charging.
+[2025-11-12T22:35:31.099738700] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D2
+[2025-11-12T22:35:31.243309400] [INFO] [HMI] No task in progress.
+[2025-11-12T22:35:31.477131300] [INFO] [StorageManagement] 1 items added to location S1
+[2025-11-12T22:35:31.477131300] [INFO] [HMI] Added 1 item to S1
+[2025-11-12T22:35:31.680568700] [INFO] [Station-ST-01] Finished chargingAGV-D2
+[2025-11-12T22:35:32.102650300] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-12T22:35:32.103488600] [INFO] [ChargingManager] AGV AGV-A1 added to queue.
+[2025-11-12T22:35:32.103488600] [INFO] [HMI] AGV AGV-A1 sent to charging.
+[2025-11-12T22:35:32.103488600] [INFO] [ChargingManager] Assigning AGV AGV-A1 to ST-01
+[2025-11-12T22:35:32.104485500] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A1
+[2025-11-12T22:35:32.116555900] [INFO] [HMI] No task in progress.
+[2025-11-12T22:35:32.289977700] [INFO] [HMI] Removed 1 item from S1
+[2025-11-12T22:35:32.289977700] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:32.291009800] [INFO] [StorageManagement] 1 items added to location S2
+[2025-11-12T22:35:32.291009800] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:32.291009800] [INFO] [HMI] Added 1 item to S2
+[2025-11-12T22:35:32.293984600] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:32.294248200] [INFO] [StorageManagement] 1 items removed from location S1
+[2025-11-12T22:35:33.000593300] [INFO] [Station-ST-01] Finished chargingAGV-A1
+[2025-11-12T22:35:33.094653100] [INFO] [HMI] Removed 1 item from S2
+[2025-11-12T22:35:33.094653100] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:33.094653100] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:33.094653100] [INFO] [HMI] Added 1 item to S3
+[2025-11-12T22:35:33.094653100] [INFO] [StorageManagement] 1 items added to location S3
+[2025-11-12T22:35:33.094653100] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:33.095643] [INFO] [StorageManagement] 1 items removed from location S2
+[2025-11-12T22:35:33.116638200] [INFO] [ChargingManager] AGV AGV-A2 added to queue.
+[2025-11-12T22:35:33.116638200] [INFO] [ChargingManager] Assigning AGV AGV-A2 to ST-01
+[2025-11-12T22:35:33.116638200] [INFO] [HMI] AGV AGV-A2 sent to charging.
+[2025-11-12T22:35:33.117639300] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A2
+[2025-11-12T22:35:33.800682900] [INFO] [Station-ST-01] Finished chargingAGV-A2
+[2025-11-12T22:35:33.896522400] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:33.896522400] [INFO] [HMI] Removed 1 item from S3
+[2025-11-12T22:35:33.896522400] [INFO] [HMI] Added 1 item to S4
+[2025-11-12T22:35:33.896522400] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:33.896522400] [INFO] [StorageManagement] 1 items added to location S4
+[2025-11-12T22:35:33.896522400] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:33.897523900] [INFO] [StorageManagement] 1 items removed from location S3
+[2025-11-12T22:35:34.128953600] [INFO] [ChargingManager] AGV AGV-B1 added to queue.
+[2025-11-12T22:35:34.128953600] [INFO] [HMI] AGV AGV-B1 sent to charging.
+[2025-11-12T22:35:34.128953600] [INFO] [ChargingManager] Assigning AGV AGV-B1 to ST-01
+[2025-11-12T22:35:34.131434700] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B1
+[2025-11-12T22:35:34.307051600] [INFO] [TaskManager] Task added to queue: T-143
+[2025-11-12T22:35:34.307051600] [INFO] [HMI] Task created: T-143 (UNLOAD)
+[2025-11-12T22:35:34.705567300] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:34.705567300] [INFO] [HMI] Removed 1 item from S4
+[2025-11-12T22:35:34.705567300] [INFO] [HMI] Added 1 item to S5
+[2025-11-12T22:35:34.705567300] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:34.705567300] [INFO] [StorageManagement] 1 items added to location S5
+[2025-11-12T22:35:34.706569400] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:34.706569400] [INFO] [StorageManagement] 1 items removed from location S4
+[2025-11-12T22:35:35.143174300] [INFO] [ChargingManager] AGV AGV-B2 added to queue.
+[2025-11-12T22:35:35.143174300] [INFO] [ChargingManager] Assigning AGV AGV-B2 to ST-01
+[2025-11-12T22:35:35.143174300] [INFO] [HMI] AGV AGV-B2 sent to charging.
+[2025-11-12T22:35:35.144197200] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B2
+[2025-11-12T22:35:35.475841400] [INFO] [Station-ST-01] Finished chargingAGV-B1
+[2025-11-12T22:35:35.507400] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:35.507400] [INFO] [HMI] Removed 1 item from S5
+[2025-11-12T22:35:35.508147700] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:35.508147700] [INFO] [HMI] Added 1 item to S6
+[2025-11-12T22:35:35.508147700] [INFO] [StorageManagement] 1 items added to location S6
+[2025-11-12T22:35:35.508147700] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:35.510143800] [INFO] [StorageManagement] 1 items removed from location S5
+[2025-11-12T22:35:35.864698900] [INFO] [TaskManager] Assigned task: Task ID: T-143 ,UNLOAD, From: ZONE-A To: ZONE-B, Status: IN_PROGRESS
+[2025-11-12T22:35:35.864698900] [INFO] [TaskManager] Completed task: T-143
+[2025-11-12T22:35:35.865698800] [INFO] [HMI] Task completed: T-143
+[2025-11-12T22:35:36.144730500] [INFO] [ChargingManager] AGV AGV-C1 added to queue.
+[2025-11-12T22:35:36.144730500] [INFO] [ChargingManager] Assigning AGV AGV-C1 to ST-01
+[2025-11-12T22:35:36.144730500] [INFO] [HMI] AGV AGV-C1 sent to charging.
+[2025-11-12T22:35:36.145499100] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C1
+[2025-11-12T22:35:36.215012200] [INFO] [Station-ST-01] Finished chargingAGV-B2
+[2025-11-12T22:35:36.313140200] [INFO] [HMI] Removed 1 item from S6
+[2025-11-12T22:35:36.313140200] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:36.314143] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:36.314143] [INFO] [HMI] Added 1 item to S7
+[2025-11-12T22:35:36.314143] [INFO] [StorageManagement] 1 items added to location S7
+[2025-11-12T22:35:36.316147800] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:36.316147800] [INFO] [StorageManagement] 1 items removed from location S6
+[2025-11-12T22:35:36.688572900] [INFO] [Station-ST-01] Finished chargingAGV-C1
+[2025-11-12T22:35:37.123510] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:37.123510] [INFO] [HMI] Removed 1 item from S7
+[2025-11-12T22:35:37.123510] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:37.123510] [INFO] [HMI] Added 1 item to S8
+[2025-11-12T22:35:37.123510] [INFO] [StorageManagement] 1 items added to location S8
+[2025-11-12T22:35:37.124490900] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:37.124490900] [INFO] [StorageManagement] 1 items removed from location S7
+[2025-11-12T22:35:37.154990100] [INFO] [ChargingManager] AGV AGV-C2 added to queue.
+[2025-11-12T22:35:37.154990100] [INFO] [HMI] AGV AGV-C2 sent to charging.
+[2025-11-12T22:35:37.154990100] [INFO] [ChargingManager] Assigning AGV AGV-C2 to ST-01
+[2025-11-12T22:35:37.155991800] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C2
+[2025-11-12T22:35:37.935558300] [INFO] [HMI] Removed 1 item from S8
+[2025-11-12T22:35:37.935558300] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:37.936564400] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:37.936564400] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:37.936564400] [INFO] [StorageManagement] 1 items removed from location S8
+[2025-11-12T22:35:38.169733400] [INFO] [ChargingManager] AGV AGV-D1 added to queue.
+[2025-11-12T22:35:38.169733400] [INFO] [HMI] AGV AGV-D1 sent to charging.
+[2025-11-12T22:35:38.169733400] [INFO] [ChargingManager] Assigning AGV AGV-D1 to ST-01
+[2025-11-12T22:35:38.170735200] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D1
+[2025-11-12T22:35:38.221110] [INFO] [HMI] No task in progress.
+[2025-11-12T22:35:38.245727100] [INFO] [Station-ST-01] Finished chargingAGV-C2
+[2025-11-12T22:35:39.172974500] [INFO] [ChargingManager] AGV AGV-D2 added to queue.
+[2025-11-12T22:35:39.172974500] [INFO] [HMI] AGV AGV-D2 sent to charging.
+[2025-11-12T22:35:39.172974500] [INFO] [ChargingManager] Assigning AGV AGV-D2 to ST-01
+[2025-11-12T22:35:39.173976200] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D2
+[2025-11-12T22:35:39.288004500] [INFO] [Station-ST-01] Finished chargingAGV-D1
+[2025-11-12T22:35:39.437505] [INFO] [HMI] Added 1 item to S1
+[2025-11-12T22:35:39.437505] [INFO] [StorageManagement] 1 items added to location S1
+[2025-11-12T22:35:39.900557900] [INFO] [Station-ST-01] Finished chargingAGV-D2
+[2025-11-12T22:35:40.174480600] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-12T22:35:40.174480600] [INFO] [ChargingManager] AGV AGV-A1 added to queue.
+[2025-11-12T22:35:40.174480600] [INFO] [HMI] AGV AGV-A1 sent to charging.
+[2025-11-12T22:35:40.175504500] [INFO] [ChargingManager] Assigning AGV AGV-A1 to ST-01
+[2025-11-12T22:35:40.175504500] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A1
+[2025-11-12T22:35:40.238491900] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:40.238491900] [INFO] [HMI] Removed 1 item from S1
+[2025-11-12T22:35:40.238491900] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:40.238491900] [INFO] [StorageManagement] 1 items added to location S2
+[2025-11-12T22:35:40.238491900] [INFO] [HMI] Added 1 item to S2
+[2025-11-12T22:35:40.238491900] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:40.239491100] [INFO] [StorageManagement] 1 items removed from location S1
+[2025-11-12T22:35:40.576929200] [INFO] [TaskManager] Task added to queue: T-905
+[2025-11-12T22:35:40.577929100] [INFO] [HMI] Task created: T-905 (UNLOAD)
+[2025-11-12T22:35:41.039836900] [INFO] [HMI] Removed 1 item from S2
+[2025-11-12T22:35:41.039836900] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:41.039836900] [INFO] [HMI] Added 1 item to S3
+[2025-11-12T22:35:41.039836900] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:41.039836900] [INFO] [StorageManagement] 1 items added to location S3
+[2025-11-12T22:35:41.040834900] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:41.040834900] [INFO] [StorageManagement] 1 items removed from location S2
+[2025-11-12T22:35:41.181908700] [INFO] [ChargingManager] AGV AGV-A2 added to queue.
+[2025-11-12T22:35:41.181908700] [INFO] [HMI] AGV AGV-A2 sent to charging.
+[2025-11-12T22:35:41.181908700] [INFO] [ChargingManager] Assigning AGV AGV-A2 to ST-01
+[2025-11-12T22:35:41.183917500] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A2
+[2025-11-12T22:35:41.310726900] [INFO] [Station-ST-01] Finished chargingAGV-A1
+[2025-11-12T22:35:41.497426900] [INFO] [TaskManager] Assigned task: Task ID: T-905 ,UNLOAD, From: ZONE-A To: ZONE-B, Status: IN_PROGRESS
+[2025-11-12T22:35:41.498459200] [ERROR] [TaskManager] Failed task: T-905
+[2025-11-12T22:35:41.498459200] [INFO] [HMI] Task failed: T-905
+[2025-11-12T22:35:41.842394] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:41.842394] [INFO] [HMI] Removed 1 item from S3
+[2025-11-12T22:35:41.843458800] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:41.843458800] [INFO] [HMI] Added 1 item to S4
+[2025-11-12T22:35:41.844417400] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:41.844417400] [INFO] [StorageManagement] 1 items added to location S4
+[2025-11-12T22:35:41.845419300] [INFO] [StorageManagement] 1 items removed from location S3
+[2025-11-12T22:35:41.906484400] [INFO] [Station-ST-01] Finished chargingAGV-A2
+[2025-11-12T22:35:42.184738500] [INFO] [ChargingManager] AGV AGV-B1 added to queue.
+[2025-11-12T22:35:42.184738500] [INFO] [HMI] AGV AGV-B1 sent to charging.
+[2025-11-12T22:35:42.184738500] [INFO] [ChargingManager] Assigning AGV AGV-B1 to ST-01
+[2025-11-12T22:35:42.185747300] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B1
+[2025-11-12T22:35:42.646615800] [INFO] [HMI] Removed 1 item from S4
+[2025-11-12T22:35:42.646615800] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:42.646615800] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:42.646615800] [INFO] [HMI] Added 1 item to S5
+[2025-11-12T22:35:42.646615800] [INFO] [StorageManagement] 1 items added to location S5
+[2025-11-12T22:35:42.646615800] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:42.647624400] [INFO] [StorageManagement] 1 items removed from location S4
+[2025-11-12T22:35:42.974003] [INFO] [Station-ST-01] Finished chargingAGV-B1
+[2025-11-12T22:35:43.195560800] [INFO] [ChargingManager] AGV AGV-B2 added to queue.
+[2025-11-12T22:35:43.195560800] [INFO] [HMI] AGV AGV-B2 sent to charging.
+[2025-11-12T22:35:43.196571100] [INFO] [ChargingManager] Assigning AGV AGV-B2 to ST-01
+[2025-11-12T22:35:43.196571100] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B2
+[2025-11-12T22:35:43.448089400] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:43.448089400] [INFO] [HMI] Removed 1 item from S5
+[2025-11-12T22:35:43.448089400] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:43.448089400] [INFO] [HMI] Added 1 item to S6
+[2025-11-12T22:35:43.448089400] [INFO] [StorageManagement] 1 items added to location S6
+[2025-11-12T22:35:43.449032700] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:43.450034900] [INFO] [StorageManagement] 1 items removed from location S5
+[2025-11-12T22:35:43.977490800] [INFO] [Station-ST-01] Finished chargingAGV-B2
+[2025-11-12T22:35:44.209884100] [INFO] [ChargingManager] AGV AGV-C1 added to queue.
+[2025-11-12T22:35:44.209884100] [INFO] [HMI] AGV AGV-C1 sent to charging.
+[2025-11-12T22:35:44.209884100] [INFO] [ChargingManager] Assigning AGV AGV-C1 to ST-01
+[2025-11-12T22:35:44.210892600] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C1
+[2025-11-12T22:35:44.256747400] [INFO] [HMI] Removed 1 item from S6
+[2025-11-12T22:35:44.256747400] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:44.256747400] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:44.256747400] [INFO] [HMI] Added 1 item to S7
+[2025-11-12T22:35:44.256747400] [INFO] [StorageManagement] 1 items added to location S7
+[2025-11-12T22:35:44.257753400] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:44.257753400] [INFO] [StorageManagement] 1 items removed from location S6
+[2025-11-12T22:35:44.436879700] [INFO] [HMI] Stopping simulation...
+[2025-11-12T22:35:44.437876200] [INFO] [ChargingManager] Shutting down...
+[2025-11-12T22:35:45.057893] [INFO] [HMI] Removed 1 item from S7
+[2025-11-12T22:35:45.057893] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:35:45.057893] [INFO] [HMI] Added 1 item to S8
+[2025-11-12T22:35:45.057893] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:35:45.057893] [INFO] [StorageManagement] 1 items added to location S8
+[2025-11-12T22:35:45.057893] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:35:45.058932300] [INFO] [StorageManagement] 1 items removed from location S7
+[2025-11-12T22:35:45.610189600] [INFO] [Station-ST-01] Finished chargingAGV-C1
+[2025-11-12T22:35:45.610189600] [INFO] [ChargingManager] Stopped.
+[2025-11-12T22:35:45.611191300] [INFO] [StorageManagement] Shutting down storage manager...
+[2025-11-12T22:35:45.611191300] [INFO] [StorageManagement] Storage manager stopped.
+[2025-11-12T22:35:45.612188700] [INFO] [TaskManager] Executor service shutdown.
+[2025-11-12T22:35:45.612188700] [INFO] [HMI] Simulation ended.
+[2025-11-12T22:35:45.612188700] [INFO] [HMI] Simulation stopped.
+[2025-11-12T22:35:45.859485] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@312cf81b[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@47ebc367[Wrapped task = StorageManagement.StorageManager$2@622b4c1f]] rejected from java.util.concurrent.ThreadPoolExecutor@4c4fdec0[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 129]
+[2025-11-12T22:35:45.859485] [ERROR] [HMI] Task java.util.concurrent.FutureTask@312cf81b[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@47ebc367[Wrapped task = StorageManagement.StorageManager$2@622b4c1f]] rejected from java.util.concurrent.ThreadPoolExecutor@4c4fdec0[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 129]
+[2025-11-12T22:35:48.542740200] [INFO] [HMI] Simulation started.
+[2025-11-12T22:35:48.542740200] [INFO] [HMI] Simulation started.
+[2025-11-12T22:35:48.542740200] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@32176718[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@38ef0c68[Wrapped task = StorageManagement.StorageManager$1@3628e505]] rejected from java.util.concurrent.ThreadPoolExecutor@4c4fdec0[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 129]
+[2025-11-12T22:35:48.542740200] [INFO] [HMI] TaskManager started processing queue.
+[2025-11-12T22:35:48.543743700] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-12T22:35:48.543743700] [ERROR] [HMI] Task java.util.concurrent.FutureTask@32176718[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@38ef0c68[Wrapped task = StorageManagement.StorageManager$1@3628e505]] rejected from java.util.concurrent.ThreadPoolExecutor@4c4fdec0[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 129]
+[2025-11-12T22:35:48.543743700] [INFO] [ChargingManager] AGV AGV-A1 added to queue.
+[2025-11-12T22:35:50.053977700] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@4628fadb[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@7715ef3e[Wrapped task = StorageManagement.StorageManager$1@375921f8]] rejected from java.util.concurrent.ThreadPoolExecutor@4c4fdec0[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 129]
+[2025-11-12T22:35:50.054790400] [ERROR] [HMI] Task java.util.concurrent.FutureTask@4628fadb[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@7715ef3e[Wrapped task = StorageManagement.StorageManager$1@375921f8]] rejected from java.util.concurrent.ThreadPoolExecutor@4c4fdec0[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 129]
+[2025-11-12T22:35:51.569515400] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@6912b58f[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@4f8e6aa1[Wrapped task = StorageManagement.StorageManager$1@173a1071]] rejected from java.util.concurrent.ThreadPoolExecutor@4c4fdec0[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 129]
+[2025-11-12T22:35:51.569515400] [ERROR] [HMI] Task java.util.concurrent.FutureTask@6912b58f[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@4f8e6aa1[Wrapped task = StorageManagement.StorageManager$1@173a1071]] rejected from java.util.concurrent.ThreadPoolExecutor@4c4fdec0[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 129]
+[2025-11-12T22:35:52.488331200] [INFO] [HMI] Stopping simulation...
+[2025-11-12T22:35:52.489331700] [INFO] [ChargingManager] Shutting down...
+[2025-11-12T22:35:52.489331700] [INFO] [ChargingManager] Stopped.
+[2025-11-12T22:35:52.489331700] [INFO] [StorageManagement] Shutting down storage manager...
+[2025-11-12T22:35:52.489331700] [INFO] [StorageManagement] Storage manager stopped.
+[2025-11-12T22:35:52.489331700] [INFO] [TaskManager] Executor service shutdown.
+[2025-11-12T22:35:52.489331700] [INFO] [HMI] Simulation ended.
+[2025-11-12T22:35:52.490329300] [INFO] [HMI] Simulation stopped.
+[2025-11-12T22:53:44.399886] [INFO] [HMI] Loading database...
+[2025-11-12T22:53:44.406887300] [INFO] [DatabaseGenerator] File creaated: agv.csv
+[2025-11-12T22:53:44.407896300] [INFO] [DatabaseGenerator] File creaated: chargingstation.csv
+[2025-11-12T22:53:44.408901200] [INFO] [DatabaseGenerator] File creaated: roboticarm.csv
+[2025-11-12T22:53:44.409909500] [INFO] [DatabaseGenerator] File creaated: storagelocation.csv
+[2025-11-12T22:53:44.411885400] [INFO] [DatabaseGenerator] File creaated: task.csv
+[2025-11-12T22:53:44.411885400] [INFO] [DatabaseGenerator] CSV databased has been generated: src/main/resources/database/
+[2025-11-12T22:53:44.420904100] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-12T22:53:44.432898400] [INFO] [DatabaseReader] Loaded 10 records from src/main/resources/database/task.csv
+[2025-11-12T22:53:44.434902300] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/storagelocation.csv
+[2025-11-12T22:53:44.436900600] [INFO] [DatabaseReader] Loaded 5 charging stations.
+[2025-11-12T22:53:44.440911700] [INFO] [ChargingManager] Initialized with 5 stations.
+[2025-11-12T22:53:44.444916400] [INFO] [StorageManagement] New storage location added: S1
+[2025-11-12T22:53:44.445892500] [INFO] [StorageManagement] New storage location added: S2
+[2025-11-12T22:53:44.446887900] [INFO] [StorageManagement] New storage location added: S3
+[2025-11-12T22:53:44.446887900] [INFO] [StorageManagement] New storage location added: S4
+[2025-11-12T22:53:44.447886700] [INFO] [StorageManagement] New storage location added: S5
+[2025-11-12T22:53:44.448915300] [INFO] [StorageManagement] New storage location added: S6
+[2025-11-12T22:53:44.448915300] [INFO] [StorageManagement] New storage location added: S7
+[2025-11-12T22:53:44.449911100] [INFO] [StorageManagement] New storage location added: S8
+[2025-11-12T22:53:44.452887300] [INFO] [TaskManager] Task added to queue: T-1001
+[2025-11-12T22:53:44.453904900] [INFO] [TaskManager] Task added to queue: T-1002
+[2025-11-12T22:53:44.454912] [INFO] [TaskManager] Task added to queue: T-1003
+[2025-11-12T22:53:44.454912] [INFO] [TaskManager] Task added to queue: T-1004
+[2025-11-12T22:53:44.455906700] [INFO] [TaskManager] Task added to queue: T-1005
+[2025-11-12T22:53:44.456903900] [INFO] [TaskManager] Task added to queue: T-1006
+[2025-11-12T22:53:44.456903900] [INFO] [TaskManager] Task added to queue: T-1007
+[2025-11-12T22:53:44.457903500] [INFO] [TaskManager] Task added to queue: T-1008
+[2025-11-12T22:53:44.457903500] [INFO] [TaskManager] Task added to queue: T-1009
+[2025-11-12T22:53:44.458904800] [INFO] [TaskManager] Task added to queue: T-1010
+[2025-11-12T22:53:44.467885900] [INFO] [HMI] Database loaded. AGVs=8, Stations=5, Locations=8, Tasks=10
+[2025-11-12T22:53:44.472886500] [INFO] [HMI] System is ready. Use the buttons to simulate steps manually.
+[2025-11-12T22:53:54.056985200] [INFO] [HMI] Added 4 to S3
+[2025-11-12T22:53:54.056985200] [INFO] [StorageManagement] 4 items added to location S3
+[2025-11-12T22:54:09.836106600] [INFO] [TaskManager] Created task: Task ID: T-100 ,LOAD, From: ZONE-A To: ZONE-B, Status: PENDING
+[2025-11-12T22:54:09.837095700] [INFO] [HMI] Task created: T-100 (LOAD)
+[2025-11-12T22:54:23.322109500] [INFO] [TaskManager] Created task: Task ID: T-101 ,LOAD, From: ZONE-A To: ZONE-B, Status: PENDING
+[2025-11-12T22:54:23.322109500] [INFO] [HMI] Task created: T-101 (LOAD)
+[2025-11-12T22:54:24.804739200] [INFO] [TaskManager] Assigned task: Task ID: T-1001 ,MOVE, From: S1 To: S2, Status: IN_PROGRESS
+[2025-11-12T22:54:24.805726300] [INFO] [TaskManager] Completed task: T-1001
+[2025-11-12T22:54:24.805726300] [INFO] [HMI] Task completed: T-1001
+[2025-11-12T22:54:29.721539900] [INFO] [TaskManager] Assigned task: Task ID: T-1002 ,LOAD, From: S2 To: S3, Status: IN_PROGRESS
+[2025-11-12T22:54:29.722542500] [INFO] [HMI] Task failed: T-1002
+[2025-11-12T22:54:34.607143800] [INFO] [TaskManager] Assigned task: Task ID: T-1003 ,UNLOAD, From: S3 To: S1, Status: IN_PROGRESS
+[2025-11-12T22:54:34.608152700] [INFO] [HMI] Task assigned: T-1003 [UNLOAD]
+[2025-11-12T22:54:37.101232900] [INFO] [TaskManager] Created task: Task ID: T-101 ,LOAD, From: ZONE-A To: ZONE-B, Status: PENDING
+[2025-11-12T22:54:37.102228800] [INFO] [HMI] Task created: T-101 (LOAD)
+[2025-11-12T22:54:38.230921100] [INFO] [TaskManager] Assigned task: Task ID: T-1004 ,CHARGE, From: ST-02 To: ST-03, Status: IN_PROGRESS
+[2025-11-12T22:54:38.230921100] [INFO] [HMI] Task assigned: T-1004 [CHARGE]
+[2025-11-12T22:54:38.696816200] [INFO] [TaskManager] Assigned task: Task ID: T-1005 ,MOVE, From: S5 To: S6, Status: IN_PROGRESS
+[2025-11-12T22:54:38.697810400] [INFO] [HMI] Task failed: T-1005
+[2025-11-12T22:54:39.050997] [INFO] [TaskManager] Assigned task: Task ID: T-1006 ,LOAD, From: S4 To: S7, Status: IN_PROGRESS
+[2025-11-12T22:54:39.050997] [INFO] [TaskManager] Completed task: T-1006
+[2025-11-12T22:54:39.051985200] [INFO] [HMI] Task completed: T-1006
+[2025-11-12T22:54:39.377541300] [INFO] [TaskManager] Created task: Task ID: T-101 ,LOAD, From: ZONE-A To: ZONE-B, Status: PENDING
+[2025-11-12T22:54:39.378543500] [INFO] [HMI] Task created: T-101 (LOAD)
+[2025-11-12T22:54:39.761122200] [INFO] [TaskManager] Assigned task: Task ID: T-1007 ,UNLOAD, From: S8 To: S2, Status: IN_PROGRESS
+[2025-11-12T22:54:39.762119500] [INFO] [HMI] Task assigned: T-1007 [UNLOAD]
+[2025-11-12T22:54:40.031906700] [INFO] [TaskManager] Assigned task: Task ID: T-1008 ,CHARGE, From: ST-04 To: ST-05, Status: IN_PROGRESS
+[2025-11-12T22:54:40.032914400] [INFO] [HMI] Task failed: T-1008
+[2025-11-12T22:54:40.300467600] [INFO] [TaskManager] Assigned task: Task ID: T-1009 ,MOVE, From: S6 To: S1, Status: IN_PROGRESS
+[2025-11-12T22:54:40.300467600] [INFO] [TaskManager] Completed task: T-1009
+[2025-11-12T22:54:40.301470200] [INFO] [HMI] Task completed: T-1009
+[2025-11-12T22:54:40.496747800] [INFO] [TaskManager] Created task: Task ID: T-101 ,LOAD, From: ZONE-A To: ZONE-B, Status: PENDING
+[2025-11-12T22:54:40.497746600] [INFO] [HMI] Task created: T-101 (LOAD)
+[2025-11-12T22:54:42.332137600] [INFO] [HMI] Added 4 to S3
+[2025-11-12T22:54:42.332137600] [INFO] [StorageManagement] 4 items added to location S3
+[2025-11-12T22:54:46.266352200] [INFO] [HMI] Added 4 to S2
+[2025-11-12T22:54:46.266352200] [INFO] [StorageManagement] 4 items added to location S2
+[2025-11-12T22:54:48.776887100] [INFO] [HMI] Added 4 to S8
+[2025-11-12T22:54:48.777887600] [INFO] [StorageManagement] 4 items added to location S8
+[2025-11-12T22:54:48.995200200] [INFO] [StorageManagement] 4 items added to location S8
+[2025-11-12T22:54:48.995200200] [INFO] [HMI] Added 4 to S8
+[2025-11-12T22:54:49.134508500] [INFO] [StorageManagement] 4 items added to location S8
+[2025-11-12T22:54:49.134508500] [INFO] [HMI] Added 4 to S8
+[2025-11-12T22:54:49.274509700] [INFO] [StorageManagement] 4 items added to location S8
+[2025-11-12T22:54:49.274509700] [INFO] [HMI] Added 4 to S8
+[2025-11-12T22:54:49.403507900] [INFO] [HMI] Added 4 to S8
+[2025-11-12T22:54:49.403507900] [INFO] [StorageManagement] 4 items added to location S8
+[2025-11-12T22:54:49.548977200] [INFO] [HMI] Added 4 to S8
+[2025-11-12T22:54:49.548977200] [INFO] [StorageManagement] 4 items added to location S8
+[2025-11-12T22:55:08.070189] [INFO] [TaskManager] Created task: Task ID: T-101 ,LOAD, From: ZONE-A To: ZONE-B, Status: PENDING
+[2025-11-12T22:55:08.070189] [INFO] [HMI] Task created: T-101 (LOAD)
+[2025-11-12T22:55:11.387053300] [INFO] [TaskManager] Assigned task: Task ID: T-1010 ,LOAD, From: S7 To: S8, Status: IN_PROGRESS
+[2025-11-12T22:55:11.387053300] [INFO] [TaskManager] Completed task: T-1010
+[2025-11-12T22:55:11.388053300] [INFO] [HMI] Task completed: T-1010
+[2025-11-12T22:57:13.860479800] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:57:13.860479800] [INFO] [HMI] Removed 4 from S8
+[2025-11-12T22:57:13.861460900] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:57:13.861460900] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:57:13.862468100] [INFO] [StorageManagement] 4 items removed from location S8
+[2025-11-12T22:57:15.523670400] [INFO] [HMI] Removed 4 from S8
+[2025-11-12T22:57:15.523670400] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:57:15.524670200] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:57:15.525665300] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:57:15.525665300] [INFO] [StorageManagement] 4 items removed from location S8
+[2025-11-12T22:57:17.224944600] [INFO] [HMI] Added 4 to S8
+[2025-11-12T22:57:17.224944600] [INFO] [StorageManagement] 4 items added to location S8
+[2025-11-12T22:57:17.378519600] [INFO] [HMI] Added 4 to S8
+[2025-11-12T22:57:17.378519600] [INFO] [StorageManagement] 4 items added to location S8
+[2025-11-12T22:57:20.362636200] [INFO] [StorageManagement] 4 items added to location S3
+[2025-11-12T22:57:20.361625600] [INFO] [HMI] Added 4 to S3
+[2025-11-12T22:57:23.119105100] [INFO] [StorageManagement] 10 items added to location S3
+[2025-11-12T22:57:23.119105100] [INFO] [HMI] Added 10 to S3
+[2025-11-12T22:57:28.725296400] [INFO] [HMI] Added 10 to S8
+[2025-11-12T22:57:28.725296400] [INFO] [StorageManagement] 10 items added to location S8
+[2025-11-12T22:57:30.561040200] [INFO] [HMI] Removed 10 from S8
+[2025-11-12T22:57:30.561040200] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:57:30.562041] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:57:30.562041] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:57:30.563041800] [INFO] [StorageManagement] 10 items removed from location S8
+[2025-11-12T22:57:31.069681500] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:57:31.069681500] [INFO] [HMI] Removed 10 from S8
+[2025-11-12T22:57:31.071673100] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:57:31.071673100] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:57:31.071673100] [INFO] [StorageManagement] 10 items removed from location S8
+[2025-11-12T22:57:31.475677900] [INFO] [HMI] Removed 10 from S8
+[2025-11-12T22:57:31.475677900] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T22:57:31.476665] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T22:57:31.476665] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T22:57:31.476665] [INFO] [StorageManagement] 10 items removed from location S8
+[2025-11-12T22:57:31.638644700] [INFO] [HMI] Removed 10 from S8
+[2025-11-12T22:57:31.638644700] [ERROR] [StorageManagement] Remove stock failed: Not enough items in storage
+[2025-11-12T22:57:31.780174500] [INFO] [HMI] Removed 10 from S8
+[2025-11-12T22:57:31.780174500] [ERROR] [StorageManagement] Remove stock failed: Not enough items in storage
+[2025-11-12T22:57:31.920524100] [INFO] [HMI] Removed 10 from S8
+[2025-11-12T22:57:31.920524100] [ERROR] [StorageManagement] Remove stock failed: Not enough items in storage
+[2025-11-12T22:57:32.065866700] [INFO] [HMI] Removed 10 from S8
+[2025-11-12T22:57:32.065866700] [ERROR] [StorageManagement] Remove stock failed: Not enough items in storage
+[2025-11-12T22:57:32.197957400] [ERROR] [StorageManagement] Remove stock failed: Not enough items in storage
+[2025-11-12T22:57:32.197957400] [INFO] [HMI] Removed 10 from S8
+[2025-11-12T22:57:32.681762900] [ERROR] [StorageManagement] Remove stock failed: Not enough items in storage
+[2025-11-12T22:57:32.681762900] [INFO] [HMI] Removed 10 from S8
+[2025-11-12T22:57:40.785152600] [ERROR] [StorageManagement] Remove stock failed: Not enough items in storage
+[2025-11-12T22:57:40.785152600] [INFO] [HMI] Removed 10 from S1
+[2025-11-12T22:57:42.126469600] [INFO] [HMI] Removed 10 from S1
+[2025-11-12T22:57:42.126469600] [ERROR] [StorageManagement] Remove stock failed: Not enough items in storage
+[2025-11-12T22:58:09.907975700] [INFO] [TaskManager] Assigned task: Task ID: T-100 ,LOAD, From: ZONE-A To: ZONE-B, Status: IN_PROGRESS
+[2025-11-12T22:58:09.907975700] [INFO] [TaskManager] Completed task: T-100
+[2025-11-12T22:58:09.908975200] [INFO] [HMI] Task completed: T-100
+[2025-11-12T22:58:10.564370900] [INFO] [TaskManager] Assigned task: Task ID: T-101 ,LOAD, From: ZONE-A To: ZONE-B, Status: IN_PROGRESS
+[2025-11-12T22:58:10.565385900] [INFO] [TaskManager] Completed task: T-101
+[2025-11-12T22:58:10.565385900] [INFO] [HMI] Task completed: T-101
+[2025-11-12T22:58:10.716575300] [INFO] [TaskManager] Assigned task: Task ID: T-101 ,LOAD, From: ZONE-A To: ZONE-B, Status: IN_PROGRESS
+[2025-11-12T22:58:10.717573200] [INFO] [TaskManager] Completed task: T-101
+[2025-11-12T22:58:10.717573200] [INFO] [HMI] Task completed: T-101
+[2025-11-12T22:58:13.678804300] [INFO] [TaskManager] Assigned task: Task ID: T-101 ,LOAD, From: ZONE-A To: ZONE-B, Status: IN_PROGRESS
+[2025-11-12T22:58:13.679812200] [INFO] [TaskManager] Completed task: T-101
+[2025-11-12T22:58:13.679812200] [INFO] [HMI] Task completed: T-101
+[2025-11-12T22:58:14.096984500] [INFO] [TaskManager] Assigned task: Task ID: T-101 ,LOAD, From: ZONE-A To: ZONE-B, Status: IN_PROGRESS
+[2025-11-12T22:58:14.096984500] [INFO] [TaskManager] Completed task: T-101
+[2025-11-12T22:58:14.096984500] [INFO] [HMI] Task completed: T-101
+[2025-11-12T22:58:16.004781100] [INFO] [TaskManager] Assigned task: Task ID: T-101 ,LOAD, From: ZONE-A To: ZONE-B, Status: IN_PROGRESS
+[2025-11-12T22:58:16.004781100] [INFO] [TaskManager] Completed task: T-101
+[2025-11-12T22:58:16.005771] [INFO] [HMI] Task completed: T-101
+[2025-11-12T22:58:16.121773600] [INFO] [HMI] No task to complete.
+[2025-11-12T22:58:19.870322600] [INFO] [HMI] No task to complete.
+[2025-11-12T22:58:20.286413500] [INFO] [HMI] No task to complete.
+[2025-11-12T22:58:20.770180100] [INFO] [TaskManager] Created task: Task ID: T-101 ,LOAD, From: S1 To: S8, Status: PENDING
+[2025-11-12T22:58:20.770180100] [INFO] [HMI] Task created: T-101 (LOAD)
+[2025-11-12T22:58:22.038477800] [INFO] [TaskManager] Assigned task: Task ID: T-101 ,LOAD, From: S1 To: S8, Status: IN_PROGRESS
+[2025-11-12T22:58:22.039458700] [INFO] [TaskManager] Completed task: T-101
+[2025-11-12T22:58:22.039458700] [INFO] [HMI] Task completed: T-101
+[2025-11-12T22:58:29.595219400] [INFO] [TaskManager] Created task: Task ID: T-101 ,LOAD, From: S1 To: S8, Status: PENDING
+[2025-11-12T22:58:29.596233900] [INFO] [HMI] Task created: T-101 (LOAD)
+[2025-11-12T22:58:30.475083600] [INFO] [TaskManager] Created task: Task ID: T-101 ,LOAD, From: S1 To: S8, Status: PENDING
+[2025-11-12T22:58:30.476085400] [INFO] [HMI] Task created: T-101 (LOAD)
+[2025-11-12T22:58:31.486881] [INFO] [TaskManager] Assigned task: Task ID: T-101 ,LOAD, From: S1 To: S8, Status: IN_PROGRESS
+[2025-11-12T22:58:31.487882100] [INFO] [TaskManager] Completed task: T-101
+[2025-11-12T22:58:31.487882100] [INFO] [HMI] Task completed: T-101
+[2025-11-12T22:58:32.348613800] [INFO] [TaskManager] Assigned task: Task ID: T-101 ,LOAD, From: S1 To: S8, Status: IN_PROGRESS
+[2025-11-12T22:58:32.349622300] [INFO] [HMI] Task failed: T-101
+[2025-11-12T22:58:34.068464200] [INFO] [HMI] No pending task to assign.
+[2025-11-12T22:58:34.601165700] [INFO] [TaskManager] Created task: Task ID: T-101 ,LOAD, From: S1 To: S8, Status: PENDING
+[2025-11-12T22:58:34.602150600] [INFO] [HMI] Task created: T-101 (LOAD)
+[2025-11-12T22:58:34.873773700] [INFO] [TaskManager] Assigned task: Task ID: T-101 ,LOAD, From: S1 To: S8, Status: IN_PROGRESS
+[2025-11-12T22:58:34.873773700] [INFO] [TaskManager] Completed task: T-101
+[2025-11-12T22:58:34.874782800] [INFO] [HMI] Task completed: T-101
+[2025-11-12T22:58:35.099350300] [INFO] [HMI] No task to fail.
+[2025-11-12T22:58:35.325387100] [INFO] [HMI] No pending task to assign.
+[2025-11-12T22:58:35.561462400] [INFO] [TaskManager] Created task: Task ID: T-101 ,LOAD, From: S1 To: S8, Status: PENDING
+[2025-11-12T22:58:35.562462] [INFO] [HMI] Task created: T-101 (LOAD)
+[2025-11-12T22:58:35.942682100] [INFO] [TaskManager] Assigned task: Task ID: T-101 ,LOAD, From: S1 To: S8, Status: IN_PROGRESS
+[2025-11-12T22:58:35.943702400] [INFO] [HMI] Task failed: T-101
+[2025-11-12T22:58:36.162289900] [INFO] [HMI] No pending task to assign.
+[2025-11-12T22:58:36.710004800] [INFO] [HMI] No task to fail.
+[2025-11-12T22:58:49.324872100] [INFO] [HMI] No task to complete.
+[2025-11-12T22:58:50.857018600] [INFO] [TaskManager] Created task: Task ID: T-101 ,LOAD, From: S1 To: S8, Status: PENDING
+[2025-11-12T22:58:50.858020500] [INFO] [HMI] Task created: T-101 (LOAD)
+[2025-11-12T23:01:09.830918200] [INFO] [HMI] Loading database...
+[2025-11-12T23:01:09.836920400] [INFO] [DatabaseGenerator] File creaated: agv.csv
+[2025-11-12T23:01:09.837919400] [INFO] [DatabaseGenerator] File creaated: chargingstation.csv
+[2025-11-12T23:01:09.838919500] [INFO] [DatabaseGenerator] File creaated: roboticarm.csv
+[2025-11-12T23:01:09.839916800] [INFO] [DatabaseGenerator] File creaated: storagelocation.csv
+[2025-11-12T23:01:09.839916800] [INFO] [DatabaseGenerator] File creaated: task.csv
+[2025-11-12T23:01:09.840920200] [INFO] [DatabaseGenerator] CSV databased has been generated: src/main/resources/database/
+[2025-11-12T23:01:09.848919800] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-12T23:01:09.859914200] [INFO] [DatabaseReader] Loaded 10 records from src/main/resources/database/task.csv
+[2025-11-12T23:01:09.862914300] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/storagelocation.csv
+[2025-11-12T23:01:09.863915200] [INFO] [DatabaseReader] Loaded 5 charging stations.
+[2025-11-12T23:01:09.868916600] [INFO] [ChargingManager] Initialized with 5 stations.
+[2025-11-12T23:01:09.871915600] [INFO] [StorageManagement] New storage location added: S1
+[2025-11-12T23:01:09.872916500] [INFO] [StorageManagement] New storage location added: S2
+[2025-11-12T23:01:09.873915500] [INFO] [StorageManagement] New storage location added: S3
+[2025-11-12T23:01:09.874915100] [INFO] [StorageManagement] New storage location added: S4
+[2025-11-12T23:01:09.874915100] [INFO] [StorageManagement] New storage location added: S5
+[2025-11-12T23:01:09.875915500] [INFO] [StorageManagement] New storage location added: S6
+[2025-11-12T23:01:09.875915500] [INFO] [StorageManagement] New storage location added: S7
+[2025-11-12T23:01:09.876914700] [INFO] [StorageManagement] New storage location added: S8
+[2025-11-12T23:01:09.879917500] [INFO] [TaskManager] Task added to queue: T-1001
+[2025-11-12T23:01:09.880918200] [INFO] [TaskManager] Task added to queue: T-1002
+[2025-11-12T23:01:09.880918200] [INFO] [TaskManager] Task added to queue: T-1003
+[2025-11-12T23:01:09.881919400] [INFO] [TaskManager] Task added to queue: T-1004
+[2025-11-12T23:01:09.881919400] [INFO] [TaskManager] Task added to queue: T-1005
+[2025-11-12T23:01:09.882916500] [INFO] [TaskManager] Task added to queue: T-1006
+[2025-11-12T23:01:09.883915400] [INFO] [TaskManager] Task added to queue: T-1007
+[2025-11-12T23:01:09.883915400] [INFO] [TaskManager] Task added to queue: T-1008
+[2025-11-12T23:01:09.884916400] [INFO] [TaskManager] Task added to queue: T-1009
+[2025-11-12T23:01:09.884916400] [INFO] [TaskManager] Task added to queue: T-1010
+[2025-11-12T23:01:09.894918800] [INFO] [HMI] Database loaded. AGVs=8, Stations=5, Locations=8, Tasks=10
+[2025-11-12T23:01:09.898915600] [INFO] [HMI] System is ready. Use the buttons to simulate steps manually.
+[2025-11-12T23:01:14.396814400] [INFO] [HMI] Added 1 to S1
+[2025-11-12T23:01:14.397814400] [INFO] [StorageManagement] 1 items added to location S1
+[2025-11-12T23:01:29.706865500] [INFO] [HMI] Added 1 to S3
+[2025-11-12T23:01:29.706865500] [INFO] [StorageManagement] 1 items added to location S3
+[2025-11-12T23:01:34.767954800] [INFO] [HMI] Added 14 to S3
+[2025-11-12T23:01:34.767954800] [INFO] [StorageManagement] 14 items added to location S3
+[2025-11-12T23:01:40.459787600] [INFO] [HMI] Added 14 to S7
+[2025-11-12T23:01:40.460782200] [INFO] [StorageManagement] 14 items added to location S7
+[2025-11-12T23:03:07.482553800] [INFO] [TaskManager] Created task: Task ID: T-101 ,LOAD, From: S3 To: S5, Status: PENDING
+[2025-11-12T23:03:07.482553800] [INFO] [HMI] Task created: T-101 (LOAD)
+[2025-11-12T23:03:11.653535800] [INFO] [TaskManager] Assigned task: Task ID: T-1001 ,MOVE, From: S1 To: S2, Status: IN_PROGRESS
+[2025-11-12T23:03:11.653535800] [INFO] [TaskManager] Completed task: T-1001
+[2025-11-12T23:03:11.654541] [INFO] [HMI] Task completed: T-1001
+[2025-11-12T23:10:07.016248600] [INFO] [HMI] Loading database...
+[2025-11-12T23:10:07.021250100] [INFO] [DatabaseGenerator] File creaated: agv.csv
+[2025-11-12T23:10:07.023250200] [INFO] [DatabaseGenerator] File creaated: chargingstation.csv
+[2025-11-12T23:10:07.024248800] [INFO] [DatabaseGenerator] File creaated: roboticarm.csv
+[2025-11-12T23:10:07.025251300] [INFO] [DatabaseGenerator] File creaated: storagelocation.csv
+[2025-11-12T23:10:07.027252] [INFO] [DatabaseGenerator] File creaated: task.csv
+[2025-11-12T23:10:07.028253800] [INFO] [DatabaseGenerator] CSV databased has been generated: src/main/resources/database/
+[2025-11-12T23:10:07.037250] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-12T23:10:07.058252900] [INFO] [DatabaseReader] Loaded 10 records from src/main/resources/database/task.csv
+[2025-11-12T23:10:07.060253300] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/storagelocation.csv
+[2025-11-12T23:10:07.061254300] [INFO] [DatabaseReader] Loaded 5 charging stations.
+[2025-11-12T23:10:07.068253700] [INFO] [ChargingManager] Initialized with 5 stations.
+[2025-11-12T23:10:07.073252100] [INFO] [StorageManagement] New storage location added: S1
+[2025-11-12T23:10:07.074252] [INFO] [StorageManagement] New storage location added: S2
+[2025-11-12T23:10:07.075250600] [INFO] [StorageManagement] New storage location added: S3
+[2025-11-12T23:10:07.076251] [INFO] [StorageManagement] New storage location added: S4
+[2025-11-12T23:10:07.076251] [INFO] [StorageManagement] New storage location added: S5
+[2025-11-12T23:10:07.077250100] [INFO] [StorageManagement] New storage location added: S6
+[2025-11-12T23:10:07.078249300] [INFO] [StorageManagement] New storage location added: S7
+[2025-11-12T23:10:07.078249300] [INFO] [StorageManagement] New storage location added: S8
+[2025-11-12T23:10:07.081249300] [INFO] [TaskManager] Task added to queue: T-1001
+[2025-11-12T23:10:07.081249300] [INFO] [TaskManager] Task added to queue: T-1002
+[2025-11-12T23:10:07.082249600] [INFO] [TaskManager] Task added to queue: T-1003
+[2025-11-12T23:10:07.083250700] [INFO] [TaskManager] Task added to queue: T-1004
+[2025-11-12T23:10:07.083250700] [INFO] [TaskManager] Task added to queue: T-1005
+[2025-11-12T23:10:07.084249900] [INFO] [TaskManager] Task added to queue: T-1006
+[2025-11-12T23:10:07.084249900] [INFO] [TaskManager] Task added to queue: T-1007
+[2025-11-12T23:10:07.085248700] [INFO] [TaskManager] Task added to queue: T-1008
+[2025-11-12T23:10:07.085248700] [INFO] [TaskManager] Task added to queue: T-1009
+[2025-11-12T23:10:07.086249300] [INFO] [TaskManager] Task added to queue: T-1010
+[2025-11-12T23:10:07.095249300] [INFO] [HMI] Database loaded. AGVs=8, Stations=5, Locations=8, Tasks=10
+[2025-11-12T23:10:07.099248800] [INFO] [HMI] System is ready.
+[2025-11-12T23:10:17.952718800] [INFO] [HMI] Added 1 to S3
+[2025-11-12T23:10:17.952718800] [INFO] [StorageManagement] 1 items added to location S3
+[2025-11-12T23:10:25.529896500] [INFO] [HMI] Added 1 to S3
+[2025-11-12T23:10:25.530882800] [INFO] [StorageManagement] 1 items added to location S3
+[2025-11-12T23:10:36.724039900] [INFO] [StorageManagement] 1 items added to location S3
+[2025-11-12T23:10:36.724039900] [INFO] [HMI] Added 1 to S3
+[2025-11-12T23:10:39.027346800] [INFO] [HMI] Removed 1 from S3
+[2025-11-12T23:10:39.028351200] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:10:39.028351200] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:10:39.028351200] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:10:39.029351] [INFO] [StorageManagement] 1 items removed from location S3
+[2025-11-12T23:10:39.191470700] [INFO] [HMI] Removed 1 from S3
+[2025-11-12T23:10:39.191470700] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:10:39.196701200] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:10:39.197710] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:10:39.197710] [INFO] [StorageManagement] 1 items removed from location S3
+[2025-11-12T23:10:39.344300700] [INFO] [HMI] Removed 1 from S3
+[2025-11-12T23:10:39.344300700] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:10:39.345284600] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:10:39.346297] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:10:39.346297] [INFO] [StorageManagement] 1 items removed from location S3
+[2025-11-12T23:10:43.885863500] [INFO] [HMI] Added 6 to S3
+[2025-11-12T23:10:43.885863500] [INFO] [StorageManagement] 6 items added to location S3
+[2025-11-12T23:10:54.479104700] [INFO] [HMI] Added 36 to S6
+[2025-11-12T23:10:54.479104700] [INFO] [StorageManagement] 36 items added to location S6
+[2025-11-12T23:11:01.925720] [INFO] [StorageManagement] 10 items added to location S3
+[2025-11-12T23:11:01.925720] [INFO] [HMI] Added 10 to S3
+[2025-11-12T23:11:04.177858500] [INFO] [HMI] Added 10 to S2
+[2025-11-12T23:11:04.177858500] [INFO] [StorageManagement] 10 items added to location S2
+[2025-11-12T23:11:10.990623500] [INFO] [HMI] Added 10 to S5
+[2025-11-12T23:11:10.990623500] [INFO] [StorageManagement] 10 items added to location S5
+[2025-11-12T23:11:26.495829400] [INFO] [TaskManager] Created task: Task ID: T-100 ,LOAD, From: S3 To: S4, Status: PENDING
+[2025-11-12T23:11:26.496822300] [INFO] [HMI] Task created: T-100 (LOAD)
+[2025-11-12T23:11:32.719511900] [INFO] [TaskManager] Assigned task: Task ID: T-1001 ,MOVE, From: S1 To: S2, Status: IN_PROGRESS
+[2025-11-12T23:11:32.719511900] [INFO] [TaskManager] Completed task: T-1001
+[2025-11-12T23:11:32.720512900] [INFO] [HMI] Task completed: T-1001
+[2025-11-12T23:14:55.012432700] [INFO] [HMI] Loading database...
+[2025-11-12T23:14:55.020436300] [INFO] [DatabaseGenerator] File creaated: agv.csv
+[2025-11-12T23:14:55.021435400] [INFO] [DatabaseGenerator] File creaated: chargingstation.csv
+[2025-11-12T23:14:55.022435200] [INFO] [DatabaseGenerator] File creaated: roboticarm.csv
+[2025-11-12T23:14:55.023435200] [INFO] [DatabaseGenerator] File creaated: storagelocation.csv
+[2025-11-12T23:14:55.023435200] [INFO] [DatabaseGenerator] File creaated: task.csv
+[2025-11-12T23:14:55.024433300] [INFO] [DatabaseGenerator] CSV databased has been generated: src/main/resources/database/
+[2025-11-12T23:14:55.030433300] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-12T23:14:55.065433500] [INFO] [DatabaseReader] Loaded 10 records from src/main/resources/database/task.csv
+[2025-11-12T23:14:55.068433] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/storagelocation.csv
+[2025-11-12T23:14:55.069433900] [INFO] [DatabaseReader] Loaded 5 charging stations.
+[2025-11-12T23:14:55.070434400] [INFO] [HMI] Database loaded.
+[2025-11-12T23:14:55.070434400] [INFO] [HMI]  - 8 AGVs
+[2025-11-12T23:14:55.071434] [INFO] [HMI]  - 5 Charging Stations
+[2025-11-12T23:14:55.071434] [INFO] [HMI]  - 8 Storage Locations
+[2025-11-12T23:14:55.072433800] [INFO] [HMI]  - 10 Tasks
+[2025-11-12T23:14:55.076434] [INFO] [ChargingManager] Initialized with 5 stations.
+[2025-11-12T23:14:55.079434] [INFO] [StorageManagement] New storage location added: S1
+[2025-11-12T23:14:55.080434] [INFO] [StorageManagement] New storage location added: S2
+[2025-11-12T23:14:55.080434] [INFO] [StorageManagement] New storage location added: S3
+[2025-11-12T23:14:55.081433600] [INFO] [StorageManagement] New storage location added: S4
+[2025-11-12T23:14:55.081433600] [INFO] [StorageManagement] New storage location added: S5
+[2025-11-12T23:14:55.082436500] [INFO] [StorageManagement] New storage location added: S6
+[2025-11-12T23:14:55.082436500] [INFO] [StorageManagement] New storage location added: S7
+[2025-11-12T23:14:55.082436500] [INFO] [StorageManagement] New storage location added: S8
+[2025-11-12T23:14:55.085436200] [INFO] [TaskManager] Task added to queue: T-1001
+[2025-11-12T23:14:55.085436200] [INFO] [TaskManager] Task added to queue: T-1002
+[2025-11-12T23:14:55.085436200] [INFO] [TaskManager] Task added to queue: T-1003
+[2025-11-12T23:14:55.086436] [INFO] [TaskManager] Task added to queue: T-1004
+[2025-11-12T23:14:55.086436] [INFO] [TaskManager] Task added to queue: T-1005
+[2025-11-12T23:14:55.087435700] [INFO] [TaskManager] Task added to queue: T-1006
+[2025-11-12T23:14:55.087435700] [INFO] [TaskManager] Task added to queue: T-1007
+[2025-11-12T23:14:55.087435700] [INFO] [TaskManager] Task added to queue: T-1008
+[2025-11-12T23:14:55.088435900] [INFO] [TaskManager] Task added to queue: T-1009
+[2025-11-12T23:14:55.088435900] [INFO] [TaskManager] Task added to queue: T-1010
+[2025-11-12T23:14:55.089435400] [INFO] [HMI] System is ready.
+[2025-11-12T23:14:55.089435400] [INFO] [HMI] System initialized successfully.
+[2025-11-12T23:14:59.389442300] [INFO] [HMI] Simulation started.
+[2025-11-12T23:14:59.389442300] [INFO] [HMI] Simulation started.
+[2025-11-12T23:14:59.391429400] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-12T23:14:59.391429400] [INFO] [TaskManager] Assigned task: Task ID: T-1001 ,MOVE, From: S1 To: S2, Status: IN_PROGRESS
+[2025-11-12T23:14:59.392432] [INFO] [HMI] Added 1 item to S1
+[2025-11-12T23:14:59.393433] [INFO] [StorageManagement] 1 items added to location S1
+[2025-11-12T23:14:59.393433] [INFO] [ChargingManager] AGV AGV-A1 added to queue.
+[2025-11-12T23:14:59.393433] [INFO] [TaskManager] Assigned task: Task ID: T-1002 ,LOAD, From: S2 To: S3, Status: IN_PROGRESS
+[2025-11-12T23:14:59.394432700] [INFO] [TaskManager] Assigned task: Task ID: T-1003 ,UNLOAD, From: S3 To: S1, Status: IN_PROGRESS
+[2025-11-12T23:14:59.395440100] [INFO] [HMI] AGV AGV-A1 sent to charging.
+[2025-11-12T23:14:59.395440100] [INFO] [TaskManager] Assigned task: Task ID: T-1004 ,CHARGE, From: ST-02 To: ST-03, Status: IN_PROGRESS
+[2025-11-12T23:14:59.395440100] [INFO] [ChargingManager] Assigning AGV AGV-A1 to ST-01
+[2025-11-12T23:14:59.396432200] [INFO] [TaskManager] Assigned task: Task ID: T-1005 ,MOVE, From: S5 To: S6, Status: IN_PROGRESS
+[2025-11-12T23:14:59.396432200] [INFO] [TaskManager] Assigned task: Task ID: T-1006 ,LOAD, From: S4 To: S7, Status: IN_PROGRESS
+[2025-11-12T23:14:59.397434400] [INFO] [TaskManager] Assigned task: Task ID: T-1007 ,UNLOAD, From: S8 To: S2, Status: IN_PROGRESS
+[2025-11-12T23:14:59.397434400] [INFO] [TaskManager] Assigned task: Task ID: T-1008 ,CHARGE, From: ST-04 To: ST-05, Status: IN_PROGRESS
+[2025-11-12T23:14:59.398430100] [INFO] [TaskManager] Assigned task: Task ID: T-1009 ,MOVE, From: S6 To: S1, Status: IN_PROGRESS
+[2025-11-12T23:14:59.398430100] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A1
+[2025-11-12T23:14:59.398430100] [INFO] [TaskManager] Assigned task: Task ID: T-1010 ,LOAD, From: S7 To: S8, Status: IN_PROGRESS
+[2025-11-12T23:14:59.398430100] [INFO] [HMI] TaskManager started processing queue.
+[2025-11-12T23:15:00.109032400] [INFO] [Station-ST-01] Finished chargingAGV-A1
+[2025-11-12T23:15:00.200407200] [INFO] [HMI] Removed 1 item from S1
+[2025-11-12T23:15:00.200407200] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:00.201394] [INFO] [HMI] Added 1 item to S2
+[2025-11-12T23:15:00.201394] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:00.201394] [INFO] [StorageManagement] 1 items added to location S2
+[2025-11-12T23:15:00.201394] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:00.202394700] [INFO] [StorageManagement] 1 items removed from location S1
+[2025-11-12T23:15:00.401511500] [INFO] [ChargingManager] AGV AGV-A2 added to queue.
+[2025-11-12T23:15:00.401511500] [INFO] [TaskManager] Completed task: T-1003
+[2025-11-12T23:15:00.401511500] [INFO] [TaskManager] Completed task: T-1002
+[2025-11-12T23:15:00.401511500] [INFO] [TaskManager] Completed task: T-1001
+[2025-11-12T23:15:00.404278900] [INFO] [HMI] AGV AGV-A2 sent to charging.
+[2025-11-12T23:15:00.404278900] [INFO] [ChargingManager] Assigning AGV AGV-A2 to ST-01
+[2025-11-12T23:15:00.405276700] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A2
+[2025-11-12T23:15:01.011229200] [INFO] [HMI] Removed 1 item from S2
+[2025-11-12T23:15:01.011229200] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:01.011999300] [INFO] [HMI] Added 1 item to S3
+[2025-11-12T23:15:01.011999300] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:01.011999300] [INFO] [StorageManagement] 1 items added to location S3
+[2025-11-12T23:15:01.013985200] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:01.015000700] [INFO] [StorageManagement] 1 items removed from location S2
+[2025-11-12T23:15:01.405879400] [INFO] [ChargingManager] AGV AGV-B1 added to queue.
+[2025-11-12T23:15:01.405879400] [INFO] [TaskManager] Completed task: T-1006
+[2025-11-12T23:15:01.405879400] [INFO] [TaskManager] Completed task: T-1004
+[2025-11-12T23:15:01.405879400] [INFO] [TaskManager] Completed task: T-1005
+[2025-11-12T23:15:01.409186300] [INFO] [HMI] AGV AGV-B1 sent to charging.
+[2025-11-12T23:15:01.409186300] [INFO] [ChargingManager] Assigning AGV AGV-B1 to ST-01
+[2025-11-12T23:15:01.409186300] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B1
+[2025-11-12T23:15:01.694026600] [INFO] [Station-ST-01] Finished chargingAGV-A2
+[2025-11-12T23:15:01.814724] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:01.814724] [INFO] [HMI] Removed 1 item from S3
+[2025-11-12T23:15:01.815515600] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:01.815515600] [INFO] [HMI] Added 1 item to S4
+[2025-11-12T23:15:01.815515600] [INFO] [StorageManagement] 1 items added to location S4
+[2025-11-12T23:15:01.816518400] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:01.817517900] [INFO] [StorageManagement] 1 items removed from location S3
+[2025-11-12T23:15:02.221794800] [INFO] [Station-ST-01] Finished chargingAGV-B1
+[2025-11-12T23:15:02.410220200] [INFO] [TaskManager] Completed task: T-1008
+[2025-11-12T23:15:02.410220200] [INFO] [TaskManager] Completed task: T-1009
+[2025-11-12T23:15:02.411117700] [INFO] [ChargingManager] AGV AGV-B2 added to queue.
+[2025-11-12T23:15:02.410220200] [INFO] [TaskManager] Completed task: T-1007
+[2025-11-12T23:15:02.412199400] [INFO] [HMI] AGV AGV-B2 sent to charging.
+[2025-11-12T23:15:02.412199400] [INFO] [ChargingManager] Assigning AGV AGV-B2 to ST-01
+[2025-11-12T23:15:02.413210700] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B2
+[2025-11-12T23:15:02.618037] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:02.618037] [INFO] [HMI] Removed 1 item from S4
+[2025-11-12T23:15:02.619043900] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:02.619043900] [INFO] [HMI] Added 1 item to S5
+[2025-11-12T23:15:02.619043900] [INFO] [StorageManagement] 1 items added to location S5
+[2025-11-12T23:15:02.619043900] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:02.620038100] [INFO] [StorageManagement] 1 items removed from location S4
+[2025-11-12T23:15:03.108914400] [INFO] [Station-ST-01] Finished chargingAGV-B2
+[2025-11-12T23:15:03.421527900] [INFO] [HMI] Removed 1 item from S5
+[2025-11-12T23:15:03.421527900] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:03.422537700] [INFO] [StorageManagement] 1 items added to location S6
+[2025-11-12T23:15:03.422537700] [INFO] [HMI] Added 1 item to S6
+[2025-11-12T23:15:03.422537700] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:03.424545900] [INFO] [TaskManager] Completed task: T-1010
+[2025-11-12T23:15:03.424545900] [INFO] [ChargingManager] AGV AGV-C1 added to queue.
+[2025-11-12T23:15:03.424545900] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:03.424545900] [INFO] [HMI] AGV AGV-C1 sent to charging.
+[2025-11-12T23:15:03.424545900] [INFO] [StorageManagement] 1 items removed from location S5
+[2025-11-12T23:15:03.424545900] [INFO] [ChargingManager] Assigning AGV AGV-C1 to ST-01
+[2025-11-12T23:15:03.426536700] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C1
+[2025-11-12T23:15:04.228120] [INFO] [HMI] Removed 1 item from S6
+[2025-11-12T23:15:04.228120] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:04.235015100] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:04.235015100] [INFO] [StorageManagement] 1 items added to location S7
+[2025-11-12T23:15:04.235015100] [INFO] [HMI] Added 1 item to S7
+[2025-11-12T23:15:04.235015100] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:04.236020600] [INFO] [StorageManagement] 1 items removed from location S6
+[2025-11-12T23:15:04.371416600] [INFO] [Station-ST-01] Finished chargingAGV-C1
+[2025-11-12T23:15:04.432492300] [INFO] [ChargingManager] AGV AGV-C2 added to queue.
+[2025-11-12T23:15:04.433415800] [INFO] [ChargingManager] Assigning AGV AGV-C2 to ST-01
+[2025-11-12T23:15:04.433415800] [INFO] [HMI] AGV AGV-C2 sent to charging.
+[2025-11-12T23:15:04.434409900] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C2
+[2025-11-12T23:15:05.036183600] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:05.036183600] [INFO] [HMI] Removed 1 item from S7
+[2025-11-12T23:15:05.036183600] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:05.036183600] [INFO] [HMI] Added 1 item to S8
+[2025-11-12T23:15:05.036183600] [INFO] [StorageManagement] 1 items added to location S8
+[2025-11-12T23:15:05.037194] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:05.037194] [INFO] [StorageManagement] 1 items removed from location S7
+[2025-11-12T23:15:05.390038] [INFO] [Station-ST-01] Finished chargingAGV-C2
+[2025-11-12T23:15:05.447786300] [INFO] [ChargingManager] AGV AGV-D1 added to queue.
+[2025-11-12T23:15:05.448553] [INFO] [HMI] AGV AGV-D1 sent to charging.
+[2025-11-12T23:15:05.448553] [INFO] [ChargingManager] Assigning AGV AGV-D1 to ST-01
+[2025-11-12T23:15:05.449552700] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D1
+[2025-11-12T23:15:05.837572800] [INFO] [HMI] Removed 1 item from S8
+[2025-11-12T23:15:05.837572800] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:05.838623400] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:05.838623400] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:05.838623400] [INFO] [StorageManagement] 1 items removed from location S8
+[2025-11-12T23:15:06.275183100] [INFO] [Station-ST-01] Finished chargingAGV-D1
+[2025-11-12T23:15:06.452979700] [INFO] [ChargingManager] AGV AGV-D2 added to queue.
+[2025-11-12T23:15:06.454008700] [INFO] [ChargingManager] Assigning AGV AGV-D2 to ST-01
+[2025-11-12T23:15:06.454008700] [INFO] [HMI] AGV AGV-D2 sent to charging.
+[2025-11-12T23:15:06.454008700] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D2
+[2025-11-12T23:15:07.338983100] [INFO] [StorageManagement] 1 items added to location S1
+[2025-11-12T23:15:07.338983100] [INFO] [HMI] Added 1 item to S1
+[2025-11-12T23:15:07.402814600] [INFO] [Station-ST-01] Finished chargingAGV-D2
+[2025-11-12T23:15:07.459334300] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-12T23:15:07.460213] [INFO] [ChargingManager] AGV AGV-A1 added to queue.
+[2025-11-12T23:15:07.461207600] [INFO] [HMI] AGV AGV-A1 sent to charging.
+[2025-11-12T23:15:07.461207600] [INFO] [ChargingManager] Assigning AGV AGV-A1 to ST-01
+[2025-11-12T23:15:07.461207600] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A1
+[2025-11-12T23:15:08.142617] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:08.142617] [INFO] [HMI] Removed 1 item from S1
+[2025-11-12T23:15:08.143410900] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:08.143410900] [INFO] [HMI] Added 1 item to S2
+[2025-11-12T23:15:08.143410900] [INFO] [StorageManagement] 1 items added to location S2
+[2025-11-12T23:15:08.144402800] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:08.144402800] [INFO] [StorageManagement] 1 items removed from location S1
+[2025-11-12T23:15:08.476162900] [INFO] [ChargingManager] AGV AGV-A2 added to queue.
+[2025-11-12T23:15:08.476958100] [INFO] [ChargingManager] Assigning AGV AGV-A2 to ST-01
+[2025-11-12T23:15:08.476958100] [INFO] [HMI] AGV AGV-A2 sent to charging.
+[2025-11-12T23:15:08.477967300] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A2
+[2025-11-12T23:15:08.805296300] [INFO] [Station-ST-01] Finished chargingAGV-A1
+[2025-11-12T23:15:08.945316200] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:08.945316200] [INFO] [HMI] Removed 1 item from S2
+[2025-11-12T23:15:08.946056300] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:08.946056300] [INFO] [HMI] Added 1 item to S3
+[2025-11-12T23:15:08.946056300] [INFO] [StorageManagement] 1 items added to location S3
+[2025-11-12T23:15:08.947063600] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:08.947063600] [INFO] [StorageManagement] 1 items removed from location S2
+[2025-11-12T23:15:09.209538500] [INFO] [Station-ST-01] Finished chargingAGV-A2
+[2025-11-12T23:15:09.479666] [INFO] [ChargingManager] AGV AGV-B1 added to queue.
+[2025-11-12T23:15:09.479666] [INFO] [HMI] AGV AGV-B1 sent to charging.
+[2025-11-12T23:15:09.479666] [INFO] [ChargingManager] Assigning AGV AGV-B1 to ST-01
+[2025-11-12T23:15:09.480455] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B1
+[2025-11-12T23:15:09.748136900] [INFO] [HMI] Removed 1 item from S3
+[2025-11-12T23:15:09.748136900] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:09.749011200] [INFO] [HMI] Added 1 item to S4
+[2025-11-12T23:15:09.749011200] [INFO] [StorageManagement] 1 items added to location S4
+[2025-11-12T23:15:09.749011200] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:09.751010300] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:09.751010300] [INFO] [StorageManagement] 1 items removed from location S3
+[2025-11-12T23:15:10.075746] [INFO] [Station-ST-01] Finished chargingAGV-B1
+[2025-11-12T23:15:10.484460800] [INFO] [ChargingManager] AGV AGV-B2 added to queue.
+[2025-11-12T23:15:10.485282300] [INFO] [HMI] AGV AGV-B2 sent to charging.
+[2025-11-12T23:15:10.485282300] [INFO] [ChargingManager] Assigning AGV AGV-B2 to ST-01
+[2025-11-12T23:15:10.486282400] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B2
+[2025-11-12T23:15:10.551616700] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:10.551616700] [INFO] [HMI] Removed 1 item from S4
+[2025-11-12T23:15:10.552481] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:10.552481] [INFO] [HMI] Added 1 item to S5
+[2025-11-12T23:15:10.552481] [INFO] [StorageManagement] 1 items added to location S5
+[2025-11-12T23:15:10.554297200] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:10.554297200] [INFO] [StorageManagement] 1 items removed from location S4
+[2025-11-12T23:15:11.355815300] [INFO] [HMI] Removed 1 item from S5
+[2025-11-12T23:15:11.355815300] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:11.356631600] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:11.356631600] [INFO] [StorageManagement] 1 items added to location S6
+[2025-11-12T23:15:11.356631600] [INFO] [HMI] Added 1 item to S6
+[2025-11-12T23:15:11.358641700] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:11.359651300] [INFO] [StorageManagement] 1 items removed from location S5
+[2025-11-12T23:15:11.496532400] [INFO] [ChargingManager] AGV AGV-C1 added to queue.
+[2025-11-12T23:15:11.497516900] [INFO] [HMI] AGV AGV-C1 sent to charging.
+[2025-11-12T23:15:11.497516900] [INFO] [ChargingManager] Assigning AGV AGV-C1 to ST-01
+[2025-11-12T23:15:11.497516900] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C1
+[2025-11-12T23:15:11.739306900] [INFO] [Station-ST-01] Finished chargingAGV-B2
+[2025-11-12T23:15:12.160415400] [INFO] [HMI] Removed 1 item from S6
+[2025-11-12T23:15:12.160415400] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:12.160415400] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:12.160415400] [INFO] [StorageManagement] 1 items added to location S7
+[2025-11-12T23:15:12.160415400] [INFO] [HMI] Added 1 item to S7
+[2025-11-12T23:15:12.161417600] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:12.161417600] [INFO] [StorageManagement] 1 items removed from location S6
+[2025-11-12T23:15:12.498337800] [INFO] [ChargingManager] AGV AGV-C2 added to queue.
+[2025-11-12T23:15:12.498337800] [INFO] [ChargingManager] Assigning AGV AGV-C2 to ST-01
+[2025-11-12T23:15:12.498337800] [INFO] [HMI] AGV AGV-C2 sent to charging.
+[2025-11-12T23:15:12.499337200] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C2
+[2025-11-12T23:15:12.835649800] [INFO] [Station-ST-01] Finished chargingAGV-C1
+[2025-11-12T23:15:12.963617500] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:12.963617500] [INFO] [HMI] Removed 1 item from S7
+[2025-11-12T23:15:12.963617500] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:12.963617500] [INFO] [HMI] Added 1 item to S8
+[2025-11-12T23:15:12.964615900] [INFO] [StorageManagement] 1 items added to location S8
+[2025-11-12T23:15:12.964615900] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:12.964615900] [INFO] [StorageManagement] 1 items removed from location S7
+[2025-11-12T23:15:13.499613800] [INFO] [ChargingManager] AGV AGV-D1 added to queue.
+[2025-11-12T23:15:13.499613800] [INFO] [HMI] AGV AGV-D1 sent to charging.
+[2025-11-12T23:15:13.499613800] [INFO] [ChargingManager] Assigning AGV AGV-D1 to ST-01
+[2025-11-12T23:15:13.500615100] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D1
+[2025-11-12T23:15:13.597614700] [INFO] [Station-ST-01] Finished chargingAGV-C2
+[2025-11-12T23:15:13.766617400] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:13.766617400] [INFO] [HMI] Removed 1 item from S8
+[2025-11-12T23:15:13.766617400] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:13.767619200] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:13.767619200] [INFO] [StorageManagement] 1 items removed from location S8
+[2025-11-12T23:15:14.225720300] [INFO] [Station-ST-01] Finished chargingAGV-D1
+[2025-11-12T23:15:14.502122] [INFO] [ChargingManager] AGV AGV-D2 added to queue.
+[2025-11-12T23:15:14.502122] [INFO] [ChargingManager] Assigning AGV AGV-D2 to ST-01
+[2025-11-12T23:15:14.502122] [INFO] [HMI] AGV AGV-D2 sent to charging.
+[2025-11-12T23:15:14.503133600] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D2
+[2025-11-12T23:15:15.267422500] [INFO] [StorageManagement] 1 items added to location S1
+[2025-11-12T23:15:15.267422500] [INFO] [HMI] Added 1 item to S1
+[2025-11-12T23:15:15.504655200] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-12T23:15:15.505638900] [INFO] [ChargingManager] AGV AGV-A1 added to queue.
+[2025-11-12T23:15:15.505638900] [INFO] [HMI] AGV AGV-A1 sent to charging.
+[2025-11-12T23:15:15.505638900] [INFO] [ChargingManager] Assigning AGV AGV-A1 to ST-01
+[2025-11-12T23:15:15.506642600] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A1
+[2025-11-12T23:15:15.835843300] [INFO] [Station-ST-01] Finished chargingAGV-D2
+[2025-11-12T23:15:16.070823900] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:16.070823900] [INFO] [HMI] Removed 1 item from S1
+[2025-11-12T23:15:16.071836] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:16.071836] [INFO] [HMI] Added 1 item to S2
+[2025-11-12T23:15:16.071836] [INFO] [StorageManagement] 1 items added to location S2
+[2025-11-12T23:15:16.071836] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:16.073831100] [INFO] [StorageManagement] 1 items removed from location S1
+[2025-11-12T23:15:16.510130] [INFO] [ChargingManager] AGV AGV-A2 added to queue.
+[2025-11-12T23:15:16.511114900] [INFO] [ChargingManager] Assigning AGV AGV-A2 to ST-01
+[2025-11-12T23:15:16.511114900] [INFO] [HMI] AGV AGV-A2 sent to charging.
+[2025-11-12T23:15:16.511114900] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A2
+[2025-11-12T23:15:16.780988600] [INFO] [Station-ST-01] Finished chargingAGV-A1
+[2025-11-12T23:15:16.873768400] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:16.873768400] [INFO] [HMI] Removed 1 item from S2
+[2025-11-12T23:15:16.874396100] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:16.874396100] [INFO] [HMI] Added 1 item to S3
+[2025-11-12T23:15:16.874396100] [INFO] [StorageManagement] 1 items added to location S3
+[2025-11-12T23:15:16.876390500] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:16.876390500] [INFO] [StorageManagement] 1 items removed from location S2
+[2025-11-12T23:15:17.065361] [INFO] [Station-ST-01] Finished chargingAGV-A2
+[2025-11-12T23:15:17.511975100] [INFO] [ChargingManager] AGV AGV-B1 added to queue.
+[2025-11-12T23:15:17.511975100] [INFO] [HMI] AGV AGV-B1 sent to charging.
+[2025-11-12T23:15:17.511975100] [INFO] [ChargingManager] Assigning AGV AGV-B1 to ST-01
+[2025-11-12T23:15:17.512956300] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B1
+[2025-11-12T23:15:17.677629800] [INFO] [HMI] Removed 1 item from S3
+[2025-11-12T23:15:17.677629800] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:17.678397500] [INFO] [HMI] Added 1 item to S4
+[2025-11-12T23:15:17.678397500] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:17.678397500] [INFO] [StorageManagement] 1 items added to location S4
+[2025-11-12T23:15:17.680412500] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:17.680412500] [INFO] [StorageManagement] 1 items removed from location S3
+[2025-11-12T23:15:18.480758300] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:18.480758300] [INFO] [HMI] Removed 1 item from S4
+[2025-11-12T23:15:18.481775400] [INFO] [HMI] Added 1 item to S5
+[2025-11-12T23:15:18.481775400] [INFO] [StorageManagement] 1 items added to location S5
+[2025-11-12T23:15:18.481775400] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:18.484549300] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:18.484549300] [INFO] [StorageManagement] 1 items removed from location S4
+[2025-11-12T23:15:18.513193700] [INFO] [ChargingManager] AGV AGV-B2 added to queue.
+[2025-11-12T23:15:18.513193700] [INFO] [HMI] AGV AGV-B2 sent to charging.
+[2025-11-12T23:15:18.514201500] [INFO] [ChargingManager] Assigning AGV AGV-B2 to ST-01
+[2025-11-12T23:15:18.515201100] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B2
+[2025-11-12T23:15:19.011337700] [INFO] [Station-ST-01] Finished chargingAGV-B1
+[2025-11-12T23:15:19.285095900] [INFO] [HMI] Removed 1 item from S5
+[2025-11-12T23:15:19.285095900] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:19.286849900] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:19.286849900] [INFO] [StorageManagement] 1 items added to location S6
+[2025-11-12T23:15:19.286849900] [INFO] [HMI] Added 1 item to S6
+[2025-11-12T23:15:19.287847400] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:19.288848400] [INFO] [StorageManagement] 1 items removed from location S5
+[2025-11-12T23:15:19.392847100] [INFO] [Station-ST-01] Finished chargingAGV-B2
+[2025-11-12T23:15:19.515049500] [INFO] [ChargingManager] AGV AGV-C1 added to queue.
+[2025-11-12T23:15:19.515049500] [INFO] [HMI] AGV AGV-C1 sent to charging.
+[2025-11-12T23:15:19.515049500] [INFO] [ChargingManager] Assigning AGV AGV-C1 to ST-01
+[2025-11-12T23:15:19.516847400] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C1
+[2025-11-12T23:15:20.089440900] [INFO] [HMI] Removed 1 item from S6
+[2025-11-12T23:15:20.089440900] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:20.090456500] [INFO] [HMI] Added 1 item to S7
+[2025-11-12T23:15:20.090456500] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:20.090456500] [INFO] [StorageManagement] 1 items added to location S7
+[2025-11-12T23:15:20.092448100] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:20.092448100] [INFO] [StorageManagement] 1 items removed from location S6
+[2025-11-12T23:15:20.366306200] [INFO] [Station-ST-01] Finished chargingAGV-C1
+[2025-11-12T23:15:20.521822500] [INFO] [ChargingManager] AGV AGV-C2 added to queue.
+[2025-11-12T23:15:20.521822500] [INFO] [HMI] AGV AGV-C2 sent to charging.
+[2025-11-12T23:15:20.521822500] [INFO] [ChargingManager] Assigning AGV AGV-C2 to ST-01
+[2025-11-12T23:15:20.522649400] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C2
+[2025-11-12T23:15:20.892065300] [INFO] [HMI] Removed 1 item from S7
+[2025-11-12T23:15:20.892065300] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:20.893101100] [INFO] [HMI] Added 1 item to S8
+[2025-11-12T23:15:20.893101100] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:20.893101100] [INFO] [StorageManagement] 1 items added to location S8
+[2025-11-12T23:15:20.895097600] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:20.895097600] [INFO] [StorageManagement] 1 items removed from location S7
+[2025-11-12T23:15:21.339000100] [INFO] [Station-ST-01] Finished chargingAGV-C2
+[2025-11-12T23:15:21.524581200] [INFO] [ChargingManager] AGV AGV-D1 added to queue.
+[2025-11-12T23:15:21.524581200] [INFO] [ChargingManager] Assigning AGV AGV-D1 to ST-01
+[2025-11-12T23:15:21.524581200] [INFO] [HMI] AGV AGV-D1 sent to charging.
+[2025-11-12T23:15:21.525589900] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D1
+[2025-11-12T23:15:21.696291800] [INFO] [HMI] Removed 1 item from S8
+[2025-11-12T23:15:21.696291800] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:21.697069300] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:21.697069300] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:21.698066600] [INFO] [StorageManagement] 1 items removed from location S8
+[2025-11-12T23:15:22.536126600] [INFO] [ChargingManager] AGV AGV-D2 added to queue.
+[2025-11-12T23:15:22.536126600] [INFO] [ChargingManager] Assigning AGV AGV-D2 to ST-01
+[2025-11-12T23:15:22.536126600] [INFO] [HMI] AGV AGV-D2 sent to charging.
+[2025-11-12T23:15:22.537109900] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D2
+[2025-11-12T23:15:22.623386900] [INFO] [Station-ST-01] Finished chargingAGV-D1
+[2025-11-12T23:15:23.197985500] [INFO] [StorageManagement] 1 items added to location S1
+[2025-11-12T23:15:23.197985500] [INFO] [HMI] Added 1 item to S1
+[2025-11-12T23:15:23.537653200] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-12T23:15:23.538661800] [INFO] [ChargingManager] AGV AGV-A1 added to queue.
+[2025-11-12T23:15:23.538661800] [INFO] [HMI] AGV AGV-A1 sent to charging.
+[2025-11-12T23:15:23.538661800] [INFO] [ChargingManager] Assigning AGV AGV-A1 to ST-01
+[2025-11-12T23:15:23.539661] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A1
+[2025-11-12T23:15:23.539661] [ERROR] [Station-ST-01] Charging error: MALFUNCTION
+[2025-11-12T23:15:23.767530800] [INFO] [Station-ST-01] Finished chargingAGV-D2
+[2025-11-12T23:15:24.000638900] [INFO] [HMI] Removed 1 item from S1
+[2025-11-12T23:15:24.000638900] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:24.001306800] [INFO] [StorageManagement] 1 items added to location S2
+[2025-11-12T23:15:24.001306800] [INFO] [HMI] Added 1 item to S2
+[2025-11-12T23:15:24.001306800] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:24.003304400] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:24.003304400] [INFO] [StorageManagement] 1 items removed from location S1
+[2025-11-12T23:15:24.540132400] [INFO] [ChargingManager] AGV AGV-A2 added to queue.
+[2025-11-12T23:15:24.540926300] [INFO] [ChargingManager] Assigning AGV AGV-A2 to ST-01
+[2025-11-12T23:15:24.540926300] [INFO] [HMI] AGV AGV-A2 sent to charging.
+[2025-11-12T23:15:24.541908400] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A2
+[2025-11-12T23:15:24.818026500] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:24.818026500] [INFO] [HMI] Removed 1 item from S2
+[2025-11-12T23:15:24.819072400] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:24.819072400] [INFO] [HMI] Added 1 item to S3
+[2025-11-12T23:15:24.819072400] [INFO] [StorageManagement] 1 items added to location S3
+[2025-11-12T23:15:24.819072400] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:24.820031500] [INFO] [StorageManagement] 1 items removed from location S2
+[2025-11-12T23:15:25.361458600] [INFO] [Station-ST-01] Finished chargingAGV-A2
+[2025-11-12T23:15:25.542734200] [INFO] [ChargingManager] AGV AGV-B1 added to queue.
+[2025-11-12T23:15:25.542734200] [INFO] [HMI] AGV AGV-B1 sent to charging.
+[2025-11-12T23:15:25.542734200] [INFO] [ChargingManager] Assigning AGV AGV-B1 to ST-01
+[2025-11-12T23:15:25.543751] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B1
+[2025-11-12T23:15:25.621183] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:25.621183] [INFO] [HMI] Removed 1 item from S3
+[2025-11-12T23:15:25.622023500] [INFO] [HMI] Added 1 item to S4
+[2025-11-12T23:15:25.622023500] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:25.622023500] [INFO] [StorageManagement] 1 items added to location S4
+[2025-11-12T23:15:25.624020900] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:25.624020900] [INFO] [StorageManagement] 1 items removed from location S3
+[2025-11-12T23:15:26.424301200] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:26.424301200] [INFO] [HMI] Removed 1 item from S4
+[2025-11-12T23:15:26.425311900] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:26.425311900] [INFO] [HMI] Added 1 item to S5
+[2025-11-12T23:15:26.425311900] [INFO] [StorageManagement] 1 items added to location S5
+[2025-11-12T23:15:26.425311900] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:26.426308800] [INFO] [StorageManagement] 1 items removed from location S4
+[2025-11-12T23:15:26.550416200] [INFO] [ChargingManager] AGV AGV-B2 added to queue.
+[2025-11-12T23:15:26.551133900] [INFO] [HMI] AGV AGV-B2 sent to charging.
+[2025-11-12T23:15:26.551133900] [INFO] [ChargingManager] Assigning AGV AGV-B2 to ST-01
+[2025-11-12T23:15:26.552134700] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B2
+[2025-11-12T23:15:26.660768700] [INFO] [Station-ST-01] Finished chargingAGV-B1
+[2025-11-12T23:15:27.227009] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:27.227009] [INFO] [HMI] Removed 1 item from S5
+[2025-11-12T23:15:27.228025100] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:27.228025100] [INFO] [HMI] Added 1 item to S6
+[2025-11-12T23:15:27.228025100] [INFO] [StorageManagement] 1 items added to location S6
+[2025-11-12T23:15:27.229017300] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:27.229017300] [INFO] [StorageManagement] 1 items removed from location S5
+[2025-11-12T23:15:27.553847200] [INFO] [ChargingManager] AGV AGV-C1 added to queue.
+[2025-11-12T23:15:27.553847200] [INFO] [HMI] AGV AGV-C1 sent to charging.
+[2025-11-12T23:15:27.553847200] [INFO] [ChargingManager] Assigning AGV AGV-C1 to ST-01
+[2025-11-12T23:15:27.554943200] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C1
+[2025-11-12T23:15:27.801490900] [INFO] [Station-ST-01] Finished chargingAGV-B2
+[2025-11-12T23:15:28.030522500] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:28.030522500] [INFO] [HMI] Removed 1 item from S6
+[2025-11-12T23:15:28.031310900] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:28.031310900] [INFO] [StorageManagement] 1 items added to location S7
+[2025-11-12T23:15:28.031310900] [INFO] [HMI] Added 1 item to S7
+[2025-11-12T23:15:28.033309] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:28.033309] [INFO] [StorageManagement] 1 items removed from location S6
+[2025-11-12T23:15:28.506423700] [INFO] [Station-ST-01] Finished chargingAGV-C1
+[2025-11-12T23:15:28.555337800] [INFO] [ChargingManager] AGV AGV-C2 added to queue.
+[2025-11-12T23:15:28.555337800] [INFO] [ChargingManager] Assigning AGV AGV-C2 to ST-01
+[2025-11-12T23:15:28.555337800] [INFO] [HMI] AGV AGV-C2 sent to charging.
+[2025-11-12T23:15:28.556155600] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C2
+[2025-11-12T23:15:28.844624900] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:28.844624900] [INFO] [HMI] Removed 1 item from S7
+[2025-11-12T23:15:28.845633600] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:28.845633600] [INFO] [HMI] Added 1 item to S8
+[2025-11-12T23:15:28.845633600] [INFO] [StorageManagement] 1 items added to location S8
+[2025-11-12T23:15:28.845633600] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:28.847638800] [INFO] [StorageManagement] 1 items removed from location S7
+[2025-11-12T23:15:29.569823] [INFO] [ChargingManager] AGV AGV-D1 added to queue.
+[2025-11-12T23:15:29.570829200] [INFO] [HMI] AGV AGV-D1 sent to charging.
+[2025-11-12T23:15:29.570829200] [INFO] [ChargingManager] Assigning AGV AGV-D1 to ST-01
+[2025-11-12T23:15:29.570829200] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D1
+[2025-11-12T23:15:29.647593900] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:29.647593900] [INFO] [HMI] Removed 1 item from S8
+[2025-11-12T23:15:29.647593900] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:29.647593900] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:29.648577700] [INFO] [StorageManagement] 1 items removed from location S8
+[2025-11-12T23:15:29.761761400] [INFO] [Station-ST-01] Finished chargingAGV-C2
+[2025-11-12T23:15:30.572242600] [INFO] [ChargingManager] AGV AGV-D2 added to queue.
+[2025-11-12T23:15:30.572242600] [INFO] [HMI] AGV AGV-D2 sent to charging.
+[2025-11-12T23:15:30.572242600] [INFO] [ChargingManager] Assigning AGV AGV-D2 to ST-01
+[2025-11-12T23:15:30.574039600] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D2
+[2025-11-12T23:15:30.714181800] [INFO] [Station-ST-01] Finished chargingAGV-D1
+[2025-11-12T23:15:31.113181300] [INFO] [Station-ST-01] Finished chargingAGV-D2
+[2025-11-12T23:15:31.149258600] [INFO] [HMI] Added 1 item to S1
+[2025-11-12T23:15:31.149258600] [INFO] [StorageManagement] 1 items added to location S1
+[2025-11-12T23:15:31.574142200] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-12T23:15:31.574951200] [INFO] [ChargingManager] AGV AGV-A1 added to queue.
+[2025-11-12T23:15:31.574951200] [INFO] [HMI] AGV AGV-A1 sent to charging.
+[2025-11-12T23:15:31.574951200] [INFO] [ChargingManager] Assigning AGV AGV-A1 to ST-01
+[2025-11-12T23:15:31.575944800] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A1
+[2025-11-12T23:15:31.956425] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:31.956425] [INFO] [HMI] Removed 1 item from S1
+[2025-11-12T23:15:31.957431400] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:31.957431400] [INFO] [HMI] Added 1 item to S2
+[2025-11-12T23:15:31.957431400] [INFO] [StorageManagement] 1 items added to location S2
+[2025-11-12T23:15:31.957431400] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:31.959449600] [INFO] [StorageManagement] 1 items removed from location S1
+[2025-11-12T23:15:32.582537100] [INFO] [ChargingManager] AGV AGV-A2 added to queue.
+[2025-11-12T23:15:32.582537100] [INFO] [ChargingManager] Assigning AGV AGV-A2 to ST-01
+[2025-11-12T23:15:32.582537100] [INFO] [HMI] AGV AGV-A2 sent to charging.
+[2025-11-12T23:15:32.584548400] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A2
+[2025-11-12T23:15:32.760008800] [INFO] [HMI] Removed 1 item from S2
+[2025-11-12T23:15:32.760008800] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:32.760008800] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:32.760008800] [INFO] [HMI] Added 1 item to S3
+[2025-11-12T23:15:32.760008800] [INFO] [StorageManagement] 1 items added to location S3
+[2025-11-12T23:15:32.761872100] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:32.761872100] [INFO] [StorageManagement] 1 items removed from location S2
+[2025-11-12T23:15:32.863147900] [INFO] [Station-ST-01] Finished chargingAGV-A1
+[2025-11-12T23:15:33.563366500] [INFO] [HMI] Removed 1 item from S3
+[2025-11-12T23:15:33.563366500] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:33.564375300] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:33.564375300] [INFO] [HMI] Added 1 item to S4
+[2025-11-12T23:15:33.564375300] [INFO] [StorageManagement] 1 items added to location S4
+[2025-11-12T23:15:33.566377800] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:33.567383] [INFO] [StorageManagement] 1 items removed from location S3
+[2025-11-12T23:15:33.585377300] [INFO] [ChargingManager] AGV AGV-B1 added to queue.
+[2025-11-12T23:15:33.585377300] [INFO] [HMI] AGV AGV-B1 sent to charging.
+[2025-11-12T23:15:33.585377300] [INFO] [ChargingManager] Assigning AGV AGV-B1 to ST-01
+[2025-11-12T23:15:33.586374500] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B1
+[2025-11-12T23:15:33.630538300] [INFO] [Station-ST-01] Finished chargingAGV-A2
+[2025-11-12T23:15:34.368076600] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:34.368076600] [INFO] [HMI] Removed 1 item from S4
+[2025-11-12T23:15:34.369086300] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:34.369086300] [INFO] [HMI] Added 1 item to S5
+[2025-11-12T23:15:34.369086300] [INFO] [StorageManagement] 1 items added to location S5
+[2025-11-12T23:15:34.370104600] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:34.371087] [INFO] [StorageManagement] 1 items removed from location S4
+[2025-11-12T23:15:34.586810] [INFO] [ChargingManager] AGV AGV-B2 added to queue.
+[2025-11-12T23:15:34.586810] [INFO] [ChargingManager] Assigning AGV AGV-B2 to ST-01
+[2025-11-12T23:15:34.586810] [INFO] [HMI] AGV AGV-B2 sent to charging.
+[2025-11-12T23:15:34.588815600] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B2
+[2025-11-12T23:15:34.658940600] [INFO] [Station-ST-01] Finished chargingAGV-B1
+[2025-11-12T23:15:35.172559800] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:35.172559800] [INFO] [HMI] Removed 1 item from S5
+[2025-11-12T23:15:35.173324900] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:35.173324900] [INFO] [HMI] Added 1 item to S6
+[2025-11-12T23:15:35.173324900] [INFO] [StorageManagement] 1 items added to location S6
+[2025-11-12T23:15:35.173324900] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:35.174322100] [INFO] [StorageManagement] 1 items removed from location S5
+[2025-11-12T23:15:35.495165100] [INFO] [Station-ST-01] Finished chargingAGV-B2
+[2025-11-12T23:15:35.589328200] [INFO] [ChargingManager] AGV AGV-C1 added to queue.
+[2025-11-12T23:15:35.589328200] [INFO] [HMI] AGV AGV-C1 sent to charging.
+[2025-11-12T23:15:35.589328200] [INFO] [ChargingManager] Assigning AGV AGV-C1 to ST-01
+[2025-11-12T23:15:35.590338500] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C1
+[2025-11-12T23:15:35.975039400] [INFO] [HMI] Removed 1 item from S6
+[2025-11-12T23:15:35.975039400] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:35.976048300] [INFO] [HMI] Added 1 item to S7
+[2025-11-12T23:15:35.976048300] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:35.976048300] [INFO] [StorageManagement] 1 items added to location S7
+[2025-11-12T23:15:35.978058400] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:35.978058400] [INFO] [StorageManagement] 1 items removed from location S6
+[2025-11-12T23:15:36.599659600] [INFO] [ChargingManager] AGV AGV-C2 added to queue.
+[2025-11-12T23:15:36.600666500] [INFO] [ChargingManager] Assigning AGV AGV-C2 to ST-01
+[2025-11-12T23:15:36.599659600] [INFO] [HMI] AGV AGV-C2 sent to charging.
+[2025-11-12T23:15:36.601665] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C2
+[2025-11-12T23:15:36.616743700] [INFO] [Station-ST-01] Finished chargingAGV-C1
+[2025-11-12T23:15:36.779190100] [INFO] [HMI] Removed 1 item from S7
+[2025-11-12T23:15:36.779190100] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:36.779190100] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:36.779190100] [INFO] [HMI] Added 1 item to S8
+[2025-11-12T23:15:36.779190100] [INFO] [StorageManagement] 1 items added to location S8
+[2025-11-12T23:15:36.781216300] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:36.781216300] [INFO] [StorageManagement] 1 items removed from location S7
+[2025-11-12T23:15:37.582270] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:37.582270] [INFO] [HMI] Removed 1 item from S8
+[2025-11-12T23:15:37.582270] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:37.582270] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:37.582270] [INFO] [StorageManagement] 1 items removed from location S8
+[2025-11-12T23:15:37.602770800] [INFO] [ChargingManager] AGV AGV-D1 added to queue.
+[2025-11-12T23:15:37.602770800] [INFO] [HMI] AGV AGV-D1 sent to charging.
+[2025-11-12T23:15:37.602770800] [INFO] [ChargingManager] Assigning AGV AGV-D1 to ST-01
+[2025-11-12T23:15:37.604473100] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D1
+[2025-11-12T23:15:37.801090300] [INFO] [Station-ST-01] Finished chargingAGV-C2
+[2025-11-12T23:15:38.604861300] [INFO] [ChargingManager] AGV AGV-D2 added to queue.
+[2025-11-12T23:15:38.604861300] [INFO] [ChargingManager] Assigning AGV AGV-D2 to ST-01
+[2025-11-12T23:15:38.604861300] [INFO] [HMI] AGV AGV-D2 sent to charging.
+[2025-11-12T23:15:38.605864500] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D2
+[2025-11-12T23:15:39.039136] [INFO] [Station-ST-01] Finished chargingAGV-D1
+[2025-11-12T23:15:39.082902300] [INFO] [StorageManagement] 1 items added to location S1
+[2025-11-12T23:15:39.082902300] [INFO] [HMI] Added 1 item to S1
+[2025-11-12T23:15:39.606234700] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-12T23:15:39.606960800] [INFO] [ChargingManager] AGV AGV-A1 added to queue.
+[2025-11-12T23:15:39.606960800] [INFO] [HMI] AGV AGV-A1 sent to charging.
+[2025-11-12T23:15:39.606960800] [INFO] [ChargingManager] Assigning AGV AGV-A1 to ST-01
+[2025-11-12T23:15:39.607952700] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A1
+[2025-11-12T23:15:39.855228100] [INFO] [Station-ST-01] Finished chargingAGV-D2
+[2025-11-12T23:15:39.884273500] [INFO] [HMI] Removed 1 item from S1
+[2025-11-12T23:15:39.884273500] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:39.884974600] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:39.884974600] [INFO] [StorageManagement] 1 items added to location S2
+[2025-11-12T23:15:39.884974600] [INFO] [HMI] Added 1 item to S2
+[2025-11-12T23:15:39.886968500] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:39.886968500] [INFO] [StorageManagement] 1 items removed from location S1
+[2025-11-12T23:15:40.325971300] [INFO] [Station-ST-01] Finished chargingAGV-A1
+[2025-11-12T23:15:40.607923] [INFO] [ChargingManager] AGV AGV-A2 added to queue.
+[2025-11-12T23:15:40.607923] [INFO] [HMI] AGV AGV-A2 sent to charging.
+[2025-11-12T23:15:40.607923] [INFO] [ChargingManager] Assigning AGV AGV-A2 to ST-01
+[2025-11-12T23:15:40.608903500] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A2
+[2025-11-12T23:15:40.687961] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:40.687961] [INFO] [HMI] Removed 1 item from S2
+[2025-11-12T23:15:40.687961] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:40.687961] [INFO] [HMI] Added 1 item to S3
+[2025-11-12T23:15:40.687961] [INFO] [StorageManagement] 1 items added to location S3
+[2025-11-12T23:15:40.687961] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:40.688938800] [INFO] [StorageManagement] 1 items removed from location S2
+[2025-11-12T23:15:40.876682700] [INFO] [HMI] Stopping simulation...
+[2025-11-12T23:15:40.877666900] [INFO] [ChargingManager] Shutting down...
+[2025-11-12T23:15:41.490641] [INFO] [HMI] Removed 1 item from S3
+[2025-11-12T23:15:41.490641] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:15:41.490641] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:15:41.490641] [INFO] [HMI] Added 1 item to S4
+[2025-11-12T23:15:41.490641] [INFO] [StorageManagement] 1 items added to location S4
+[2025-11-12T23:15:41.491647200] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:15:41.491647200] [INFO] [StorageManagement] 1 items removed from location S3
+[2025-11-12T23:15:41.558118500] [INFO] [Station-ST-01] Finished chargingAGV-A2
+[2025-11-12T23:15:41.558118500] [INFO] [ChargingManager] Stopped.
+[2025-11-12T23:15:41.558118500] [INFO] [StorageManagement] Shutting down storage manager...
+[2025-11-12T23:15:41.559097200] [INFO] [StorageManagement] Storage manager stopped.
+[2025-11-12T23:15:41.559097200] [INFO] [TaskManager] Executor service shutdown.
+[2025-11-12T23:15:41.560098600] [INFO] [HMI] Simulation ended.
+[2025-11-12T23:15:41.560098600] [INFO] [HMI] Simulation stopped.
+[2025-11-12T23:15:42.292377300] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@1ab9c25b[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@1cb2bdab[Wrapped task = StorageManagement.StorageManager$2@2d0fc84f]] rejected from java.util.concurrent.ThreadPoolExecutor@62a2d654[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 87]
+[2025-11-12T23:15:42.293120] [ERROR] [HMI] Task java.util.concurrent.FutureTask@1ab9c25b[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@1cb2bdab[Wrapped task = StorageManagement.StorageManager$2@2d0fc84f]] rejected from java.util.concurrent.ThreadPoolExecutor@62a2d654[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 87]
+[2025-11-12T23:18:48.471696200] [INFO] [HMI] Loading database...
+[2025-11-12T23:18:48.478697500] [INFO] [DatabaseGenerator] File creaated: agv.csv
+[2025-11-12T23:18:48.479697600] [INFO] [DatabaseGenerator] File creaated: chargingstation.csv
+[2025-11-12T23:18:48.480697500] [INFO] [DatabaseGenerator] File creaated: roboticarm.csv
+[2025-11-12T23:18:48.481696900] [INFO] [DatabaseGenerator] File creaated: storagelocation.csv
+[2025-11-12T23:18:48.482696800] [INFO] [DatabaseGenerator] File creaated: task.csv
+[2025-11-12T23:18:48.482696800] [INFO] [DatabaseGenerator] CSV databased has been generated: src/main/resources/database/
+[2025-11-12T23:18:48.492698500] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-12T23:18:48.528699500] [INFO] [DatabaseReader] Loaded 10 records from src/main/resources/database/task.csv
+[2025-11-12T23:18:48.531699300] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/storagelocation.csv
+[2025-11-12T23:18:48.532697400] [INFO] [DatabaseReader] Loaded 5 charging stations.
+[2025-11-12T23:18:48.532697400] [INFO] [HMI] Database loaded.
+[2025-11-12T23:18:48.533698300] [INFO] [HMI]  - 8 AGVs
+[2025-11-12T23:18:48.534697200] [INFO] [HMI]  - 5 Charging Stations
+[2025-11-12T23:18:48.534697200] [INFO] [HMI]  - 8 Storage Locations
+[2025-11-12T23:18:48.535696600] [INFO] [HMI]  - 10 Tasks
+[2025-11-12T23:18:48.539697900] [INFO] [ChargingManager] Initialized with 5 stations.
+[2025-11-12T23:18:48.542697600] [INFO] [StorageManagement] New storage location added: S1
+[2025-11-12T23:18:48.543697500] [INFO] [StorageManagement] New storage location added: S2
+[2025-11-12T23:18:48.543697500] [INFO] [StorageManagement] New storage location added: S3
+[2025-11-12T23:18:48.544697600] [INFO] [StorageManagement] New storage location added: S4
+[2025-11-12T23:18:48.544697600] [INFO] [StorageManagement] New storage location added: S5
+[2025-11-12T23:18:48.545697400] [INFO] [StorageManagement] New storage location added: S6
+[2025-11-12T23:18:48.545697400] [INFO] [StorageManagement] New storage location added: S7
+[2025-11-12T23:18:48.545697400] [INFO] [StorageManagement] New storage location added: S8
+[2025-11-12T23:18:48.547697500] [INFO] [TaskManager] Task added to queue: T-1001
+[2025-11-12T23:18:48.548697800] [INFO] [TaskManager] Task added to queue: T-1002
+[2025-11-12T23:18:48.548697800] [INFO] [TaskManager] Task added to queue: T-1003
+[2025-11-12T23:18:48.549697400] [INFO] [TaskManager] Task added to queue: T-1004
+[2025-11-12T23:18:48.549697400] [INFO] [TaskManager] Task added to queue: T-1005
+[2025-11-12T23:18:48.550697600] [INFO] [TaskManager] Task added to queue: T-1006
+[2025-11-12T23:18:48.550697600] [INFO] [TaskManager] Task added to queue: T-1007
+[2025-11-12T23:18:48.550697600] [INFO] [TaskManager] Task added to queue: T-1008
+[2025-11-12T23:18:48.551697200] [INFO] [TaskManager] Task added to queue: T-1009
+[2025-11-12T23:18:48.551697200] [INFO] [TaskManager] Task added to queue: T-1010
+[2025-11-12T23:18:48.552697300] [INFO] [HMI] System is ready.
+[2025-11-12T23:18:48.552697300] [INFO] [HMI] System initialized successfully.
+[2025-11-12T23:26:59.132026600] [INFO] [TaskManager] Assigned task: Task ID: T-1001 ,MOVE, From: S1 To: S2, Status: IN_PROGRESS
+[2025-11-12T23:26:59.133010800] [ERROR] [TaskManager] Failed task: T-1001
+[2025-11-12T23:26:59.133010800] [INFO] [HMI] Task failed: T-1001
+[2025-11-12T23:27:01.080612] [INFO] [HMI] Simulation started.
+[2025-11-12T23:27:01.081607600] [INFO] [HMI] Simulation started.
+[2025-11-12T23:27:01.082600500] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-12T23:27:01.082600500] [INFO] [TaskManager] Assigned task: Task ID: T-1002 ,LOAD, From: S2 To: S3, Status: IN_PROGRESS
+[2025-11-12T23:27:01.083596400] [INFO] [HMI] Added 1 item to S1
+[2025-11-12T23:27:01.084598800] [INFO] [TaskManager] Assigned task: Task ID: T-1003 ,UNLOAD, From: S3 To: S1, Status: IN_PROGRESS
+[2025-11-12T23:27:01.084598800] [INFO] [StorageManagement] 1 items added to location S1
+[2025-11-12T23:27:01.084598800] [INFO] [TaskManager] Assigned task: Task ID: T-1004 ,CHARGE, From: ST-02 To: ST-03, Status: IN_PROGRESS
+[2025-11-12T23:27:01.084598800] [INFO] [ChargingManager] AGV AGV-A1 added to queue.
+[2025-11-12T23:27:01.085597] [INFO] [TaskManager] Assigned task: Task ID: T-1005 ,MOVE, From: S5 To: S6, Status: IN_PROGRESS
+[2025-11-12T23:27:01.085597] [INFO] [TaskManager] Assigned task: Task ID: T-1006 ,LOAD, From: S4 To: S7, Status: IN_PROGRESS
+[2025-11-12T23:27:01.086597800] [INFO] [HMI] AGV AGV-A1 sent to charging.
+[2025-11-12T23:27:01.086597800] [INFO] [ChargingManager] Assigning AGV AGV-A1 to ST-01
+[2025-11-12T23:27:01.086597800] [INFO] [TaskManager] Assigned task: Task ID: T-1007 ,UNLOAD, From: S8 To: S2, Status: IN_PROGRESS
+[2025-11-12T23:27:01.086597800] [INFO] [TaskManager] Assigned task: Task ID: T-1008 ,CHARGE, From: ST-04 To: ST-05, Status: IN_PROGRESS
+[2025-11-12T23:27:01.087609800] [INFO] [TaskManager] Assigned task: Task ID: T-1009 ,MOVE, From: S6 To: S1, Status: IN_PROGRESS
+[2025-11-12T23:27:01.087609800] [INFO] [TaskManager] Assigned task: Task ID: T-1010 ,LOAD, From: S7 To: S8, Status: IN_PROGRESS
+[2025-11-12T23:27:01.088595700] [INFO] [HMI] TaskManager started processing queue.
+[2025-11-12T23:27:01.088595700] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A1
+[2025-11-12T23:27:01.897920] [INFO] [HMI] Removed 1 item from S1
+[2025-11-12T23:27:01.897920] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:01.897920] [INFO] [HMI] Added 1 item to S2
+[2025-11-12T23:27:01.898908600] [INFO] [StorageManagement] 1 items added to location S2
+[2025-11-12T23:27:01.898908600] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:01.898908600] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:01.899907800] [INFO] [StorageManagement] 1 items removed from location S1
+[2025-11-12T23:27:02.063140500] [INFO] [Station-ST-01] Finished chargingAGV-A1
+[2025-11-12T23:27:02.085711200] [INFO] [TaskManager] Completed task: T-1002
+[2025-11-12T23:27:02.085711200] [INFO] [TaskManager] Completed task: T-1003
+[2025-11-12T23:27:02.086719300] [INFO] [TaskManager] Completed task: T-1004
+[2025-11-12T23:27:02.101483300] [INFO] [ChargingManager] AGV AGV-A2 added to queue.
+[2025-11-12T23:27:02.102385900] [INFO] [HMI] AGV AGV-A2 sent to charging.
+[2025-11-12T23:27:02.102385900] [INFO] [ChargingManager] Assigning AGV AGV-A2 to ST-01
+[2025-11-12T23:27:02.103363600] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A2
+[2025-11-12T23:27:02.700213700] [INFO] [HMI] Removed 1 item from S2
+[2025-11-12T23:27:02.700213700] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:02.700213700] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:02.700213700] [INFO] [StorageManagement] 1 items added to location S3
+[2025-11-12T23:27:02.700213700] [INFO] [HMI] Added 1 item to S3
+[2025-11-12T23:27:02.701198100] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:02.702197900] [INFO] [StorageManagement] 1 items removed from location S2
+[2025-11-12T23:27:03.101869400] [INFO] [TaskManager] Completed task: T-1006
+[2025-11-12T23:27:03.101869400] [INFO] [TaskManager] Completed task: T-1005
+[2025-11-12T23:27:03.101869400] [INFO] [TaskManager] Completed task: T-1007
+[2025-11-12T23:27:03.117602700] [INFO] [ChargingManager] AGV AGV-B1 added to queue.
+[2025-11-12T23:27:03.118354300] [INFO] [HMI] AGV AGV-B1 sent to charging.
+[2025-11-12T23:27:03.118354300] [INFO] [ChargingManager] Assigning AGV AGV-B1 to ST-01
+[2025-11-12T23:27:03.119362700] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B1
+[2025-11-12T23:27:03.333255900] [INFO] [Station-ST-01] Finished chargingAGV-A2
+[2025-11-12T23:27:03.503449200] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:03.503449200] [INFO] [HMI] Removed 1 item from S3
+[2025-11-12T23:27:03.504246500] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:03.504246500] [INFO] [HMI] Added 1 item to S4
+[2025-11-12T23:27:03.504246500] [INFO] [StorageManagement] 1 items added to location S4
+[2025-11-12T23:27:03.505240900] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:03.506239200] [INFO] [StorageManagement] 1 items removed from location S3
+[2025-11-12T23:27:04.104403300] [INFO] [TaskManager] Completed task: T-1010
+[2025-11-12T23:27:04.104403300] [INFO] [TaskManager] Completed task: T-1009
+[2025-11-12T23:27:04.104403300] [INFO] [TaskManager] Completed task: T-1008
+[2025-11-12T23:27:04.119492400] [INFO] [ChargingManager] AGV AGV-B2 added to queue.
+[2025-11-12T23:27:04.119492400] [INFO] [ChargingManager] Assigning AGV AGV-B2 to ST-01
+[2025-11-12T23:27:04.119492400] [INFO] [HMI] AGV AGV-B2 sent to charging.
+[2025-11-12T23:27:04.120491900] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B2
+[2025-11-12T23:27:04.306804200] [INFO] [HMI] Removed 1 item from S4
+[2025-11-12T23:27:04.306804200] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:04.307538100] [INFO] [HMI] Added 1 item to S5
+[2025-11-12T23:27:04.307538100] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:04.307538100] [INFO] [StorageManagement] 1 items added to location S5
+[2025-11-12T23:27:04.310526200] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:04.311537] [INFO] [StorageManagement] 1 items removed from location S4
+[2025-11-12T23:27:04.506183] [INFO] [Station-ST-01] Finished chargingAGV-B1
+[2025-11-12T23:27:05.111673400] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:05.111673400] [INFO] [HMI] Removed 1 item from S5
+[2025-11-12T23:27:05.111673400] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:05.111673400] [INFO] [HMI] Added 1 item to S6
+[2025-11-12T23:27:05.111673400] [INFO] [StorageManagement] 1 items added to location S6
+[2025-11-12T23:27:05.112644700] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:05.112644700] [INFO] [StorageManagement] 1 items removed from location S5
+[2025-11-12T23:27:05.120644500] [INFO] [ChargingManager] AGV AGV-C1 added to queue.
+[2025-11-12T23:27:05.120644500] [INFO] [HMI] AGV AGV-C1 sent to charging.
+[2025-11-12T23:27:05.120644500] [INFO] [ChargingManager] Assigning AGV AGV-C1 to ST-01
+[2025-11-12T23:27:05.121647300] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C1
+[2025-11-12T23:27:05.603556300] [INFO] [Station-ST-01] Finished chargingAGV-B2
+[2025-11-12T23:27:05.849933500] [INFO] [Station-ST-01] Finished chargingAGV-C1
+[2025-11-12T23:27:05.913360200] [INFO] [HMI] Removed 1 item from S6
+[2025-11-12T23:27:05.913360200] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:05.914370400] [INFO] [HMI] Added 1 item to S7
+[2025-11-12T23:27:05.914370400] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:05.914370400] [INFO] [StorageManagement] 1 items added to location S7
+[2025-11-12T23:27:05.915371600] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:05.916371700] [INFO] [StorageManagement] 1 items removed from location S6
+[2025-11-12T23:27:06.123260400] [INFO] [ChargingManager] AGV AGV-C2 added to queue.
+[2025-11-12T23:27:06.123260400] [INFO] [ChargingManager] Assigning AGV AGV-C2 to ST-01
+[2025-11-12T23:27:06.123260400] [INFO] [HMI] AGV AGV-C2 sent to charging.
+[2025-11-12T23:27:06.125272600] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C2
+[2025-11-12T23:27:06.723076900] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:06.723076900] [INFO] [HMI] Removed 1 item from S7
+[2025-11-12T23:27:06.723076900] [INFO] [HMI] Added 1 item to S8
+[2025-11-12T23:27:06.723076900] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:06.723076900] [INFO] [StorageManagement] 1 items added to location S8
+[2025-11-12T23:27:06.725048500] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:06.725048500] [INFO] [StorageManagement] 1 items removed from location S7
+[2025-11-12T23:27:06.878049200] [INFO] [Station-ST-01] Finished chargingAGV-C2
+[2025-11-12T23:27:07.131372300] [INFO] [ChargingManager] AGV AGV-D1 added to queue.
+[2025-11-12T23:27:07.131372300] [INFO] [HMI] AGV AGV-D1 sent to charging.
+[2025-11-12T23:27:07.131372300] [INFO] [ChargingManager] Assigning AGV AGV-D1 to ST-01
+[2025-11-12T23:27:07.132191600] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D1
+[2025-11-12T23:27:07.525685] [INFO] [HMI] Removed 1 item from S8
+[2025-11-12T23:27:07.525685] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:07.526579] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:07.526579] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:07.527576300] [INFO] [StorageManagement] 1 items removed from location S8
+[2025-11-12T23:27:07.989391400] [INFO] [Station-ST-01] Finished chargingAGV-D1
+[2025-11-12T23:27:08.133719500] [INFO] [ChargingManager] AGV AGV-D2 added to queue.
+[2025-11-12T23:27:08.134727600] [INFO] [ChargingManager] Assigning AGV AGV-D2 to ST-01
+[2025-11-12T23:27:08.133719500] [INFO] [HMI] AGV AGV-D2 sent to charging.
+[2025-11-12T23:27:08.135729700] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D2
+[2025-11-12T23:27:09.027499100] [INFO] [HMI] Added 1 item to S1
+[2025-11-12T23:27:09.027499100] [INFO] [StorageManagement] 1 items added to location S1
+[2025-11-12T23:27:09.068428800] [INFO] [Station-ST-01] Finished chargingAGV-D2
+[2025-11-12T23:27:09.138172800] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-12T23:27:09.139183300] [INFO] [ChargingManager] AGV AGV-A1 added to queue.
+[2025-11-12T23:27:09.139183300] [INFO] [HMI] AGV AGV-A1 sent to charging.
+[2025-11-12T23:27:09.139183300] [INFO] [ChargingManager] Assigning AGV AGV-A1 to ST-01
+[2025-11-12T23:27:09.140181800] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A1
+[2025-11-12T23:27:09.829593100] [INFO] [HMI] Removed 1 item from S1
+[2025-11-12T23:27:09.829593100] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:09.830600800] [INFO] [HMI] Added 1 item to S2
+[2025-11-12T23:27:09.830600800] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:09.830600800] [INFO] [StorageManagement] 1 items added to location S2
+[2025-11-12T23:27:09.831597900] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:09.832604500] [INFO] [StorageManagement] 1 items removed from location S1
+[2025-11-12T23:27:10.145341600] [INFO] [ChargingManager] AGV AGV-A2 added to queue.
+[2025-11-12T23:27:10.146190600] [INFO] [HMI] AGV AGV-A2 sent to charging.
+[2025-11-12T23:27:10.146190600] [INFO] [ChargingManager] Assigning AGV AGV-A2 to ST-01
+[2025-11-12T23:27:10.147203200] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A2
+[2025-11-12T23:27:10.427425200] [INFO] [Station-ST-01] Finished chargingAGV-A1
+[2025-11-12T23:27:10.633170300] [INFO] [HMI] Removed 1 item from S2
+[2025-11-12T23:27:10.633170300] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:10.633170300] [INFO] [HMI] Added 1 item to S3
+[2025-11-12T23:27:10.633170300] [INFO] [StorageManagement] 1 items added to location S3
+[2025-11-12T23:27:10.633170300] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:10.634170500] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:10.634170500] [INFO] [StorageManagement] 1 items removed from location S2
+[2025-11-12T23:27:11.144549600] [INFO] [Station-ST-01] Finished chargingAGV-A2
+[2025-11-12T23:27:11.148012400] [INFO] [ChargingManager] AGV AGV-B1 added to queue.
+[2025-11-12T23:27:11.148012400] [INFO] [HMI] AGV AGV-B1 sent to charging.
+[2025-11-12T23:27:11.148012400] [INFO] [ChargingManager] Assigning AGV AGV-B1 to ST-01
+[2025-11-12T23:27:11.148815200] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B1
+[2025-11-12T23:27:11.434485900] [INFO] [HMI] Removed 1 item from S3
+[2025-11-12T23:27:11.434485900] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:11.437486300] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:11.437486300] [INFO] [StorageManagement] 1 items added to location S4
+[2025-11-12T23:27:11.437486300] [INFO] [HMI] Added 1 item to S4
+[2025-11-12T23:27:11.438488500] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:11.439490400] [INFO] [StorageManagement] 1 items removed from location S3
+[2025-11-12T23:27:11.884364] [INFO] [Station-ST-01] Finished chargingAGV-B1
+[2025-11-12T23:27:12.162186100] [INFO] [ChargingManager] AGV AGV-B2 added to queue.
+[2025-11-12T23:27:12.162186100] [INFO] [HMI] AGV AGV-B2 sent to charging.
+[2025-11-12T23:27:12.162186100] [INFO] [ChargingManager] Assigning AGV AGV-B2 to ST-01
+[2025-11-12T23:27:12.163212800] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B2
+[2025-11-12T23:27:12.239855100] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:12.239855100] [INFO] [HMI] Removed 1 item from S4
+[2025-11-12T23:27:12.239855100] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:12.239855100] [INFO] [HMI] Added 1 item to S5
+[2025-11-12T23:27:12.239855100] [INFO] [StorageManagement] 1 items added to location S5
+[2025-11-12T23:27:12.240846800] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:12.240846800] [INFO] [StorageManagement] 1 items removed from location S4
+[2025-11-12T23:27:13.042924400] [INFO] [HMI] Removed 1 item from S5
+[2025-11-12T23:27:13.042924400] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:13.042924400] [INFO] [HMI] Added 1 item to S6
+[2025-11-12T23:27:13.042924400] [INFO] [StorageManagement] 1 items added to location S6
+[2025-11-12T23:27:13.042924400] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:13.043905400] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:13.043905400] [INFO] [StorageManagement] 1 items removed from location S5
+[2025-11-12T23:27:13.175961900] [INFO] [ChargingManager] AGV AGV-C1 added to queue.
+[2025-11-12T23:27:13.175961900] [INFO] [HMI] AGV AGV-C1 sent to charging.
+[2025-11-12T23:27:13.175961900] [INFO] [ChargingManager] Assigning AGV AGV-C1 to ST-01
+[2025-11-12T23:27:13.176965900] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C1
+[2025-11-12T23:27:13.298022500] [INFO] [Station-ST-01] Finished chargingAGV-B2
+[2025-11-12T23:27:13.844960400] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:13.844960400] [INFO] [HMI] Removed 1 item from S6
+[2025-11-12T23:27:13.844960400] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:13.844960400] [INFO] [StorageManagement] 1 items added to location S7
+[2025-11-12T23:27:13.844960400] [INFO] [HMI] Added 1 item to S7
+[2025-11-12T23:27:13.845949300] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:13.845949300] [INFO] [StorageManagement] 1 items removed from location S6
+[2025-11-12T23:27:14.177272] [INFO] [ChargingManager] AGV AGV-C2 added to queue.
+[2025-11-12T23:27:14.177272] [INFO] [ChargingManager] Assigning AGV AGV-C2 to ST-01
+[2025-11-12T23:27:14.177272] [INFO] [HMI] AGV AGV-C2 sent to charging.
+[2025-11-12T23:27:14.179291600] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C2
+[2025-11-12T23:27:14.373542100] [INFO] [Station-ST-01] Finished chargingAGV-C1
+[2025-11-12T23:27:14.648032600] [INFO] [HMI] Removed 1 item from S7
+[2025-11-12T23:27:14.648032600] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:14.648848600] [INFO] [HMI] Added 1 item to S8
+[2025-11-12T23:27:14.648848600] [INFO] [StorageManagement] 1 items added to location S8
+[2025-11-12T23:27:14.648848600] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:14.649846500] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:14.649846500] [INFO] [StorageManagement] 1 items removed from location S7
+[2025-11-12T23:27:15.179489300] [INFO] [ChargingManager] AGV AGV-D1 added to queue.
+[2025-11-12T23:27:15.179489300] [INFO] [ChargingManager] Assigning AGV AGV-D1 to ST-01
+[2025-11-12T23:27:15.179489300] [INFO] [HMI] AGV AGV-D1 sent to charging.
+[2025-11-12T23:27:15.181251100] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D1
+[2025-11-12T23:27:15.451093700] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:15.451093700] [INFO] [HMI] Removed 1 item from S8
+[2025-11-12T23:27:15.451900300] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:15.451900300] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:15.451900300] [INFO] [StorageManagement] 1 items removed from location S8
+[2025-11-12T23:27:15.526690300] [INFO] [Station-ST-01] Finished chargingAGV-C2
+[2025-11-12T23:27:16.097197200] [INFO] [HMI] Stopping simulation...
+[2025-11-12T23:27:16.097197200] [INFO] [ChargingManager] Shutting down...
+[2025-11-12T23:27:16.321618200] [INFO] [Station-ST-01] Finished chargingAGV-D1
+[2025-11-12T23:27:16.322628900] [INFO] [ChargingManager] Stopped.
+[2025-11-12T23:27:16.323636300] [INFO] [StorageManagement] Shutting down storage manager...
+[2025-11-12T23:27:16.324627800] [INFO] [StorageManagement] Storage manager stopped.
+[2025-11-12T23:27:16.324627800] [INFO] [TaskManager] Executor service shutdown.
+[2025-11-12T23:27:16.325623100] [INFO] [HMI] Simulation ended.
+[2025-11-12T23:27:16.325623100] [INFO] [HMI] Simulation stopped.
+[2025-11-12T23:27:21.373147700] [INFO] [HMI] Loading database...
+[2025-11-12T23:27:21.379166300] [INFO] [DatabaseGenerator] File creaated: agv.csv
+[2025-11-12T23:27:21.380142400] [INFO] [DatabaseGenerator] File creaated: chargingstation.csv
+[2025-11-12T23:27:21.381146700] [INFO] [DatabaseGenerator] File creaated: roboticarm.csv
+[2025-11-12T23:27:21.382172800] [INFO] [DatabaseGenerator] File creaated: storagelocation.csv
+[2025-11-12T23:27:21.382172800] [INFO] [DatabaseGenerator] File creaated: task.csv
+[2025-11-12T23:27:21.383144200] [INFO] [DatabaseGenerator] CSV databased has been generated: src/main/resources/database/
+[2025-11-12T23:27:21.389147300] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-12T23:27:21.423143300] [INFO] [DatabaseReader] Loaded 10 records from src/main/resources/database/task.csv
+[2025-11-12T23:27:21.426144600] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/storagelocation.csv
+[2025-11-12T23:27:21.427144300] [INFO] [DatabaseReader] Loaded 5 charging stations.
+[2025-11-12T23:27:21.427144300] [INFO] [HMI] Database loaded.
+[2025-11-12T23:27:21.428143500] [INFO] [HMI]  - 8 AGVs
+[2025-11-12T23:27:21.429144300] [INFO] [HMI]  - 5 Charging Stations
+[2025-11-12T23:27:21.429144300] [INFO] [HMI]  - 8 Storage Locations
+[2025-11-12T23:27:21.430142800] [INFO] [HMI]  - 10 Tasks
+[2025-11-12T23:27:21.434143900] [INFO] [ChargingManager] Initialized with 5 stations.
+[2025-11-12T23:27:21.437144800] [INFO] [StorageManagement] New storage location added: S1
+[2025-11-12T23:27:21.437144800] [INFO] [StorageManagement] New storage location added: S2
+[2025-11-12T23:27:21.438149300] [INFO] [StorageManagement] New storage location added: S3
+[2025-11-12T23:27:21.438149300] [INFO] [StorageManagement] New storage location added: S4
+[2025-11-12T23:27:21.439147900] [INFO] [StorageManagement] New storage location added: S5
+[2025-11-12T23:27:21.439147900] [INFO] [StorageManagement] New storage location added: S6
+[2025-11-12T23:27:21.440144900] [INFO] [StorageManagement] New storage location added: S7
+[2025-11-12T23:27:21.440144900] [INFO] [StorageManagement] New storage location added: S8
+[2025-11-12T23:27:21.442145] [INFO] [TaskManager] Task added to queue: T-1001
+[2025-11-12T23:27:21.442145] [INFO] [TaskManager] Task added to queue: T-1002
+[2025-11-12T23:27:21.443144100] [INFO] [TaskManager] Task added to queue: T-1003
+[2025-11-12T23:27:21.443144100] [INFO] [TaskManager] Task added to queue: T-1004
+[2025-11-12T23:27:21.444143600] [INFO] [TaskManager] Task added to queue: T-1005
+[2025-11-12T23:27:21.444143600] [INFO] [TaskManager] Task added to queue: T-1006
+[2025-11-12T23:27:21.444143600] [INFO] [TaskManager] Task added to queue: T-1007
+[2025-11-12T23:27:21.445143600] [INFO] [TaskManager] Task added to queue: T-1008
+[2025-11-12T23:27:21.445143600] [INFO] [TaskManager] Task added to queue: T-1009
+[2025-11-12T23:27:21.446143700] [INFO] [TaskManager] Task added to queue: T-1010
+[2025-11-12T23:27:21.446143700] [INFO] [HMI] System is ready.
+[2025-11-12T23:27:21.446143700] [INFO] [HMI] System initialized successfully.
+[2025-11-12T23:27:22.784876600] [INFO] [HMI] Simulation started.
+[2025-11-12T23:27:22.784876600] [INFO] [HMI] Simulation started.
+[2025-11-12T23:27:22.786876600] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-12T23:27:22.786876600] [INFO] [TaskManager] Assigned task: Task ID: T-1001 ,MOVE, From: S1 To: S2, Status: IN_PROGRESS
+[2025-11-12T23:27:22.787878100] [INFO] [HMI] Added 1 item to S1
+[2025-11-12T23:27:22.788879200] [INFO] [TaskManager] Assigned task: Task ID: T-1002 ,LOAD, From: S2 To: S3, Status: IN_PROGRESS
+[2025-11-12T23:27:22.788879200] [INFO] [StorageManagement] 1 items added to location S1
+[2025-11-12T23:27:22.788879200] [INFO] [ChargingManager] AGV AGV-A1 added to queue.
+[2025-11-12T23:27:22.789879] [INFO] [TaskManager] Assigned task: Task ID: T-1003 ,UNLOAD, From: S3 To: S1, Status: IN_PROGRESS
+[2025-11-12T23:27:22.789879] [INFO] [TaskManager] Assigned task: Task ID: T-1004 ,CHARGE, From: ST-02 To: ST-03, Status: IN_PROGRESS
+[2025-11-12T23:27:22.790879200] [INFO] [HMI] AGV AGV-A1 sent to charging.
+[2025-11-12T23:27:22.790879200] [INFO] [ChargingManager] Assigning AGV AGV-A1 to ST-01
+[2025-11-12T23:27:22.790879200] [INFO] [TaskManager] Assigned task: Task ID: T-1005 ,MOVE, From: S5 To: S6, Status: IN_PROGRESS
+[2025-11-12T23:27:22.791883600] [INFO] [TaskManager] Assigned task: Task ID: T-1006 ,LOAD, From: S4 To: S7, Status: IN_PROGRESS
+[2025-11-12T23:27:22.791883600] [INFO] [TaskManager] Assigned task: Task ID: T-1007 ,UNLOAD, From: S8 To: S2, Status: IN_PROGRESS
+[2025-11-12T23:27:22.792878500] [INFO] [TaskManager] Assigned task: Task ID: T-1008 ,CHARGE, From: ST-04 To: ST-05, Status: IN_PROGRESS
+[2025-11-12T23:27:22.792878500] [INFO] [TaskManager] Assigned task: Task ID: T-1009 ,MOVE, From: S6 To: S1, Status: IN_PROGRESS
+[2025-11-12T23:27:22.792878500] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A1
+[2025-11-12T23:27:22.793878800] [INFO] [TaskManager] Assigned task: Task ID: T-1010 ,LOAD, From: S7 To: S8, Status: IN_PROGRESS
+[2025-11-12T23:27:22.794882200] [INFO] [HMI] TaskManager started processing queue.
+[2025-11-12T23:27:23.601871100] [INFO] [HMI] Removed 1 item from S1
+[2025-11-12T23:27:23.602872100] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:23.602872100] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:23.602872100] [INFO] [HMI] Added 1 item to S2
+[2025-11-12T23:27:23.602872100] [INFO] [StorageManagement] 1 items added to location S2
+[2025-11-12T23:27:23.603873600] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:23.603873600] [INFO] [StorageManagement] 1 items removed from location S1
+[2025-11-12T23:27:23.790924600] [INFO] [TaskManager] Completed task: T-1001
+[2025-11-12T23:27:23.805037300] [INFO] [ChargingManager] AGV AGV-A2 added to queue.
+[2025-11-12T23:27:23.805037300] [INFO] [TaskManager] Completed task: T-1003
+[2025-11-12T23:27:23.805037300] [INFO] [TaskManager] Completed task: T-1002
+[2025-11-12T23:27:23.806010700] [INFO] [HMI] AGV AGV-A2 sent to charging.
+[2025-11-12T23:27:23.806010700] [INFO] [ChargingManager] Assigning AGV AGV-A2 to ST-01
+[2025-11-12T23:27:23.807012100] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A2
+[2025-11-12T23:27:24.220147400] [INFO] [Station-ST-01] Finished chargingAGV-A1
+[2025-11-12T23:27:24.404125600] [INFO] [HMI] Removed 1 item from S2
+[2025-11-12T23:27:24.404125600] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:24.405135700] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:24.405135700] [INFO] [StorageManagement] 1 items added to location S3
+[2025-11-12T23:27:24.405135700] [INFO] [HMI] Added 1 item to S3
+[2025-11-12T23:27:24.407135700] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:24.407135700] [INFO] [StorageManagement] 1 items removed from location S2
+[2025-11-12T23:27:24.526573300] [INFO] [Station-ST-01] Finished chargingAGV-A2
+[2025-11-12T23:27:24.792675300] [INFO] [TaskManager] Completed task: T-1004
+[2025-11-12T23:27:24.806571400] [INFO] [ChargingManager] AGV AGV-B1 added to queue.
+[2025-11-12T23:27:24.806571400] [INFO] [TaskManager] Completed task: T-1006
+[2025-11-12T23:27:24.806571400] [INFO] [TaskManager] Completed task: T-1005
+[2025-11-12T23:27:24.809368800] [INFO] [HMI] AGV AGV-B1 sent to charging.
+[2025-11-12T23:27:24.809368800] [INFO] [ChargingManager] Assigning AGV AGV-B1 to ST-01
+[2025-11-12T23:27:24.809368800] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B1
+[2025-11-12T23:27:25.207500200] [INFO] [HMI] Removed 1 item from S3
+[2025-11-12T23:27:25.207500200] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:25.208523200] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:25.208523200] [INFO] [StorageManagement] 1 items added to location S4
+[2025-11-12T23:27:25.208523200] [INFO] [HMI] Added 1 item to S4
+[2025-11-12T23:27:25.210546200] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:25.210546200] [INFO] [StorageManagement] 1 items removed from location S3
+[2025-11-12T23:27:25.466774800] [INFO] [Station-ST-01] Finished chargingAGV-B1
+[2025-11-12T23:27:25.798033800] [INFO] [TaskManager] Completed task: T-1007
+[2025-11-12T23:27:25.813470200] [INFO] [TaskManager] Completed task: T-1009
+[2025-11-12T23:27:25.813470200] [INFO] [ChargingManager] AGV AGV-B2 added to queue.
+[2025-11-12T23:27:25.813470200] [INFO] [TaskManager] Completed task: T-1008
+[2025-11-12T23:27:25.815209400] [INFO] [HMI] AGV AGV-B2 sent to charging.
+[2025-11-12T23:27:25.815209400] [INFO] [ChargingManager] Assigning AGV AGV-B2 to ST-01
+[2025-11-12T23:27:25.817201] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B2
+[2025-11-12T23:27:26.010928800] [INFO] [HMI] Removed 1 item from S4
+[2025-11-12T23:27:26.010928800] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:26.011752] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:26.011752] [INFO] [StorageManagement] 1 items added to location S5
+[2025-11-12T23:27:26.011752] [INFO] [HMI] Added 1 item to S5
+[2025-11-12T23:27:26.013761] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:26.014750800] [INFO] [StorageManagement] 1 items removed from location S4
+[2025-11-12T23:27:26.783354700] [INFO] [Station-ST-01] Finished chargingAGV-B2
+[2025-11-12T23:27:26.802668600] [INFO] [TaskManager] Completed task: T-1010
+[2025-11-12T23:27:26.815146] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:26.815146] [INFO] [HMI] Removed 1 item from S5
+[2025-11-12T23:27:26.816950700] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:26.816950700] [INFO] [HMI] Added 1 item to S6
+[2025-11-12T23:27:26.816950700] [INFO] [StorageManagement] 1 items added to location S6
+[2025-11-12T23:27:26.816950700] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:26.817951600] [INFO] [StorageManagement] 1 items removed from location S5
+[2025-11-12T23:27:26.817951600] [INFO] [ChargingManager] AGV AGV-C1 added to queue.
+[2025-11-12T23:27:26.817951600] [INFO] [ChargingManager] Assigning AGV AGV-C1 to ST-01
+[2025-11-12T23:27:26.817951600] [INFO] [HMI] AGV AGV-C1 sent to charging.
+[2025-11-12T23:27:26.818957100] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C1
+[2025-11-12T23:27:27.619275900] [INFO] [HMI] Removed 1 item from S6
+[2025-11-12T23:27:27.619275900] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:27.620064900] [INFO] [HMI] Added 1 item to S7
+[2025-11-12T23:27:27.620064900] [INFO] [StorageManagement] 1 items added to location S7
+[2025-11-12T23:27:27.620064900] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:27.621062100] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:27.622061500] [INFO] [StorageManagement] 1 items removed from location S6
+[2025-11-12T23:27:27.826231400] [INFO] [ChargingManager] AGV AGV-C2 added to queue.
+[2025-11-12T23:27:27.827248] [INFO] [HMI] AGV AGV-C2 sent to charging.
+[2025-11-12T23:27:27.827248] [INFO] [ChargingManager] Assigning AGV AGV-C2 to ST-01
+[2025-11-12T23:27:27.828240700] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C2
+[2025-11-12T23:27:27.864859500] [INFO] [Station-ST-01] Finished chargingAGV-C1
+[2025-11-12T23:27:28.422195900] [INFO] [HMI] Removed 1 item from S7
+[2025-11-12T23:27:28.422195900] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:28.422951600] [INFO] [HMI] Added 1 item to S8
+[2025-11-12T23:27:28.422951600] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:28.422951600] [INFO] [StorageManagement] 1 items added to location S8
+[2025-11-12T23:27:28.425950400] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:28.425950400] [INFO] [StorageManagement] 1 items removed from location S7
+[2025-11-12T23:27:28.812386600] [INFO] [Station-ST-01] Finished chargingAGV-C2
+[2025-11-12T23:27:28.828243200] [INFO] [ChargingManager] AGV AGV-D1 added to queue.
+[2025-11-12T23:27:28.828243200] [INFO] [HMI] AGV AGV-D1 sent to charging.
+[2025-11-12T23:27:28.828243200] [INFO] [ChargingManager] Assigning AGV AGV-D1 to ST-01
+[2025-11-12T23:27:28.829973800] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D1
+[2025-11-12T23:27:29.227114700] [INFO] [HMI] Removed 1 item from S8
+[2025-11-12T23:27:29.227114700] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:29.228124] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:29.228124] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:29.228124] [INFO] [StorageManagement] 1 items removed from location S8
+[2025-11-12T23:27:29.835699700] [INFO] [ChargingManager] AGV AGV-D2 added to queue.
+[2025-11-12T23:27:29.836707600] [INFO] [HMI] AGV AGV-D2 sent to charging.
+[2025-11-12T23:27:29.836707600] [INFO] [ChargingManager] Assigning AGV AGV-D2 to ST-01
+[2025-11-12T23:27:29.837704700] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D2
+[2025-11-12T23:27:29.838708400] [ERROR] [Station-ST-01] Charging error: MALFUNCTION
+[2025-11-12T23:27:30.154478800] [INFO] [Station-ST-01] Finished chargingAGV-D1
+[2025-11-12T23:27:30.728542] [INFO] [StorageManagement] 1 items added to location S1
+[2025-11-12T23:27:30.728542] [INFO] [HMI] Added 1 item to S1
+[2025-11-12T23:27:30.838077800] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-12T23:27:30.838077800] [INFO] [ChargingManager] AGV AGV-A1 added to queue.
+[2025-11-12T23:27:30.839078300] [INFO] [ChargingManager] Assigning AGV AGV-A1 to ST-01
+[2025-11-12T23:27:30.839078300] [INFO] [HMI] AGV AGV-A1 sent to charging.
+[2025-11-12T23:27:30.839078300] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A1
+[2025-11-12T23:27:31.536746600] [INFO] [HMI] Removed 1 item from S1
+[2025-11-12T23:27:31.536746600] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:31.537485300] [INFO] [HMI] Added 1 item to S2
+[2025-11-12T23:27:31.537485300] [INFO] [StorageManagement] 1 items added to location S2
+[2025-11-12T23:27:31.537485300] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:31.539486900] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:31.540484100] [INFO] [StorageManagement] 1 items removed from location S1
+[2025-11-12T23:27:31.851056200] [INFO] [ChargingManager] AGV AGV-A2 added to queue.
+[2025-11-12T23:27:31.852070800] [INFO] [HMI] AGV AGV-A2 sent to charging.
+[2025-11-12T23:27:31.852070800] [INFO] [ChargingManager] Assigning AGV AGV-A2 to ST-01
+[2025-11-12T23:27:31.853064500] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A2
+[2025-11-12T23:27:31.929108700] [INFO] [Station-ST-01] Finished chargingAGV-A1
+[2025-11-12T23:27:32.341071800] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:32.341071800] [INFO] [HMI] Removed 1 item from S2
+[2025-11-12T23:27:32.341868700] [INFO] [StorageManagement] 1 items added to location S3
+[2025-11-12T23:27:32.341868700] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:32.341868700] [INFO] [HMI] Added 1 item to S3
+[2025-11-12T23:27:32.343869800] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:32.343869800] [INFO] [StorageManagement] 1 items removed from location S2
+[2025-11-12T23:27:32.689983600] [INFO] [Station-ST-01] Finished chargingAGV-A2
+[2025-11-12T23:27:32.853294800] [INFO] [ChargingManager] AGV AGV-B1 added to queue.
+[2025-11-12T23:27:32.853294800] [INFO] [HMI] AGV AGV-B1 sent to charging.
+[2025-11-12T23:27:32.853294800] [INFO] [ChargingManager] Assigning AGV AGV-B1 to ST-01
+[2025-11-12T23:27:32.854307800] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B1
+[2025-11-12T23:27:33.144337900] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:33.144337900] [INFO] [HMI] Removed 1 item from S3
+[2025-11-12T23:27:33.145377700] [INFO] [StorageManagement] 1 items added to location S4
+[2025-11-12T23:27:33.144337900] [INFO] [HMI] Added 1 item to S4
+[2025-11-12T23:27:33.144337900] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:33.146370100] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:33.146370100] [INFO] [StorageManagement] 1 items removed from location S3
+[2025-11-12T23:27:33.864051100] [INFO] [ChargingManager] AGV AGV-B2 added to queue.
+[2025-11-12T23:27:33.865059400] [INFO] [HMI] AGV AGV-B2 sent to charging.
+[2025-11-12T23:27:33.865059400] [INFO] [ChargingManager] Assigning AGV AGV-B2 to ST-01
+[2025-11-12T23:27:33.866058] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B2
+[2025-11-12T23:27:33.947930300] [INFO] [HMI] Removed 1 item from S4
+[2025-11-12T23:27:33.947930300] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:33.948700300] [INFO] [StorageManagement] 1 items added to location S5
+[2025-11-12T23:27:33.948700300] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:33.948700300] [INFO] [HMI] Added 1 item to S5
+[2025-11-12T23:27:33.950691900] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:33.950691900] [INFO] [StorageManagement] 1 items removed from location S4
+[2025-11-12T23:27:34.031937900] [INFO] [Station-ST-01] Finished chargingAGV-B1
+[2025-11-12T23:27:34.583686700] [INFO] [Station-ST-01] Finished chargingAGV-B2
+[2025-11-12T23:27:34.752306300] [INFO] [HMI] Removed 1 item from S5
+[2025-11-12T23:27:34.752306300] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:34.753316] [INFO] [HMI] Added 1 item to S6
+[2025-11-12T23:27:34.753316] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:34.753316] [INFO] [StorageManagement] 1 items added to location S6
+[2025-11-12T23:27:34.755328] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:34.755328] [INFO] [StorageManagement] 1 items removed from location S5
+[2025-11-12T23:27:34.866570300] [INFO] [ChargingManager] AGV AGV-C1 added to queue.
+[2025-11-12T23:27:34.867383] [INFO] [HMI] AGV AGV-C1 sent to charging.
+[2025-11-12T23:27:34.867383] [INFO] [ChargingManager] Assigning AGV AGV-C1 to ST-01
+[2025-11-12T23:27:34.868369600] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C1
+[2025-11-12T23:27:35.559239900] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:35.559239900] [INFO] [HMI] Removed 1 item from S6
+[2025-11-12T23:27:35.560255500] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:35.560255500] [INFO] [StorageManagement] 1 items added to location S7
+[2025-11-12T23:27:35.560255500] [INFO] [HMI] Added 1 item to S7
+[2025-11-12T23:27:35.561250900] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:35.561250900] [INFO] [StorageManagement] 1 items removed from location S6
+[2025-11-12T23:27:35.710941200] [INFO] [Station-ST-01] Finished chargingAGV-C1
+[2025-11-12T23:27:35.874502800] [INFO] [ChargingManager] AGV AGV-C2 added to queue.
+[2025-11-12T23:27:35.874502800] [INFO] [HMI] AGV AGV-C2 sent to charging.
+[2025-11-12T23:27:35.874502800] [INFO] [ChargingManager] Assigning AGV AGV-C2 to ST-01
+[2025-11-12T23:27:35.875503] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C2
+[2025-11-12T23:27:36.363488400] [INFO] [HMI] Removed 1 item from S7
+[2025-11-12T23:27:36.363488400] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:36.363488400] [INFO] [StorageManagement] 1 items added to location S8
+[2025-11-12T23:27:36.363488400] [INFO] [HMI] Added 1 item to S8
+[2025-11-12T23:27:36.363488400] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:36.365501600] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:36.365501600] [INFO] [StorageManagement] 1 items removed from location S7
+[2025-11-12T23:27:36.878287900] [INFO] [ChargingManager] AGV AGV-D1 added to queue.
+[2025-11-12T23:27:36.879301100] [INFO] [ChargingManager] Assigning AGV AGV-D1 to ST-01
+[2025-11-12T23:27:36.879301100] [INFO] [HMI] AGV AGV-D1 sent to charging.
+[2025-11-12T23:27:36.880298] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D1
+[2025-11-12T23:27:37.104850300] [INFO] [Station-ST-01] Finished chargingAGV-C2
+[2025-11-12T23:27:37.166729900] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:37.166729900] [INFO] [HMI] Removed 1 item from S8
+[2025-11-12T23:27:37.167523100] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:37.167523100] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:37.168532900] [INFO] [StorageManagement] 1 items removed from location S8
+[2025-11-12T23:27:37.462169100] [INFO] [Station-ST-01] Finished chargingAGV-D1
+[2025-11-12T23:27:37.881038400] [INFO] [ChargingManager] AGV AGV-D2 added to queue.
+[2025-11-12T23:27:37.881876300] [INFO] [HMI] AGV AGV-D2 sent to charging.
+[2025-11-12T23:27:37.881876300] [INFO] [ChargingManager] Assigning AGV AGV-D2 to ST-01
+[2025-11-12T23:27:37.881876300] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D2
+[2025-11-12T23:27:38.668427700] [INFO] [StorageManagement] 1 items added to location S1
+[2025-11-12T23:27:38.668427700] [INFO] [HMI] Added 1 item to S1
+[2025-11-12T23:27:38.883895100] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-12T23:27:38.883895100] [INFO] [ChargingManager] AGV AGV-A1 added to queue.
+[2025-11-12T23:27:38.884876600] [INFO] [HMI] AGV AGV-A1 sent to charging.
+[2025-11-12T23:27:38.884876600] [INFO] [ChargingManager] Assigning AGV AGV-A1 to ST-01
+[2025-11-12T23:27:38.884876600] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A1
+[2025-11-12T23:27:38.956881400] [INFO] [Station-ST-01] Finished chargingAGV-D2
+[2025-11-12T23:27:39.470771600] [INFO] [HMI] Removed 1 item from S1
+[2025-11-12T23:27:39.470771600] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:39.471796700] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:39.471796700] [INFO] [StorageManagement] 1 items added to location S2
+[2025-11-12T23:27:39.471796700] [INFO] [HMI] Added 1 item to S2
+[2025-11-12T23:27:39.472795500] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:39.472795500] [INFO] [StorageManagement] 1 items removed from location S1
+[2025-11-12T23:27:39.885879100] [INFO] [ChargingManager] AGV AGV-A2 added to queue.
+[2025-11-12T23:27:39.885879100] [INFO] [HMI] AGV AGV-A2 sent to charging.
+[2025-11-12T23:27:39.885879100] [INFO] [ChargingManager] Assigning AGV AGV-A2 to ST-01
+[2025-11-12T23:27:39.886869100] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A2
+[2025-11-12T23:27:40.014889600] [INFO] [Station-ST-01] Finished chargingAGV-A1
+[2025-11-12T23:27:40.273916700] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:40.273916700] [INFO] [HMI] Removed 1 item from S2
+[2025-11-12T23:27:40.273916700] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:40.273916700] [INFO] [StorageManagement] 1 items added to location S3
+[2025-11-12T23:27:40.273916700] [INFO] [HMI] Added 1 item to S3
+[2025-11-12T23:27:40.274807600] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:40.274807600] [INFO] [StorageManagement] 1 items removed from location S2
+[2025-11-12T23:27:40.442022100] [INFO] [Station-ST-01] Finished chargingAGV-A2
+[2025-11-12T23:27:40.887849800] [INFO] [ChargingManager] AGV AGV-B1 added to queue.
+[2025-11-12T23:27:40.887849800] [INFO] [ChargingManager] Assigning AGV AGV-B1 to ST-01
+[2025-11-12T23:27:40.887849800] [INFO] [HMI] AGV AGV-B1 sent to charging.
+[2025-11-12T23:27:40.888863700] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B1
+[2025-11-12T23:27:41.076242600] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:41.076242600] [INFO] [HMI] Removed 1 item from S3
+[2025-11-12T23:27:41.077276] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:41.077276] [INFO] [StorageManagement] 1 items added to location S4
+[2025-11-12T23:27:41.077276] [INFO] [HMI] Added 1 item to S4
+[2025-11-12T23:27:41.079284500] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:41.079284500] [INFO] [StorageManagement] 1 items removed from location S3
+[2025-11-12T23:27:41.880002500] [INFO] [HMI] Removed 1 item from S4
+[2025-11-12T23:27:41.880002500] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:41.880002500] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:41.880002500] [INFO] [StorageManagement] 1 items added to location S5
+[2025-11-12T23:27:41.880002500] [INFO] [HMI] Added 1 item to S5
+[2025-11-12T23:27:41.881008700] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:41.881008700] [INFO] [StorageManagement] 1 items removed from location S4
+[2025-11-12T23:27:41.892325100] [INFO] [ChargingManager] AGV AGV-B2 added to queue.
+[2025-11-12T23:27:41.892325100] [INFO] [HMI] AGV AGV-B2 sent to charging.
+[2025-11-12T23:27:41.892325100] [INFO] [ChargingManager] Assigning AGV AGV-B2 to ST-01
+[2025-11-12T23:27:41.893320200] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B2
+[2025-11-12T23:27:42.135061200] [INFO] [Station-ST-01] Finished chargingAGV-B1
+[2025-11-12T23:27:42.241847200] [INFO] [HMI] Stopping simulation...
+[2025-11-12T23:27:42.241847200] [INFO] [ChargingManager] Shutting down...
+[2025-11-12T23:27:42.681352900] [INFO] [RoboticArm] Set active state to: true
+[2025-11-12T23:27:42.681352900] [INFO] [HMI] Removed 1 item from S5
+[2025-11-12T23:27:42.681937900] [INFO] [RoboticArm] Moving to storage...
+[2025-11-12T23:27:42.681937900] [INFO] [HMI] Added 1 item to S6
+[2025-11-12T23:27:42.681937900] [INFO] [StorageManagement] 1 items added to location S6
+[2025-11-12T23:27:42.681937900] [INFO] [RoboticArm] Deactivated.
+[2025-11-12T23:27:42.682946900] [INFO] [StorageManagement] 1 items removed from location S5
+[2025-11-12T23:27:43.152801500] [INFO] [Station-ST-01] Finished chargingAGV-B2
+[2025-11-12T23:27:43.153623300] [INFO] [ChargingManager] Stopped.
+[2025-11-12T23:27:43.153623300] [INFO] [StorageManagement] Shutting down storage manager...
+[2025-11-12T23:27:43.154619200] [INFO] [StorageManagement] Storage manager stopped.
+[2025-11-12T23:27:43.154619200] [INFO] [TaskManager] Executor service shutdown.
+[2025-11-12T23:27:43.155609500] [INFO] [HMI] Simulation ended.
+[2025-11-12T23:27:43.155609500] [INFO] [HMI] Simulation stopped.
+[2025-11-12T23:27:43.483366100] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@2344db1[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@7048db2c[Wrapped task = StorageManagement.StorageManager$2@1553ad95]] rejected from java.util.concurrent.ThreadPoolExecutor@62a2d654[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 43]
+[2025-11-12T23:27:43.484357300] [ERROR] [HMI] Task java.util.concurrent.FutureTask@2344db1[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@7048db2c[Wrapped task = StorageManagement.StorageManager$2@1553ad95]] rejected from java.util.concurrent.ThreadPoolExecutor@62a2d654[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 43]

@@ -1,0 +1,90 @@
+[2025-11-10T21:26:10.794087300] [INFO] [TaskManager] Created new transport task for AGV-03.
+[2025-11-10T21:26:53.353532300] [INFO] [TaskManager] Created new transport task for AGV-03.
+[2025-11-10T21:26:59.105011100] [INFO] [TaskManager] Created new transport task for AGV-03.
+[2025-11-10T23:25:44.031121900] [INFO] [TaskManager] Created new transport task for AGV-03.
+[2025-11-10T23:37:17.622216700] [INFO] [Station-1] Starting charging for AGV-1
+[2025-11-10T23:37:18.790652900] [INFO] [Station-1] Finished charging AGV-1
+[2025-11-10T23:37:18.791442100] [INFO] [Station-1] Starting charging for AGV-2
+[2025-11-10T23:37:20.278863800] [INFO] [Station-1] Finished charging AGV-2
+[2025-11-10T23:37:20.278863800] [INFO] [Station-2] Starting charging for AGV-3
+[2025-11-10T23:37:20.857746200] [INFO] [Station-2] Finished charging AGV-3
+[2025-11-10T23:37:20.857746200] [INFO] [Station-1] Starting charging for AGV-4
+[2025-11-10T23:37:21.466309100] [INFO] [Station-1] Finished charging AGV-4
+[2025-11-10T23:37:21.466309100] [INFO] [Station-2] Starting charging for AGV-5
+[2025-11-10T23:37:22.864762300] [INFO] [Station-2] Finished charging AGV-5
+[2025-11-10T23:37:22.864762300] [INFO] [Station-1] Starting charging for AGV-6
+[2025-11-10T23:37:24.358558700] [INFO] [Station-1] Finished charging AGV-6
+[2025-11-10T23:37:24.358558700] [INFO] [Station-1] Starting charging for AGV-7
+[2025-11-10T23:37:24.908049700] [INFO] [Station-2] Starting charging for AGV-12
+[2025-11-10T23:37:24.992911900] [INFO] [Station-1] Finished charging AGV-7
+[2025-11-10T23:37:25.796657300] [INFO] [Station-2] Finished charging AGV-12
+[2025-11-10T23:37:26.949243] [ERROR] [ExceptionHandler] File not found: test.log
+[2025-11-10T23:37:26.955628400] [ERROR] [ExceptionHandler] File already exists: test.log
+[2025-11-10T23:37:26.958627800] [ERROR] [ExceptionHandler] Null reference in operation
+[2025-11-10T23:37:26.961627800] [ERROR] [ExceptionHandler] Invalid argument: Invalid operation
+[2025-11-10T23:37:26.979631100] [ERROR] [ExceptionHandler] File error: test
+[2025-11-10T23:37:26.980633600] [ERROR] [ExceptionHandler] Validation error: Validation failed
+[2025-11-10T23:42:49.550714600] [INFO] [Station-2] Starting charging for AGV-1
+[2025-11-10T23:42:50.711297800] [INFO] [Station-2] Finished charging AGV-1
+[2025-11-10T23:42:50.712092800] [INFO] [Station-2] Starting charging for AGV-2
+[2025-11-10T23:42:51.584295500] [INFO] [Station-2] Finished charging AGV-2
+[2025-11-10T23:42:51.584295500] [INFO] [Station-2] Starting charging for AGV-3
+[2025-11-10T23:42:52.580938100] [INFO] [Station-2] Finished charging AGV-3
+[2025-11-10T23:42:52.580938100] [INFO] [Station-2] Starting charging for AGV-4
+[2025-11-10T23:42:53.778282900] [INFO] [Station-2] Finished charging AGV-4
+[2025-11-10T23:42:53.779302900] [INFO] [Station-2] Starting charging for AGV-5
+[2025-11-10T23:42:54.811781300] [INFO] [Station-2] Finished charging AGV-5
+[2025-11-10T23:42:54.811781300] [INFO] [Station-2] Starting charging for AGV-6
+[2025-11-10T23:42:55.681091600] [INFO] [Station-2] Finished charging AGV-6
+[2025-11-10T23:42:55.681091600] [INFO] [Station-1] Starting charging for AGV-7
+[2025-11-10T23:42:55.682108200] [ERROR] [Station-1] Charging error: MALFUNCTION
+[2025-11-10T23:42:56.823447100] [INFO] [Station-1] Starting charging for AGV-12
+[2025-11-10T23:42:58.018045100] [INFO] [Station-1] Finished charging AGV-12
+[2025-11-10T23:42:58.884221200] [ERROR] [ExceptionHandler] File not found: test.log
+[2025-11-10T23:42:58.894242900] [ERROR] [ExceptionHandler] File already exists: test.log
+[2025-11-10T23:42:58.908220100] [ERROR] [ExceptionHandler] Null reference in operation
+[2025-11-10T23:42:58.911223600] [ERROR] [ExceptionHandler] Invalid argument: Invalid operation
+[2025-11-10T23:42:58.914220100] [ERROR] [ExceptionHandler] File error: test
+[2025-11-10T23:42:58.914220100] [ERROR] [ExceptionHandler] Validation error: Validation failed
+[2025-11-10T23:51:26.935151] [INFO] [Station-1] Starting charging for AGV-1
+[2025-11-10T23:51:28.439633800] [INFO] [Station-1] Finished charging AGV-1
+[2025-11-10T23:51:28.440370500] [INFO] [Station-2] Starting charging for AGV-2
+[2025-11-10T23:51:29.469974900] [INFO] [Station-2] Finished charging AGV-2
+[2025-11-10T23:51:29.469974900] [INFO] [Station-1] Starting charging for AGV-3
+[2025-11-10T23:51:30.623109900] [INFO] [Station-1] Finished charging AGV-3
+[2025-11-10T23:51:30.623109900] [INFO] [Station-2] Starting charging for AGV-4
+[2025-11-10T23:51:31.917928200] [INFO] [Station-2] Finished charging AGV-4
+[2025-11-10T23:51:31.918789200] [INFO] [Station-1] Starting charging for AGV-5
+[2025-11-10T23:51:33.369233200] [INFO] [Station-1] Finished charging AGV-5
+[2025-11-10T23:51:33.369233200] [INFO] [Station-2] Starting charging for AGV-6
+[2025-11-10T23:51:33.853565100] [INFO] [Station-1] Starting charging for AGV-12
+[2025-11-10T23:51:33.854562900] [ERROR] [Station-1] Charging error: MALFUNCTION
+[2025-11-10T23:51:33.953462900] [INFO] [Station-2] Finished charging AGV-6
+[2025-11-10T23:51:35.988625300] [ERROR] [ExceptionHandler] File not found: test.log
+[2025-11-10T23:51:36.008627200] [ERROR] [ExceptionHandler] File already exists: test.log
+[2025-11-10T23:51:36.014641200] [ERROR] [ExceptionHandler] Null reference in operation
+[2025-11-10T23:51:36.039646400] [ERROR] [ExceptionHandler] Invalid argument: Invalid operation
+[2025-11-10T23:51:36.062642800] [ERROR] [ExceptionHandler] File error: test
+[2025-11-10T23:51:36.062642800] [ERROR] [ExceptionHandler] Validation error: Validation failed
+[2025-11-10T23:56:14.661842900] [INFO] [Station-2] Starting charging for AGV-1
+[2025-11-10T23:56:15.322755900] [INFO] [Station-2] Finished charging AGV-1
+[2025-11-10T23:56:15.323764200] [INFO] [Station-1] Starting charging for AGV-2
+[2025-11-10T23:56:16.530078700] [INFO] [Station-1] Finished charging AGV-2
+[2025-11-10T23:56:16.530078700] [INFO] [Station-2] Starting charging for AGV-3
+[2025-11-10T23:56:17.306377600] [INFO] [Station-2] Finished charging AGV-3
+[2025-11-10T23:56:17.306377600] [INFO] [Station-2] Starting charging for AGV-4
+[2025-11-10T23:56:18.679334700] [INFO] [Station-2] Finished charging AGV-4
+[2025-11-10T23:56:18.680345100] [INFO] [Station-1] Starting charging for AGV-5
+[2025-11-10T23:56:19.936397900] [INFO] [Station-1] Finished charging AGV-5
+[2025-11-10T23:56:19.936397900] [INFO] [Station-1] Starting charging for AGV-6
+[2025-11-10T23:56:20.726773900] [INFO] [Station-1] Finished charging AGV-6
+[2025-11-10T23:56:20.726773900] [INFO] [Station-1] Starting charging for AGV-7
+[2025-11-10T23:56:21.194627400] [INFO] [Station-1] Starting charging for AGV-12
+[2025-11-10T23:56:21.807163900] [INFO] [Station-1] Finished charging AGV-7
+[2025-11-10T23:56:22.098794700] [INFO] [Station-1] Finished charging AGV-12
+[2025-11-10T23:56:23.308448500] [ERROR] [ExceptionHandler] File not found: test.log
+[2025-11-10T23:56:23.348468200] [ERROR] [ExceptionHandler] File already exists: test.log
+[2025-11-10T23:56:23.361450] [ERROR] [ExceptionHandler] Null reference in operation
+[2025-11-10T23:56:23.373467500] [ERROR] [ExceptionHandler] Invalid argument: Invalid operation
+[2025-11-10T23:56:23.383451300] [ERROR] [ExceptionHandler] File error: test
+[2025-11-10T23:56:23.383451300] [ERROR] [ExceptionHandler] Validation error: Validation failed

@@ -1,0 +1,999 @@
+[2025-11-13T15:42:19.893257500] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T15:42:19.948014] [INFO] [StorageManagement] 20 items added to location A1
+[2025-11-13T15:42:20.162300200] [INFO] [OrderManager] Created order: O-002
+[2025-11-13T15:42:20.178281800] [INFO] [OrderManager] Order O-002 completed successfully.
+[2025-11-13T15:42:20.178281800] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T15:42:20.180283700] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T15:42:20.183816] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T15:42:20.186811300] [INFO] [StorageManagement] 5 items removed from location A1
+[2025-11-13T15:42:20.235557] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T15:42:20.242559200] [INFO] [StorageManagement] 20 items added to location A1
+[2025-11-13T15:42:20.303012300] [INFO] [OrderManager] Created order: O-004
+[2025-11-13T15:42:20.306069100] [INFO] [OrderManager] Order O-004 completed successfully.
+[2025-11-13T15:42:20.306069100] [ERROR] [StorageManagement] Remove stock failed: Not enough items in storage
+[2025-11-13T15:42:20.695457700] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T15:42:20.710543100] [INFO] [StorageManagement] 20 items added to location A1
+[2025-11-13T15:42:21.077759400] [INFO] [OrderManager] Created order: O-001
+[2025-11-13T15:42:21.090298500] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T15:42:21.211874100] [INFO] [OrderManager] Created order: O-003
+[2025-11-13T15:42:21.196790] [INFO] [StorageManagement] 20 items added to location A1
+[2025-11-13T15:42:21.218404700] [WARN] [OrderManager] Order cancelled: O-003
+[2025-11-13T15:42:39.391344400] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T15:42:39.460798900] [INFO] [StorageManagement] 20 items added to location A1
+[2025-11-13T15:42:39.694403600] [INFO] [OrderManager] Created order: O-002
+[2025-11-13T15:42:39.712766200] [INFO] [OrderManager] Order O-002 completed successfully.
+[2025-11-13T15:42:39.716767] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T15:42:39.719774100] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T15:42:39.721291700] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T15:42:39.725346400] [INFO] [StorageManagement] 5 items removed from location A1
+[2025-11-13T15:42:39.784024900] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T15:42:39.790597600] [INFO] [StorageManagement] 20 items added to location A1
+[2025-11-13T15:42:39.851880] [INFO] [OrderManager] Created order: O-004
+[2025-11-13T15:42:39.853896400] [INFO] [OrderManager] Order O-004 completed successfully.
+[2025-11-13T15:42:39.853896400] [ERROR] [StorageManagement] Remove stock failed: Not enough items in storage
+[2025-11-13T15:42:40.098049] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T15:42:40.101457500] [INFO] [StorageManagement] 20 items added to location A1
+[2025-11-13T15:42:40.161127800] [INFO] [OrderManager] Created order: O-001
+[2025-11-13T15:42:40.170815900] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T15:42:40.174249800] [INFO] [StorageManagement] 20 items added to location A1
+[2025-11-13T15:42:40.239583100] [INFO] [OrderManager] Created order: O-003
+[2025-11-13T15:42:40.241012] [WARN] [OrderManager] Order cancelled: O-003
+[2025-11-13T15:43:15.213590100] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T15:43:15.242274600] [INFO] [StorageManagement] 20 items added to location A1
+[2025-11-13T15:43:15.408029600] [INFO] [OrderManager] Created order: O-002
+[2025-11-13T15:43:15.420838600] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T15:43:15.422570] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T15:43:15.423623400] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T15:43:15.424984400] [INFO] [OrderManager] Order O-002 completed successfully.
+[2025-11-13T15:43:15.425988300] [INFO] [StorageManagement] 5 items removed from location A1
+[2025-11-13T15:43:15.469563600] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T15:43:15.472566400] [INFO] [StorageManagement] 20 items added to location A1
+[2025-11-13T15:43:15.524553300] [INFO] [OrderManager] Created order: O-004
+[2025-11-13T15:43:15.526596800] [INFO] [OrderManager] Order O-004 completed successfully.
+[2025-11-13T15:43:15.526596800] [ERROR] [StorageManagement] Remove stock failed: Not enough items in storage
+[2025-11-13T15:43:15.771620600] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T15:43:15.775129700] [INFO] [StorageManagement] 20 items added to location A1
+[2025-11-13T15:43:15.833673500] [INFO] [OrderManager] Created order: O-001
+[2025-11-13T15:43:15.842863700] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T15:43:15.846044500] [INFO] [StorageManagement] 20 items added to location A1
+[2025-11-13T15:43:15.911226200] [INFO] [OrderManager] Created order: O-003
+[2025-11-13T15:43:15.913565100] [WARN] [OrderManager] Order cancelled: O-003
+[2025-11-13T16:54:46.439366] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T16:54:46.478347600] [INFO] [StorageManagement] 20 items added to location A1
+[2025-11-13T16:54:46.548907200] [INFO] [OrderManager] Created order: O-002
+[2025-11-13T16:54:46.557949] [INFO] [OrderManager] Order O-002 completed successfully.
+[2025-11-13T16:54:46.565333900] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T16:54:46.567332700] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T16:54:46.569506800] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T16:54:46.571506500] [INFO] [StorageManagement] 5 items removed from location A1
+[2025-11-13T16:54:46.603428400] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T16:54:46.606574900] [INFO] [StorageManagement] 20 items added to location A1
+[2025-11-13T16:54:46.662282] [INFO] [OrderManager] Created order: O-004
+[2025-11-13T16:54:46.665286700] [INFO] [OrderManager] Order O-004 completed successfully.
+[2025-11-13T16:54:46.665286700] [ERROR] [StorageManagement] Remove stock failed: Not enough items in storage
+[2025-11-13T16:54:46.971480600] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T16:54:46.974480300] [INFO] [StorageManagement] 20 items added to location A1
+[2025-11-13T16:54:47.028286600] [INFO] [OrderManager] Created order: O-001
+[2025-11-13T16:54:47.041288800] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T16:54:47.044291500] [INFO] [StorageManagement] 20 items added to location A1
+[2025-11-13T16:54:47.103733900] [INFO] [OrderManager] Created order: O-003
+[2025-11-13T16:54:47.106588500] [WARN] [OrderManager] Order cancelled: O-003
+[2025-11-13T17:33:57.522528300] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T17:33:57.585306900] [INFO] [StorageManagement] 20 items added to location A1
+[2025-11-13T17:33:57.760358600] [INFO] [OrderManager] Created order: O-002
+[2025-11-13T17:33:57.767525700] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T17:33:57.769528800] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T17:33:57.778525300] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T17:33:57.788100600] [INFO] [OrderManager] Order O-002 completed successfully.
+[2025-11-13T17:33:57.885661600] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T17:33:57.894659700] [INFO] [StorageManagement] 20 items added to location A1
+[2025-11-13T17:33:57.954730100] [INFO] [OrderManager] Created order: O-004
+[2025-11-13T17:33:57.957727500] [ERROR] [OrderManager] Failed to complete order: Not enough items in storage
+[2025-11-13T17:33:58.170919100] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T17:33:58.174919600] [INFO] [StorageManagement] 20 items added to location A1
+[2025-11-13T17:33:58.227919200] [INFO] [OrderManager] Created order: O-001
+[2025-11-13T17:33:58.241920700] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T17:33:58.245924300] [INFO] [StorageManagement] 20 items added to location A1
+[2025-11-13T17:33:58.307514700] [INFO] [OrderManager] Created order: O-003
+[2025-11-13T17:33:58.309511400] [WARN] [OrderManager] Order cancelled: O-003
+[2025-11-13T17:46:34.182520400] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T17:46:34.222145100] [INFO] [StorageManagement] 20 items added to location A1
+[2025-11-13T17:46:34.499319400] [INFO] [OrderManager] Created order: O-002
+[2025-11-13T17:46:34.507319400] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T17:46:34.509319800] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T17:46:34.511320200] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T17:46:34.519321600] [INFO] [OrderManager] Order O-002 completed successfully.
+[2025-11-13T17:46:34.570321800] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T17:46:34.576324300] [INFO] [StorageManagement] 20 items added to location A1
+[2025-11-13T17:46:34.642329900] [INFO] [OrderManager] Created order: O-004
+[2025-11-13T17:46:34.646327800] [ERROR] [OrderManager] Failed to complete order: Not enough items in storage
+[2025-11-13T17:46:34.874148] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T17:46:34.876190500] [INFO] [StorageManagement] 20 items added to location A1
+[2025-11-13T17:46:34.928760900] [INFO] [OrderManager] Created order: O-001
+[2025-11-13T17:46:34.935759900] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T17:46:34.939156] [INFO] [StorageManagement] 20 items added to location A1
+[2025-11-13T17:46:34.990876400] [INFO] [OrderManager] Created order: O-003
+[2025-11-13T17:46:34.992877200] [WARN] [OrderManager] Order cancelled: O-003
+[2025-11-13T17:53:35.011491900] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T17:53:35.056962200] [INFO] [StorageManagement] 20 items added to location A1
+[2025-11-13T17:53:35.147147900] [INFO] [OrderManager] Created order: O-002
+[2025-11-13T17:53:35.159748900] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T17:53:35.161845200] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T17:53:35.163102800] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T17:53:35.171636400] [INFO] [OrderManager] Order O-002 completed successfully.
+[2025-11-13T17:53:35.219663300] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T17:53:35.223664500] [INFO] [StorageManagement] 20 items added to location A1
+[2025-11-13T17:53:35.276371200] [INFO] [OrderManager] Created order: O-004
+[2025-11-13T17:53:35.278367400] [ERROR] [OrderManager] Failed to complete order: Not enough items in storage
+[2025-11-13T17:53:35.502234900] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T17:53:35.507234300] [INFO] [StorageManagement] 20 items added to location A1
+[2025-11-13T17:53:35.572749400] [INFO] [OrderManager] Created order: O-001
+[2025-11-13T17:53:35.582139700] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T17:53:35.584637300] [INFO] [StorageManagement] 20 items added to location A1
+[2025-11-13T17:53:35.651874100] [INFO] [OrderManager] Created order: O-003
+[2025-11-13T17:53:35.653865100] [WARN] [OrderManager] Order cancelled: O-003
+[2025-11-13T19:22:02.673001600] [INFO] [HMI] Loading database...
+[2025-11-13T19:22:02.686996900] [INFO] [DatabaseGenerator] File creaated: agv.csv
+[2025-11-13T19:22:02.688997100] [INFO] [DatabaseGenerator] File creaated: chargingstation.csv
+[2025-11-13T19:22:02.691000200] [INFO] [DatabaseGenerator] File creaated: roboticarm.csv
+[2025-11-13T19:22:02.691999500] [INFO] [DatabaseGenerator] File creaated: storagelocation.csv
+[2025-11-13T19:22:02.694000200] [INFO] [DatabaseGenerator] File creaated: task.csv
+[2025-11-13T19:22:02.694999400] [INFO] [DatabaseGenerator] CSV databased has been generated: src/main/resources/database/
+[2025-11-13T19:22:02.706999200] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-13T19:22:02.781998700] [INFO] [DatabaseReader] Loaded 10 records from src/main/resources/database/task.csv
+[2025-11-13T19:22:02.787002] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/storagelocation.csv
+[2025-11-13T19:22:02.788999400] [INFO] [DatabaseReader] Loaded 5 charging stations.
+[2025-11-13T19:22:02.790] [INFO] [HMI] Database loaded.
+[2025-11-13T19:22:02.790999600] [INFO] [HMI]  - 8 AGVs
+[2025-11-13T19:22:02.793001300] [INFO] [HMI]  - 5 Charging Stations
+[2025-11-13T19:22:02.793999700] [INFO] [HMI]  - 8 Storage Locations
+[2025-11-13T19:22:02.794998600] [INFO] [HMI]  - 10 Tasks
+[2025-11-13T19:22:02.801998] [INFO] [ChargingManager] Initialized with 5 stations.
+[2025-11-13T19:22:02.808000700] [INFO] [StorageManagement] New storage location added: S1
+[2025-11-13T19:22:02.809002200] [INFO] [StorageManagement] New storage location added: S2
+[2025-11-13T19:22:02.809002200] [INFO] [StorageManagement] New storage location added: S3
+[2025-11-13T19:22:02.809998400] [INFO] [StorageManagement] New storage location added: S4
+[2025-11-13T19:22:02.811000300] [INFO] [StorageManagement] New storage location added: S5
+[2025-11-13T19:22:02.812000100] [INFO] [StorageManagement] New storage location added: S6
+[2025-11-13T19:22:02.813013] [INFO] [StorageManagement] New storage location added: S7
+[2025-11-13T19:22:02.814000200] [INFO] [StorageManagement] New storage location added: S8
+[2025-11-13T19:22:02.816999300] [INFO] [TaskManager] Task added to queue: T-1001
+[2025-11-13T19:22:02.817998300] [INFO] [TaskManager] Task added to queue: T-1002
+[2025-11-13T19:22:02.818997900] [INFO] [TaskManager] Task added to queue: T-1003
+[2025-11-13T19:22:02.819998100] [INFO] [TaskManager] Task added to queue: T-1004
+[2025-11-13T19:22:02.820998] [INFO] [TaskManager] Task added to queue: T-1005
+[2025-11-13T19:22:02.820998] [INFO] [TaskManager] Task added to queue: T-1006
+[2025-11-13T19:22:02.821997700] [INFO] [TaskManager] Task added to queue: T-1007
+[2025-11-13T19:22:02.822999] [INFO] [TaskManager] Task added to queue: T-1008
+[2025-11-13T19:22:02.823999300] [INFO] [TaskManager] Task added to queue: T-1009
+[2025-11-13T19:22:02.823999300] [INFO] [TaskManager] Task added to queue: T-1010
+[2025-11-13T19:22:02.824998600] [INFO] [HMI] System is ready.
+[2025-11-13T19:22:02.825997300] [INFO] [HMI] System initialized successfully.
+[2025-11-13T19:22:08.725388800] [INFO] [HMI] Simulation started.
+[2025-11-13T19:22:08.726387100] [INFO] [HMI] Simulation started.
+[2025-11-13T19:22:08.727387700] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-13T19:22:08.728387200] [INFO] [TaskManager] Assigned task: Task ID: T-1001 ,MOVE, From: S1 To: S2, Status: IN_PROGRESS
+[2025-11-13T19:22:08.729388100] [INFO] [HMI] Added 1 item to S1
+[2025-11-13T19:22:08.729388100] [INFO] [ChargingManager] AGV AGV-A1 added to queue.
+[2025-11-13T19:22:08.729388100] [INFO] [TaskManager] Assigned task: Task ID: T-1002 ,LOAD, From: S2 To: S3, Status: IN_PROGRESS
+[2025-11-13T19:22:08.730388200] [INFO] [StorageManagement] 1 items added to location S1
+[2025-11-13T19:22:08.730388200] [INFO] [TaskManager] Assigned task: Task ID: T-1003 ,UNLOAD, From: S3 To: S1, Status: IN_PROGRESS
+[2025-11-13T19:22:08.731390900] [INFO] [TaskManager] Assigned task: Task ID: T-1004 ,CHARGE, From: ST-02 To: ST-03, Status: IN_PROGRESS
+[2025-11-13T19:22:08.731390900] [INFO] [HMI] AGV AGV-A1 sent to charging.
+[2025-11-13T19:22:08.731390900] [INFO] [ChargingManager] Assigning AGV AGV-A1 to ST-01
+[2025-11-13T19:22:08.731390900] [INFO] [TaskManager] Assigned task: Task ID: T-1005 ,MOVE, From: S5 To: S6, Status: IN_PROGRESS
+[2025-11-13T19:22:08.732389] [INFO] [TaskManager] Assigned task: Task ID: T-1006 ,LOAD, From: S4 To: S7, Status: IN_PROGRESS
+[2025-11-13T19:22:08.732389] [INFO] [TaskManager] Assigned task: Task ID: T-1007 ,UNLOAD, From: S8 To: S2, Status: IN_PROGRESS
+[2025-11-13T19:22:08.733391200] [INFO] [TaskManager] Assigned task: Task ID: T-1008 ,CHARGE, From: ST-04 To: ST-05, Status: IN_PROGRESS
+[2025-11-13T19:22:08.733391200] [INFO] [TaskManager] Assigned task: Task ID: T-1009 ,MOVE, From: S6 To: S1, Status: IN_PROGRESS
+[2025-11-13T19:22:08.734391600] [INFO] [TaskManager] Assigned task: Task ID: T-1010 ,LOAD, From: S7 To: S8, Status: IN_PROGRESS
+[2025-11-13T19:22:08.734391600] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A1
+[2025-11-13T19:22:08.735391200] [INFO] [HMI] TaskManager started processing queue.
+[2025-11-13T19:22:09.534922200] [INFO] [HMI] Removed 1 item from S1
+[2025-11-13T19:22:09.534922200] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T19:22:09.534922200] [INFO] [HMI] Added 1 item to S2
+[2025-11-13T19:22:09.535917800] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T19:22:09.535917800] [INFO] [StorageManagement] 1 items added to location S2
+[2025-11-13T19:22:09.535917800] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T19:22:09.536922500] [INFO] [StorageManagement] 1 items removed from location S1
+[2025-11-13T19:22:09.738920100] [INFO] [ChargingManager] AGV AGV-A2 added to queue.
+[2025-11-13T19:22:09.738920100] [INFO] [TaskManager] Completed task: T-1001
+[2025-11-13T19:22:09.738920100] [INFO] [TaskManager] Completed task: T-1002
+[2025-11-13T19:22:09.738920100] [INFO] [TaskManager] Completed task: T-1003
+[2025-11-13T19:22:09.739922100] [INFO] [HMI] AGV AGV-A2 sent to charging.
+[2025-11-13T19:22:09.739922100] [INFO] [ChargingManager] Assigning AGV AGV-A2 to ST-01
+[2025-11-13T19:22:09.740918300] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A2
+[2025-11-13T19:22:10.123920600] [INFO] [Station-ST-01] Finished chargingAGV-A1
+[2025-11-13T19:22:10.336915300] [INFO] [HMI] Removed 1 item from S2
+[2025-11-13T19:22:10.336915300] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T19:22:10.336915300] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T19:22:10.336915300] [INFO] [StorageManagement] 1 items added to location S3
+[2025-11-13T19:22:10.336915300] [INFO] [HMI] Added 1 item to S3
+[2025-11-13T19:22:10.338917300] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T19:22:10.338917300] [INFO] [StorageManagement] 1 items removed from location S2
+[2025-11-13T19:22:10.740951800] [INFO] [TaskManager] Completed task: T-1004
+[2025-11-13T19:22:10.740951800] [INFO] [TaskManager] Completed task: T-1006
+[2025-11-13T19:22:10.740951800] [INFO] [ChargingManager] AGV AGV-B1 added to queue.
+[2025-11-13T19:22:10.740951800] [INFO] [TaskManager] Completed task: T-1005
+[2025-11-13T19:22:10.742916100] [INFO] [HMI] AGV AGV-B1 sent to charging.
+[2025-11-13T19:22:10.742916100] [INFO] [ChargingManager] Assigning AGV AGV-B1 to ST-01
+[2025-11-13T19:22:10.743917800] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B1
+[2025-11-13T19:22:10.833562200] [INFO] [Station-ST-01] Finished chargingAGV-A2
+[2025-11-13T19:22:11.139560400] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T19:22:11.139560400] [INFO] [HMI] Removed 1 item from S3
+[2025-11-13T19:22:11.140562900] [INFO] [HMI] Added 1 item to S4
+[2025-11-13T19:22:11.140562900] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T19:22:11.140562900] [INFO] [StorageManagement] 1 items added to location S4
+[2025-11-13T19:22:11.140562900] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T19:22:11.141565300] [INFO] [StorageManagement] 1 items removed from location S3
+[2025-11-13T19:22:11.562776500] [INFO] [Station-ST-01] Finished chargingAGV-B1
+[2025-11-13T19:22:11.743776] [INFO] [TaskManager] Completed task: T-1007
+[2025-11-13T19:22:11.743776] [INFO] [TaskManager] Completed task: T-1008
+[2025-11-13T19:22:11.743776] [INFO] [TaskManager] Completed task: T-1009
+[2025-11-13T19:22:11.745772] [INFO] [ChargingManager] AGV AGV-B2 added to queue.
+[2025-11-13T19:22:11.745772] [INFO] [HMI] AGV AGV-B2 sent to charging.
+[2025-11-13T19:22:11.745772] [INFO] [ChargingManager] Assigning AGV AGV-B2 to ST-01
+[2025-11-13T19:22:11.746772700] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B2
+[2025-11-13T19:22:11.942776200] [INFO] [HMI] Removed 1 item from S4
+[2025-11-13T19:22:11.942776200] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T19:22:11.942776200] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T19:22:11.943773] [INFO] [StorageManagement] 1 items added to location S5
+[2025-11-13T19:22:11.942776200] [INFO] [HMI] Added 1 item to S5
+[2025-11-13T19:22:11.944772800] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T19:22:11.944772800] [INFO] [StorageManagement] 1 items removed from location S4
+[2025-11-13T19:22:12.745770800] [INFO] [HMI] Removed 1 item from S5
+[2025-11-13T19:22:12.745770800] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T19:22:12.745770800] [INFO] [HMI] Added 1 item to S6
+[2025-11-13T19:22:12.745770800] [INFO] [StorageManagement] 1 items added to location S6
+[2025-11-13T19:22:12.745770800] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T19:22:12.746771900] [INFO] [TaskManager] Completed task: T-1010
+[2025-11-13T19:22:12.746771900] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T19:22:12.747773800] [INFO] [StorageManagement] 1 items removed from location S5
+[2025-11-13T19:22:12.751771400] [INFO] [ChargingManager] AGV AGV-C1 added to queue.
+[2025-11-13T19:22:12.752772400] [INFO] [ChargingManager] Assigning AGV AGV-C1 to ST-01
+[2025-11-13T19:22:12.752772400] [INFO] [HMI] AGV AGV-C1 sent to charging.
+[2025-11-13T19:22:12.753772500] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C1
+[2025-11-13T19:22:13.010807300] [INFO] [Station-ST-01] Finished chargingAGV-B2
+[2025-11-13T19:22:13.548131400] [INFO] [HMI] Removed 1 item from S6
+[2025-11-13T19:22:13.548131400] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T19:22:13.548131400] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T19:22:13.548131400] [INFO] [HMI] Added 1 item to S7
+[2025-11-13T19:22:13.548131400] [INFO] [StorageManagement] 1 items added to location S7
+[2025-11-13T19:22:13.549128100] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T19:22:13.550126300] [INFO] [StorageManagement] 1 items removed from location S6
+[2025-11-13T19:22:13.638124700] [INFO] [Station-ST-01] Finished chargingAGV-C1
+[2025-11-13T19:22:13.754130300] [INFO] [ChargingManager] AGV AGV-C2 added to queue.
+[2025-11-13T19:22:13.755130500] [INFO] [ChargingManager] Assigning AGV AGV-C2 to ST-01
+[2025-11-13T19:22:13.755130500] [INFO] [HMI] AGV AGV-C2 sent to charging.
+[2025-11-13T19:22:13.756131400] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C2
+[2025-11-13T19:22:14.350128200] [INFO] [HMI] Removed 1 item from S7
+[2025-11-13T19:22:14.350128200] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T19:22:14.350128200] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T19:22:14.350128200] [INFO] [StorageManagement] 1 items added to location S8
+[2025-11-13T19:22:14.350128200] [INFO] [HMI] Added 1 item to S8
+[2025-11-13T19:22:14.351125100] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T19:22:14.351125100] [INFO] [StorageManagement] 1 items removed from location S7
+[2025-11-13T19:22:14.386125] [INFO] [Station-ST-01] Finished chargingAGV-C2
+[2025-11-13T19:22:14.757126200] [INFO] [ChargingManager] AGV AGV-D1 added to queue.
+[2025-11-13T19:22:14.757126200] [INFO] [HMI] AGV AGV-D1 sent to charging.
+[2025-11-13T19:22:14.757126200] [INFO] [ChargingManager] Assigning AGV AGV-D1 to ST-01
+[2025-11-13T19:22:14.758127600] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D1
+[2025-11-13T19:22:15.048129300] [INFO] [HMI] No task in progress.
+[2025-11-13T19:22:15.152152400] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T19:22:15.152152400] [INFO] [HMI] Removed 1 item from S8
+[2025-11-13T19:22:15.152152400] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T19:22:15.153129600] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T19:22:15.153129600] [INFO] [StorageManagement] 1 items removed from location S8
+[2025-11-13T19:22:15.759256400] [INFO] [ChargingManager] AGV AGV-D2 added to queue.
+[2025-11-13T19:22:15.759256400] [INFO] [HMI] AGV AGV-D2 sent to charging.
+[2025-11-13T19:22:15.759256400] [INFO] [ChargingManager] Assigning AGV AGV-D2 to ST-01
+[2025-11-13T19:22:15.760257300] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D2
+[2025-11-13T19:22:15.806265500] [INFO] [Station-ST-01] Finished chargingAGV-D1
+[2025-11-13T19:22:16.653257400] [INFO] [HMI] Added 1 item to S1
+[2025-11-13T19:22:16.653257400] [INFO] [StorageManagement] 1 items added to location S1
+[2025-11-13T19:22:16.762262300] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-13T19:22:16.762262300] [INFO] [ChargingManager] AGV AGV-A1 added to queue.
+[2025-11-13T19:22:16.763262200] [INFO] [HMI] AGV AGV-A1 sent to charging.
+[2025-11-13T19:22:16.763262200] [INFO] [ChargingManager] Assigning AGV AGV-A1 to ST-01
+[2025-11-13T19:22:16.764258600] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A1
+[2025-11-13T19:22:16.927262600] [INFO] [Station-ST-01] Finished chargingAGV-D2
+[2025-11-13T19:22:17.316654800] [INFO] [HMI] No task in progress.
+[2025-11-13T19:22:17.455653200] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T19:22:17.455653200] [INFO] [HMI] Removed 1 item from S1
+[2025-11-13T19:22:17.456657] [INFO] [StorageManagement] 1 items added to location S2
+[2025-11-13T19:22:17.455653200] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T19:22:17.455653200] [INFO] [HMI] Added 1 item to S2
+[2025-11-13T19:22:17.456657] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T19:22:17.457656500] [INFO] [StorageManagement] 1 items removed from location S1
+[2025-11-13T19:22:17.494655] [INFO] [Station-ST-01] Finished chargingAGV-A1
+[2025-11-13T19:22:17.764304700] [INFO] [ChargingManager] AGV AGV-A2 added to queue.
+[2025-11-13T19:22:17.764304700] [INFO] [HMI] AGV AGV-A2 sent to charging.
+[2025-11-13T19:22:17.764304700] [INFO] [ChargingManager] Assigning AGV AGV-A2 to ST-01
+[2025-11-13T19:22:17.765307500] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A2
+[2025-11-13T19:22:18.187304600] [INFO] [HMI] No task in progress.
+[2025-11-13T19:22:18.259318900] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T19:22:18.259318900] [INFO] [HMI] Removed 1 item from S2
+[2025-11-13T19:22:18.259318900] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T19:22:18.260319100] [INFO] [HMI] Added 1 item to S3
+[2025-11-13T19:22:18.260319100] [INFO] [StorageManagement] 1 items added to location S3
+[2025-11-13T19:22:18.260319100] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T19:22:18.261319500] [INFO] [StorageManagement] 1 items removed from location S2
+[2025-11-13T19:22:18.481320500] [INFO] [Station-ST-01] Finished chargingAGV-A2
+[2025-11-13T19:22:18.773328200] [INFO] [ChargingManager] AGV AGV-B1 added to queue.
+[2025-11-13T19:22:18.773328200] [INFO] [HMI] AGV AGV-B1 sent to charging.
+[2025-11-13T19:22:18.773328200] [INFO] [ChargingManager] Assigning AGV AGV-B1 to ST-01
+[2025-11-13T19:22:18.774306] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B1
+[2025-11-13T19:22:19.061304500] [INFO] [HMI] Removed 1 item from S3
+[2025-11-13T19:22:19.061304500] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T19:22:19.061304500] [INFO] [HMI] Added 1 item to S4
+[2025-11-13T19:22:19.061304500] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T19:22:19.061304500] [INFO] [StorageManagement] 1 items added to location S4
+[2025-11-13T19:22:19.062305100] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T19:22:19.062305100] [INFO] [StorageManagement] 1 items removed from location S3
+[2025-11-13T19:22:19.777308800] [INFO] [ChargingManager] AGV AGV-B2 added to queue.
+[2025-11-13T19:22:19.777308800] [INFO] [HMI] AGV AGV-B2 sent to charging.
+[2025-11-13T19:22:19.777308800] [INFO] [ChargingManager] Assigning AGV AGV-B2 to ST-01
+[2025-11-13T19:22:19.778305800] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B2
+[2025-11-13T19:22:19.864307100] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T19:22:19.864307100] [INFO] [HMI] Removed 1 item from S4
+[2025-11-13T19:22:19.864307100] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T19:22:19.864307100] [INFO] [HMI] Added 1 item to S5
+[2025-11-13T19:22:19.864307100] [INFO] [StorageManagement] 1 items added to location S5
+[2025-11-13T19:22:19.865307] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T19:22:19.865307] [INFO] [StorageManagement] 1 items removed from location S4
+[2025-11-13T19:22:19.890308] [INFO] [Station-ST-01] Finished chargingAGV-B1
+[2025-11-13T19:22:20.591309600] [INFO] [Station-ST-01] Finished chargingAGV-B2
+[2025-11-13T19:22:20.666308500] [INFO] [HMI] Removed 1 item from S5
+[2025-11-13T19:22:20.666308500] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T19:22:20.666308500] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T19:22:20.666308500] [INFO] [StorageManagement] 1 items added to location S6
+[2025-11-13T19:22:20.666308500] [INFO] [HMI] Added 1 item to S6
+[2025-11-13T19:22:20.667308200] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T19:22:20.668311300] [INFO] [StorageManagement] 1 items removed from location S5
+[2025-11-13T19:22:20.779303900] [INFO] [ChargingManager] AGV AGV-C1 added to queue.
+[2025-11-13T19:22:20.779303900] [INFO] [ChargingManager] Assigning AGV AGV-C1 to ST-01
+[2025-11-13T19:22:20.779303900] [INFO] [HMI] AGV AGV-C1 sent to charging.
+[2025-11-13T19:22:20.780308300] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C1
+[2025-11-13T19:22:21.468310300] [INFO] [HMI] Removed 1 item from S6
+[2025-11-13T19:22:21.468310300] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T19:22:21.469305700] [INFO] [HMI] Added 1 item to S7
+[2025-11-13T19:22:21.469305700] [INFO] [StorageManagement] 1 items added to location S7
+[2025-11-13T19:22:21.469305700] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T19:22:21.470305200] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T19:22:21.471306100] [INFO] [StorageManagement] 1 items removed from location S6
+[2025-11-13T19:22:21.608310700] [INFO] [Station-ST-01] Finished chargingAGV-C1
+[2025-11-13T19:22:21.786304400] [INFO] [ChargingManager] AGV AGV-C2 added to queue.
+[2025-11-13T19:22:21.786304400] [INFO] [HMI] AGV AGV-C2 sent to charging.
+[2025-11-13T19:22:21.786304400] [INFO] [ChargingManager] Assigning AGV AGV-C2 to ST-01
+[2025-11-13T19:22:21.787308700] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C2
+[2025-11-13T19:22:22.272396400] [INFO] [HMI] Removed 1 item from S7
+[2025-11-13T19:22:22.272396400] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T19:22:22.272396400] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T19:22:22.273398200] [INFO] [StorageManagement] 1 items added to location S8
+[2025-11-13T19:22:22.272396400] [INFO] [HMI] Added 1 item to S8
+[2025-11-13T19:22:22.273398200] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T19:22:22.274399600] [INFO] [StorageManagement] 1 items removed from location S7
+[2025-11-13T19:22:22.789393300] [INFO] [ChargingManager] AGV AGV-D1 added to queue.
+[2025-11-13T19:22:22.789393300] [INFO] [HMI] AGV AGV-D1 sent to charging.
+[2025-11-13T19:22:22.789393300] [INFO] [ChargingManager] Assigning AGV AGV-D1 to ST-01
+[2025-11-13T19:22:22.790394900] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D1
+[2025-11-13T19:22:22.792397900] [ERROR] [Station-ST-01] Charging error: MALFUNCTION
+[2025-11-13T19:22:23.074393700] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T19:22:23.074393700] [INFO] [HMI] Removed 1 item from S8
+[2025-11-13T19:22:23.075398900] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T19:22:23.080395100] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T19:22:23.080395100] [INFO] [StorageManagement] 1 items removed from location S8
+[2025-11-13T19:22:23.112394] [INFO] [Station-ST-01] Finished chargingAGV-C2
+[2025-11-13T19:22:23.791396300] [INFO] [ChargingManager] AGV AGV-D2 added to queue.
+[2025-11-13T19:22:23.791396300] [INFO] [HMI] AGV AGV-D2 sent to charging.
+[2025-11-13T19:22:23.791396300] [INFO] [ChargingManager] Assigning AGV AGV-D2 to ST-01
+[2025-11-13T19:22:23.793399500] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D2
+[2025-11-13T19:22:24.576405900] [INFO] [HMI] Added 1 item to S1
+[2025-11-13T19:22:24.576405900] [INFO] [StorageManagement] 1 items added to location S1
+[2025-11-13T19:22:24.797408100] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-13T19:22:24.798406500] [INFO] [ChargingManager] AGV AGV-A1 added to queue.
+[2025-11-13T19:22:24.798406500] [INFO] [HMI] AGV AGV-A1 sent to charging.
+[2025-11-13T19:22:24.798406500] [INFO] [ChargingManager] Assigning AGV AGV-A1 to ST-01
+[2025-11-13T19:22:24.800406500] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A1
+[2025-11-13T19:22:24.888404900] [INFO] [Station-ST-01] Finished chargingAGV-D2
+[2025-11-13T19:22:25.378405400] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T19:22:25.378405400] [INFO] [HMI] Removed 1 item from S1
+[2025-11-13T19:22:25.378405400] [INFO] [StorageManagement] 1 items added to location S2
+[2025-11-13T19:22:25.378405400] [INFO] [HMI] Added 1 item to S2
+[2025-11-13T19:22:25.378405400] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T19:22:25.379411800] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T19:22:25.379411800] [INFO] [StorageManagement] 1 items removed from location S1
+[2025-11-13T19:22:25.800406300] [INFO] [ChargingManager] AGV AGV-A2 added to queue.
+[2025-11-13T19:22:25.800406300] [INFO] [HMI] AGV AGV-A2 sent to charging.
+[2025-11-13T19:22:25.800406300] [INFO] [ChargingManager] Assigning AGV AGV-A2 to ST-01
+[2025-11-13T19:22:25.801408200] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A2
+[2025-11-13T19:22:26.182405] [INFO] [Station-ST-01] Finished chargingAGV-A1
+[2025-11-13T19:22:26.184405900] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T19:22:26.184405900] [INFO] [HMI] Removed 1 item from S2
+[2025-11-13T19:22:26.184405900] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T19:22:26.184405900] [INFO] [HMI] Added 1 item to S3
+[2025-11-13T19:22:26.184405900] [INFO] [StorageManagement] 1 items added to location S3
+[2025-11-13T19:22:26.185406700] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T19:22:26.185406700] [INFO] [StorageManagement] 1 items removed from location S2
+[2025-11-13T19:22:26.528429600] [INFO] [Station-ST-01] Finished chargingAGV-A2
+[2025-11-13T19:22:26.652406100] [INFO] [HMI] Stopping simulation...
+[2025-11-13T19:22:26.653406500] [INFO] [ChargingManager] Shutting down...
+[2025-11-13T19:22:26.653406500] [INFO] [ChargingManager] Stopped.
+[2025-11-13T19:22:26.654406] [INFO] [StorageManagement] Shutting down storage manager...
+[2025-11-13T19:22:26.654406] [INFO] [StorageManagement] Storage manager stopped.
+[2025-11-13T19:22:26.654406] [INFO] [TaskManager] Executor service shutdown.
+[2025-11-13T19:22:26.655405400] [INFO] [HMI] Simulation ended.
+[2025-11-13T19:22:26.655405400] [INFO] [HMI] Simulation stopped.
+[2025-11-13T19:22:26.985786800] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@1c0c3613[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@5598bc99[Wrapped task = StorageManagement.StorageManager$2@1c271965]] rejected from java.util.concurrent.ThreadPoolExecutor@62a2d654[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 37]
+[2025-11-13T19:22:26.986783600] [ERROR] [HMI] Task java.util.concurrent.FutureTask@1c0c3613[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@5598bc99[Wrapped task = StorageManagement.StorageManager$2@1c271965]] rejected from java.util.concurrent.ThreadPoolExecutor@62a2d654[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 37]
+[2025-11-13T19:23:16.912022700] [INFO] [ChargingManager] Initialized with 2 stations.
+[2025-11-13T19:23:16.923023700] [INFO] [ChargingManager] AGV AGV-1 added to queue.
+[2025-11-13T19:23:16.926023700] [INFO] [ChargingManager] AGV AGV-2 added to queue.
+[2025-11-13T19:23:16.927024] [INFO] [ChargingManager] AGV AGV-3 added to queue.
+[2025-11-13T19:23:16.928024100] [INFO] [ChargingManager] AGV AGV-4 added to queue.
+[2025-11-13T19:23:16.929023800] [INFO] [ChargingManager] AGV AGV-5 added to queue.
+[2025-11-13T19:23:16.931026900] [INFO] [ChargingManager] Assigning AGV AGV-1 to ST-01
+[2025-11-13T19:23:16.933026700] [INFO] [ChargingManager] Assigning AGV AGV-2 to ST-02
+[2025-11-13T19:23:16.934027500] [INFO] [Station-ST-01] Starting charging for AGV-AGV-1
+[2025-11-13T19:23:17.637025300] [INFO] [Station-ST-01] Finished chargingAGV-1
+[2025-11-13T19:23:17.637025300] [INFO] [ChargingManager] Assigning AGV AGV-3 to ST-01
+[2025-11-13T19:23:17.638025500] [INFO] [Station-ST-02] Starting charging for AGV-AGV-2
+[2025-11-13T19:23:17.943023300] [INFO] [ChargingManager] AGV AGV-X1 added to queue.
+[2025-11-13T19:23:17.943023300] [INFO] [ChargingManager] AGV AGV-X2 added to queue.
+[2025-11-13T19:23:17.944021600] [INFO] [ChargingManager] AGV AGV-X3 added to queue.
+[2025-11-13T19:23:17.945024800] [INFO] [ChargingManager] AGV AGV-X4 added to queue.
+[2025-11-13T19:23:17.946020900] [INFO] [ChargingManager] AGV AGV-X5 added to queue.
+[2025-11-13T19:23:19.096025800] [INFO] [Station-ST-02] Finished chargingAGV-2
+[2025-11-13T19:23:19.096025800] [INFO] [ChargingManager] Assigning AGV AGV-4 to ST-02
+[2025-11-13T19:23:19.096025800] [INFO] [Station-ST-01] Starting charging for AGV-AGV-3
+[2025-11-13T19:23:20.294023] [INFO] [Station-ST-01] Finished chargingAGV-3
+[2025-11-13T19:23:20.294023] [INFO] [ChargingManager] Assigning AGV AGV-5 to ST-01
+[2025-11-13T19:23:20.294023] [INFO] [Station-ST-02] Starting charging for AGV-AGV-4
+[2025-11-13T19:23:21.430539900] [INFO] [Station-ST-02] Finished chargingAGV-4
+[2025-11-13T19:23:21.430539900] [INFO] [ChargingManager] Assigning AGV AGV-X1 to ST-02
+[2025-11-13T19:23:21.430539900] [INFO] [Station-ST-01] Starting charging for AGV-AGV-5
+[2025-11-13T19:23:22.211536] [INFO] [Station-ST-01] Finished chargingAGV-5
+[2025-11-13T19:23:22.211536] [INFO] [ChargingManager] Assigning AGV AGV-X2 to ST-01
+[2025-11-13T19:23:22.211536] [INFO] [Station-ST-02] Starting charging for AGV-AGV-X1
+[2025-11-13T19:23:22.931257600] [INFO] [Station-ST-02] Finished chargingAGV-X1
+[2025-11-13T19:23:22.931257600] [INFO] [ChargingManager] Assigning AGV AGV-X3 to ST-02
+[2025-11-13T19:23:22.931257600] [INFO] [Station-ST-01] Starting charging for AGV-AGV-X2
+[2025-11-13T19:23:22.948241200] [INFO] [ChargingManager] Shutting down...
+[2025-11-13T19:23:23.491231600] [INFO] [Station-ST-01] Finished chargingAGV-X2
+[2025-11-13T19:23:23.491231600] [INFO] [ChargingManager] Assigning AGV AGV-X4 to ST-01
+[2025-11-13T19:23:23.491231600] [INFO] [Station-ST-02] Starting charging for AGV-AGV-X3
+[2025-11-13T19:23:24.841466100] [INFO] [Station-ST-02] Finished chargingAGV-X3
+[2025-11-13T19:23:24.841466100] [INFO] [ChargingManager] Stopped.
+[2025-11-13T19:23:26.158471600] [INFO] [ChargingManager] Initialized with 2 stations.
+[2025-11-13T19:23:26.159470800] [INFO] [ChargingManager] AGV AGV-TEST added to queue.
+[2025-11-13T19:23:26.160471] [INFO] [ChargingManager] Assigning AGV AGV-TEST to ST-01
+[2025-11-13T19:23:26.161467] [INFO] [Station-ST-01] Starting charging for AGV-AGV-TEST
+[2025-11-13T19:23:27.613736100] [INFO] [Station-ST-01] Finished chargingAGV-TEST
+[2025-11-13T19:23:28.170725800] [INFO] [ChargingManager] Shutting down...
+[2025-11-13T19:23:28.170725800] [INFO] [ChargingManager] Stopped.
+[2025-11-13T19:23:28.224722300] [ERROR] [ExceptionHandler] File not found: test.log
+[2025-11-13T19:23:28.235723400] [ERROR] [ExceptionHandler] File already exists: test.log
+[2025-11-13T19:23:28.240723800] [ERROR] [ExceptionHandler] Null reference in operation
+[2025-11-13T19:23:28.244724300] [ERROR] [ExceptionHandler] Invalid argument: Invalid operation
+[2025-11-13T19:23:28.249727400] [ERROR] [ExceptionHandler] File error: test
+[2025-11-13T19:23:28.250723300] [ERROR] [ExceptionHandler] Validation error: Validation failed
+[2025-11-13T19:23:28.272726800] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T19:23:28.272726800] [INFO] [StorageManagement] New storage location added: B1
+[2025-11-13T19:23:28.277725200] [INFO] [StorageManagement] 3 items added to location A1
+[2025-11-13T19:23:28.278726300] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T19:23:28.279725900] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T19:23:28.279725900] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T19:23:28.280722900] [INFO] [StorageManagement] 2 items removed from location A1
+[2025-11-13T19:23:28.330723300] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T19:23:28.330723300] [INFO] [StorageManagement] New storage location added: B1
+[2025-11-13T19:23:28.332724300] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T19:23:28.333723500] [INFO] [StorageManagement] New storage location added: B1
+[2025-11-13T19:23:28.335722700] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T19:23:28.336721900] [INFO] [StorageManagement] New storage location added: B1
+[2025-11-13T19:23:28.336721900] [INFO] [StorageManagement] 3 items added to location A1
+[2025-11-13T19:23:28.338723] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T19:23:28.339722100] [INFO] [StorageManagement] New storage location added: B1
+[2025-11-13T19:23:28.341722300] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T19:23:28.342722800] [INFO] [StorageManagement] New storage location added: B1
+[2025-11-13T19:23:28.345723700] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T19:23:28.345723700] [INFO] [StorageManagement] New storage location added: B1
+[2025-11-13T19:23:28.348724900] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T19:23:28.349725300] [INFO] [StorageManagement] New storage location added: B1
+[2025-11-13T19:23:28.350725] [INFO] [StorageManagement] 2 items added to location A1
+[2025-11-13T19:23:28.350725] [ERROR] [StorageManagement] Remove stock failed: Not enough items in storage
+[2025-11-13T19:23:28.567739500] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T19:23:28.567739500] [INFO] [StorageManagement] New storage location added: B1
+[2025-11-13T19:23:28.570736800] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T19:23:28.571728100] [INFO] [StorageManagement] New storage location added: B1
+[2025-11-13T19:23:28.572727200] [INFO] [StorageManagement] 2 items added to location A1
+[2025-11-13T19:23:28.572727200] [INFO] [StorageManagement] 1 items added to location B1
+[2025-11-13T19:23:28.630740500] [INFO] [StorageManagement] Inventory management started...
+[2025-11-13T19:23:28.632724900] [INFO] [RoboticArm] Set active state to: false
+[2025-11-13T19:23:28.633726300] [INFO] [RoboticArm] Activated.
+[2025-11-13T19:23:28.633726300] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T19:23:28.635725400] [INFO] [StorageManagement] Inventory management completed.
+[2025-11-13T19:23:28.635725400] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T19:23:28.636726100] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T19:23:28.637726500] [ERROR] [RoboticArm] Attempted to move, but robotic arm is inactive
+[2025-11-13T19:23:28.640726600] [INFO] [RoboticArm] Set active state to: false
+[2025-11-13T19:23:28.640726600] [INFO] [RoboticArm] Activated.
+[2025-11-13T19:23:28.643722900] [INFO] [RoboticArm] Set active state to: false
+[2025-11-13T19:23:28.643722900] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T19:23:28.645727100] [INFO] [RoboticArm] Set active state to: false
+[2025-11-13T19:23:28.646730400] [ERROR] [RoboticArm] Attempted to move, but robotic arm is inactive
+[2025-11-13T19:23:28.648727200] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T19:23:28.648727200] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T19:23:28.651724700] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T19:23:28.652723800] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T19:23:28.657728300] [INFO] [Inventory] ---- INVENTORY STATUS ----
+[2025-11-13T19:23:28.658732900] [INFO] [Inventory] Location A1: 3 items
+[2025-11-13T19:23:28.658732900] [INFO] [Inventory] Location B1: 5 items
+[2025-11-13T19:23:28.733727700] [INFO] [TaskManager] Created task: Task ID: T-01 ,DISPENSE, From: ZONE A To: PATIENT 1, Status: PENDING
+[2025-11-13T19:23:28.734725800] [INFO] [TaskManager] Assigned task: Task ID: T-01 ,DISPENSE, From: ZONE A To: PATIENT 1, Status: IN_PROGRESS
+[2025-11-13T19:23:28.737723800] [INFO] [TaskManager] Created task: Task ID: T-A ,MOVE, From: A To: B, Status: PENDING
+[2025-11-13T19:23:28.738725100] [INFO] [TaskManager] Created task: Task ID: T-B ,LOAD, From: C To: D, Status: PENDING
+[2025-11-13T19:23:28.739725100] [INFO] [TaskManager] Created task: Task ID: T-C ,UNLOAD, From: E To: F, Status: PENDING
+[2025-11-13T19:23:28.740726] [INFO] [TaskManager] Assigned task: Task ID: T-A ,MOVE, From: A To: B, Status: IN_PROGRESS
+[2025-11-13T19:23:28.741726500] [INFO] [TaskManager] Assigned task: Task ID: T-B ,LOAD, From: C To: D, Status: IN_PROGRESS
+[2025-11-13T19:23:28.742726900] [INFO] [TaskManager] Assigned task: Task ID: T-C ,UNLOAD, From: E To: F, Status: IN_PROGRESS
+[2025-11-13T19:23:29.753637700] [INFO] [TaskManager] Completed task: T-A
+[2025-11-13T19:23:29.753637700] [INFO] [TaskManager] Completed task: T-C
+[2025-11-13T19:23:29.753637700] [INFO] [TaskManager] Completed task: T-B
+[2025-11-13T19:23:30.249154700] [INFO] [TaskManager] Created task: Task ID: T-02 ,RESTOCK, From: ZONE B To: STORAGE, Status: PENDING
+[2025-11-13T19:23:30.250153900] [INFO] [TaskManager] Assigned task: Task ID: T-02 ,RESTOCK, From: ZONE B To: STORAGE, Status: IN_PROGRESS
+[2025-11-13T19:23:30.250153900] [INFO] [TaskManager] Completed task: T-02
+[2025-11-13T19:23:30.252154900] [INFO] [TaskManager] Created task: Task ID: T-03 ,RETRIEVE, From: ZONE C To: DISPENSARY, Status: PENDING
+[2025-11-13T19:23:30.253158] [INFO] [TaskManager] Assigned task: Task ID: T-03 ,RETRIEVE, From: ZONE C To: DISPENSARY, Status: IN_PROGRESS
+[2025-11-13T19:23:30.253158] [ERROR] [TaskManager] Failed task: T-03
+[2025-11-13T19:23:30.256152900] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T19:23:30.258151400] [INFO] [StorageManagement] 20 items added to location A1
+[2025-11-13T19:23:30.259158500] [INFO] [OrderManager] Created order: O-002
+[2025-11-13T19:23:30.260156200] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T19:23:30.260156200] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T19:23:30.261156900] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T19:23:30.261156900] [INFO] [OrderManager] Order O-002 completed successfully.
+[2025-11-13T19:23:30.263158100] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T19:23:30.265150100] [INFO] [StorageManagement] 20 items added to location A1
+[2025-11-13T19:23:30.327155200] [INFO] [OrderManager] Created order: O-004
+[2025-11-13T19:23:30.328151500] [ERROR] [OrderManager] Failed to complete order: Not enough items in storage
+[2025-11-13T19:23:30.535181200] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T19:23:30.536151200] [INFO] [StorageManagement] 20 items added to location A1
+[2025-11-13T19:23:30.597158900] [INFO] [OrderManager] Created order: O-001
+[2025-11-13T19:23:30.599151600] [INFO] [StorageManagement] New storage location added: A1
+[2025-11-13T19:23:30.600150800] [INFO] [StorageManagement] 20 items added to location A1
+[2025-11-13T19:23:30.661154900] [INFO] [OrderManager] Created order: O-003
+[2025-11-13T19:23:30.662156900] [WARN] [OrderManager] Order cancelled: O-003
+[2025-11-13T20:21:09.199291700] [INFO] [HMI] Loading database...
+[2025-11-13T20:21:09.210286800] [INFO] [DatabaseGenerator] File creaated: agv.csv
+[2025-11-13T20:21:09.211287500] [INFO] [DatabaseGenerator] File creaated: chargingstation.csv
+[2025-11-13T20:21:09.212286800] [INFO] [DatabaseGenerator] File creaated: roboticarm.csv
+[2025-11-13T20:21:09.212286800] [INFO] [DatabaseGenerator] File creaated: storagelocation.csv
+[2025-11-13T20:21:09.213286600] [INFO] [DatabaseGenerator] File creaated: task.csv
+[2025-11-13T20:21:09.214286400] [INFO] [DatabaseGenerator] File creaated: medicine.csv
+[2025-11-13T20:21:09.215286600] [INFO] [DatabaseGenerator] File creaated: order.csv
+[2025-11-13T20:21:09.216287700] [INFO] [DatabaseGenerator] CSV databased has been generated: src/main/resources/database/
+[2025-11-13T20:21:09.223288200] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-13T20:21:09.263287800] [INFO] [DatabaseReader] Loaded 10 records from src/main/resources/database/task.csv
+[2025-11-13T20:21:09.266288500] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/storagelocation.csv
+[2025-11-13T20:21:09.267288400] [INFO] [DatabaseReader] Loaded 5 charging stations.
+[2025-11-13T20:21:09.267288400] [INFO] [HMI] Database loaded.
+[2025-11-13T20:21:09.268288900] [INFO] [HMI]  - 8 AGVs
+[2025-11-13T20:21:09.269288800] [INFO] [HMI]  - 5 Charging Stations
+[2025-11-13T20:21:09.269288800] [INFO] [HMI]  - 8 Storage Locations
+[2025-11-13T20:21:09.270288900] [INFO] [HMI]  - 10 Tasks
+[2025-11-13T20:21:09.275289900] [INFO] [ChargingManager] Initialized with 5 stations.
+[2025-11-13T20:21:09.279289500] [INFO] [StorageManagement] New storage location added: S1
+[2025-11-13T20:21:09.280289700] [INFO] [StorageManagement] New storage location added: S2
+[2025-11-13T20:21:09.280289700] [INFO] [StorageManagement] New storage location added: S3
+[2025-11-13T20:21:09.280289700] [INFO] [StorageManagement] New storage location added: S4
+[2025-11-13T20:21:09.281288300] [INFO] [StorageManagement] New storage location added: S5
+[2025-11-13T20:21:09.281288300] [INFO] [StorageManagement] New storage location added: S6
+[2025-11-13T20:21:09.282288700] [INFO] [StorageManagement] New storage location added: S7
+[2025-11-13T20:21:09.282288700] [INFO] [StorageManagement] New storage location added: S8
+[2025-11-13T20:21:09.285289400] [INFO] [TaskManager] Task added to queue: T-1001
+[2025-11-13T20:21:09.285289400] [INFO] [TaskManager] Task added to queue: T-1002
+[2025-11-13T20:21:09.286288400] [INFO] [TaskManager] Task added to queue: T-1003
+[2025-11-13T20:21:09.286288400] [INFO] [TaskManager] Task added to queue: T-1004
+[2025-11-13T20:21:09.286288400] [INFO] [TaskManager] Task added to queue: T-1005
+[2025-11-13T20:21:09.287287400] [INFO] [TaskManager] Task added to queue: T-1006
+[2025-11-13T20:21:09.287287400] [INFO] [TaskManager] Task added to queue: T-1007
+[2025-11-13T20:21:09.288288] [INFO] [TaskManager] Task added to queue: T-1008
+[2025-11-13T20:21:09.288288] [INFO] [TaskManager] Task added to queue: T-1009
+[2025-11-13T20:21:09.288288] [INFO] [TaskManager] Task added to queue: T-1010
+[2025-11-13T20:21:09.289288500] [INFO] [HMI] System is ready.
+[2025-11-13T20:21:09.289288500] [INFO] [HMI] System initialized successfully.
+[2025-11-13T20:21:11.078680800] [INFO] [HMI] Simulation started.
+[2025-11-13T20:21:11.078680800] [INFO] [HMI] Simulation started.
+[2025-11-13T20:21:11.080680500] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-13T20:21:11.080680500] [INFO] [TaskManager] Assigned task: Task ID: T-1001 ,MOVE, From: S1 To: S2, Status: IN_PROGRESS
+[2025-11-13T20:21:11.081683600] [INFO] [TaskManager] Assigned task: Task ID: T-1002 ,LOAD, From: S2 To: S3, Status: IN_PROGRESS
+[2025-11-13T20:21:11.081683600] [INFO] [HMI] Added 1 item to S1
+[2025-11-13T20:21:11.081683600] [INFO] [StorageManagement] 1 items added to location S1
+[2025-11-13T20:21:11.082682300] [INFO] [TaskManager] Assigned task: Task ID: T-1003 ,UNLOAD, From: S3 To: S1, Status: IN_PROGRESS
+[2025-11-13T20:21:11.081683600] [INFO] [ChargingManager] AGV AGV-A1 added to queue.
+[2025-11-13T20:21:11.082682300] [INFO] [TaskManager] Assigned task: Task ID: T-1004 ,CHARGE, From: ST-02 To: ST-03, Status: IN_PROGRESS
+[2025-11-13T20:21:11.083681500] [INFO] [TaskManager] Assigned task: Task ID: T-1005 ,MOVE, From: S5 To: S6, Status: IN_PROGRESS
+[2025-11-13T20:21:11.083681500] [INFO] [TaskManager] Assigned task: Task ID: T-1006 ,LOAD, From: S4 To: S7, Status: IN_PROGRESS
+[2025-11-13T20:21:11.083681500] [INFO] [HMI] AGV AGV-A1 sent to charging.
+[2025-11-13T20:21:11.083681500] [INFO] [ChargingManager] Assigning AGV AGV-A1 to ST-01
+[2025-11-13T20:21:11.084687200] [INFO] [TaskManager] Assigned task: Task ID: T-1007 ,UNLOAD, From: S8 To: S2, Status: IN_PROGRESS
+[2025-11-13T20:21:11.084687200] [INFO] [TaskManager] Assigned task: Task ID: T-1008 ,CHARGE, From: ST-04 To: ST-05, Status: IN_PROGRESS
+[2025-11-13T20:21:11.085682300] [INFO] [TaskManager] Assigned task: Task ID: T-1009 ,MOVE, From: S6 To: S1, Status: IN_PROGRESS
+[2025-11-13T20:21:11.085682300] [INFO] [TaskManager] Assigned task: Task ID: T-1010 ,LOAD, From: S7 To: S8, Status: IN_PROGRESS
+[2025-11-13T20:21:11.085682300] [INFO] [HMI] TaskManager started processing queue.
+[2025-11-13T20:21:11.085682300] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A1
+[2025-11-13T20:21:11.890899400] [INFO] [HMI] Removed 1 item from S1
+[2025-11-13T20:21:11.890899400] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T20:21:11.890899400] [INFO] [HMI] Added 1 item to S2
+[2025-11-13T20:21:11.891880] [INFO] [StorageManagement] 1 items added to location S2
+[2025-11-13T20:21:11.891880] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T20:21:11.891880] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T20:21:11.892879300] [INFO] [StorageManagement] 1 items removed from location S1
+[2025-11-13T20:21:12.093559800] [INFO] [ChargingManager] AGV AGV-A2 added to queue.
+[2025-11-13T20:21:12.093559800] [INFO] [TaskManager] Completed task: T-1002
+[2025-11-13T20:21:12.093559800] [INFO] [TaskManager] Completed task: T-1003
+[2025-11-13T20:21:12.093559800] [INFO] [TaskManager] Completed task: T-1001
+[2025-11-13T20:21:12.096692600] [INFO] [ChargingManager] Assigning AGV AGV-A2 to ST-01
+[2025-11-13T20:21:12.096692600] [INFO] [HMI] AGV AGV-A2 sent to charging.
+[2025-11-13T20:21:12.097684400] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A2
+[2025-11-13T20:21:12.355807300] [INFO] [Station-ST-01] Finished chargingAGV-A1
+[2025-11-13T20:21:12.692253500] [INFO] [HMI] Removed 1 item from S2
+[2025-11-13T20:21:12.692253500] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T20:21:12.693270400] [INFO] [HMI] Added 1 item to S3
+[2025-11-13T20:21:12.693270400] [INFO] [StorageManagement] 1 items added to location S3
+[2025-11-13T20:21:12.693270400] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T20:21:12.695261300] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T20:21:12.695261300] [INFO] [StorageManagement] 1 items removed from location S2
+[2025-11-13T20:21:13.038870300] [INFO] [Station-ST-01] Finished chargingAGV-A2
+[2025-11-13T20:21:13.097820100] [INFO] [ChargingManager] AGV AGV-B1 added to queue.
+[2025-11-13T20:21:13.097820100] [INFO] [HMI] AGV AGV-B1 sent to charging.
+[2025-11-13T20:21:13.097820100] [INFO] [ChargingManager] Assigning AGV AGV-B1 to ST-01
+[2025-11-13T20:21:13.098821400] [INFO] [TaskManager] Completed task: T-1004
+[2025-11-13T20:21:13.098821400] [INFO] [TaskManager] Completed task: T-1006
+[2025-11-13T20:21:13.098821400] [INFO] [TaskManager] Completed task: T-1005
+[2025-11-13T20:21:13.098821400] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B1
+[2025-11-13T20:21:13.496432400] [INFO] [HMI] Removed 1 item from S3
+[2025-11-13T20:21:13.496432400] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T20:21:13.497231600] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T20:21:13.497231600] [INFO] [StorageManagement] 1 items added to location S4
+[2025-11-13T20:21:13.497231600] [INFO] [HMI] Added 1 item to S4
+[2025-11-13T20:21:13.499237] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T20:21:13.500237300] [INFO] [StorageManagement] 1 items removed from location S3
+[2025-11-13T20:21:14.098963200] [INFO] [ChargingManager] AGV AGV-B2 added to queue.
+[2025-11-13T20:21:14.098963200] [INFO] [HMI] AGV AGV-B2 sent to charging.
+[2025-11-13T20:21:14.099748800] [INFO] [ChargingManager] Assigning AGV AGV-B2 to ST-01
+[2025-11-13T20:21:14.100715300] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B2
+[2025-11-13T20:21:14.101715800] [ERROR] [Station-ST-01] Charging error: MALFUNCTION
+[2025-11-13T20:21:14.107717400] [INFO] [TaskManager] Completed task: T-1007
+[2025-11-13T20:21:14.107717400] [INFO] [TaskManager] Completed task: T-1008
+[2025-11-13T20:21:14.107717400] [INFO] [TaskManager] Completed task: T-1009
+[2025-11-13T20:21:14.186057200] [INFO] [Station-ST-01] Finished chargingAGV-B1
+[2025-11-13T20:21:14.312141200] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T20:21:14.312141200] [INFO] [HMI] Removed 1 item from S4
+[2025-11-13T20:21:14.313150700] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T20:21:14.313150700] [INFO] [StorageManagement] 1 items added to location S5
+[2025-11-13T20:21:14.313150700] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T20:21:14.313150700] [INFO] [HMI] Added 1 item to S5
+[2025-11-13T20:21:14.314147700] [INFO] [StorageManagement] 1 items removed from location S4
+[2025-11-13T20:21:15.108758200] [INFO] [ChargingManager] AGV AGV-C1 added to queue.
+[2025-11-13T20:21:15.109769400] [INFO] [ChargingManager] Assigning AGV AGV-C1 to ST-01
+[2025-11-13T20:21:15.109769400] [INFO] [HMI] AGV AGV-C1 sent to charging.
+[2025-11-13T20:21:15.109769400] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C1
+[2025-11-13T20:21:15.125001600] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T20:21:15.125001600] [INFO] [TaskManager] Completed task: T-1010
+[2025-11-13T20:21:15.125001600] [INFO] [HMI] Removed 1 item from S5
+[2025-11-13T20:21:15.126715300] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T20:21:15.126715300] [INFO] [HMI] Added 1 item to S6
+[2025-11-13T20:21:15.126715300] [INFO] [StorageManagement] 1 items added to location S6
+[2025-11-13T20:21:15.127712100] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T20:21:15.127712100] [INFO] [StorageManagement] 1 items removed from location S5
+[2025-11-13T20:21:15.927957500] [INFO] [HMI] Removed 1 item from S6
+[2025-11-13T20:21:15.927957500] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T20:21:15.927957500] [INFO] [StorageManagement] 1 items added to location S7
+[2025-11-13T20:21:15.927957500] [INFO] [HMI] Added 1 item to S7
+[2025-11-13T20:21:15.927957500] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T20:21:15.928968300] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T20:21:15.929972600] [INFO] [StorageManagement] 1 items removed from location S6
+[2025-11-13T20:21:16.124867300] [INFO] [ChargingManager] AGV AGV-C2 added to queue.
+[2025-11-13T20:21:16.124867300] [INFO] [HMI] AGV AGV-C2 sent to charging.
+[2025-11-13T20:21:16.124867300] [INFO] [ChargingManager] Assigning AGV AGV-C2 to ST-01
+[2025-11-13T20:21:16.125858300] [INFO] [Station-ST-01] Starting charging for AGV-AGV-C2
+[2025-11-13T20:21:16.605154] [INFO] [Station-ST-01] Finished chargingAGV-C1
+[2025-11-13T20:21:16.731378700] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T20:21:16.731378700] [INFO] [HMI] Removed 1 item from S7
+[2025-11-13T20:21:16.732222200] [INFO] [StorageManagement] 1 items added to location S8
+[2025-11-13T20:21:16.732222200] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T20:21:16.732222200] [INFO] [HMI] Added 1 item to S8
+[2025-11-13T20:21:16.735196400] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T20:21:16.735196400] [INFO] [StorageManagement] 1 items removed from location S7
+[2025-11-13T20:21:16.947349] [INFO] [Station-ST-01] Finished chargingAGV-C2
+[2025-11-13T20:21:17.126067400] [INFO] [ChargingManager] AGV AGV-D1 added to queue.
+[2025-11-13T20:21:17.126067400] [INFO] [HMI] AGV AGV-D1 sent to charging.
+[2025-11-13T20:21:17.126067400] [INFO] [ChargingManager] Assigning AGV AGV-D1 to ST-01
+[2025-11-13T20:21:17.127005800] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D1
+[2025-11-13T20:21:17.544882] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T20:21:17.544882] [INFO] [HMI] Removed 1 item from S8
+[2025-11-13T20:21:17.545614400] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T20:21:17.545614400] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T20:21:17.546613] [INFO] [StorageManagement] 1 items removed from location S8
+[2025-11-13T20:21:18.140831500] [INFO] [ChargingManager] AGV AGV-D2 added to queue.
+[2025-11-13T20:21:18.140831500] [INFO] [HMI] AGV AGV-D2 sent to charging.
+[2025-11-13T20:21:18.140831500] [INFO] [ChargingManager] Assigning AGV AGV-D2 to ST-01
+[2025-11-13T20:21:18.141831200] [INFO] [Station-ST-01] Starting charging for AGV-AGV-D2
+[2025-11-13T20:21:18.168872400] [INFO] [Station-ST-01] Finished chargingAGV-D1
+[2025-11-13T20:21:18.643805600] [INFO] [Station-ST-01] Finished chargingAGV-D2
+[2025-11-13T20:21:19.046839400] [INFO] [StorageManagement] 1 items added to location S1
+[2025-11-13T20:21:19.046839400] [INFO] [HMI] Added 1 item to S1
+[2025-11-13T20:21:19.141879] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-13T20:21:19.141879] [INFO] [ChargingManager] AGV AGV-A1 added to queue.
+[2025-11-13T20:21:19.142853500] [INFO] [HMI] AGV AGV-A1 sent to charging.
+[2025-11-13T20:21:19.142853500] [INFO] [ChargingManager] Assigning AGV AGV-A1 to ST-01
+[2025-11-13T20:21:19.142853500] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A1
+[2025-11-13T20:21:19.855797200] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T20:21:19.855797200] [INFO] [HMI] Removed 1 item from S1
+[2025-11-13T20:21:19.856585] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T20:21:19.856585] [INFO] [StorageManagement] 1 items added to location S2
+[2025-11-13T20:21:19.856585] [INFO] [HMI] Added 1 item to S2
+[2025-11-13T20:21:19.858306600] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T20:21:19.859317200] [INFO] [StorageManagement] 1 items removed from location S1
+[2025-11-13T20:21:20.153469800] [INFO] [ChargingManager] AGV AGV-A2 added to queue.
+[2025-11-13T20:21:20.153469800] [INFO] [ChargingManager] Assigning AGV AGV-A2 to ST-01
+[2025-11-13T20:21:20.153469800] [INFO] [HMI] AGV AGV-A2 sent to charging.
+[2025-11-13T20:21:20.155489800] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A2
+[2025-11-13T20:21:20.168433200] [INFO] [Station-ST-01] Finished chargingAGV-A1
+[2025-11-13T20:21:20.659969600] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T20:21:20.659969600] [INFO] [HMI] Removed 1 item from S2
+[2025-11-13T20:21:20.660979600] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T20:21:20.660979600] [INFO] [HMI] Added 1 item to S3
+[2025-11-13T20:21:20.660979600] [INFO] [StorageManagement] 1 items added to location S3
+[2025-11-13T20:21:20.661980400] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T20:21:20.661980400] [INFO] [StorageManagement] 1 items removed from location S2
+[2025-11-13T20:21:21.156989400] [INFO] [ChargingManager] AGV AGV-B1 added to queue.
+[2025-11-13T20:21:21.156989400] [INFO] [ChargingManager] Assigning AGV AGV-B1 to ST-01
+[2025-11-13T20:21:21.156989400] [INFO] [HMI] AGV AGV-B1 sent to charging.
+[2025-11-13T20:21:21.158759100] [INFO] [Station-ST-01] Starting charging for AGV-AGV-B1
+[2025-11-13T20:21:21.217403] [INFO] [HMI] Stopping simulation...
+[2025-11-13T20:21:21.217403] [INFO] [ChargingManager] Shutting down...
+[2025-11-13T20:21:21.462319] [INFO] [HMI] Removed 1 item from S3
+[2025-11-13T20:21:21.462319] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T20:21:21.463393700] [INFO] [HMI] Added 1 item to S4
+[2025-11-13T20:21:21.463393700] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T20:21:21.463393700] [INFO] [StorageManagement] 1 items added to location S4
+[2025-11-13T20:21:21.465350900] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T20:21:21.465350900] [INFO] [StorageManagement] 1 items removed from location S3
+[2025-11-13T20:21:21.608110] [INFO] [Station-ST-01] Finished chargingAGV-A2
+[2025-11-13T20:21:22.101318700] [INFO] [Station-ST-01] Finished chargingAGV-B1
+[2025-11-13T20:21:22.101318700] [INFO] [ChargingManager] Stopped.
+[2025-11-13T20:21:22.102127600] [INFO] [StorageManagement] Shutting down storage manager...
+[2025-11-13T20:21:22.102127600] [INFO] [StorageManagement] Storage manager stopped.
+[2025-11-13T20:21:22.103125900] [INFO] [TaskManager] Executor service shutdown.
+[2025-11-13T20:21:22.103125900] [INFO] [HMI] Simulation ended.
+[2025-11-13T20:21:22.103125900] [INFO] [HMI] Simulation stopped.
+[2025-11-13T20:21:22.266789900] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@5e570d98[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@10ff3770[Wrapped task = StorageManagement.StorageManager$2@14f717b3]] rejected from java.util.concurrent.ThreadPoolExecutor@62a2d654[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 23]
+[2025-11-13T20:21:22.266789900] [ERROR] [HMI] Task java.util.concurrent.FutureTask@5e570d98[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@10ff3770[Wrapped task = StorageManagement.StorageManager$2@14f717b3]] rejected from java.util.concurrent.ThreadPoolExecutor@62a2d654[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 23]
+[2025-11-13T23:11:21.235533300] [INFO] [HMI] Loading database...
+[2025-11-13T23:11:21.246360800] [INFO] [DatabaseGenerator] File creaated: agv.csv
+[2025-11-13T23:11:21.247380500] [INFO] [DatabaseGenerator] File creaated: chargingstation.csv
+[2025-11-13T23:11:21.248597200] [INFO] [DatabaseGenerator] File creaated: roboticarm.csv
+[2025-11-13T23:11:21.249832200] [INFO] [DatabaseGenerator] File creaated: storagelocation.csv
+[2025-11-13T23:11:21.252327400] [INFO] [DatabaseGenerator] File creaated: task.csv
+[2025-11-13T23:11:21.253328] [INFO] [DatabaseGenerator] File creaated: medicine.csv
+[2025-11-13T23:11:21.255638100] [INFO] [DatabaseGenerator] File creaated: order.csv
+[2025-11-13T23:11:21.255638100] [INFO] [DatabaseGenerator] CSV databased has been generated: src/main/resources/database/
+[2025-11-13T23:11:21.269575800] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-13T23:11:21.326134600] [INFO] [DatabaseReader] Loaded 10 records from src/main/resources/database/task.csv
+[2025-11-13T23:11:21.331672300] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/storagelocation.csv
+[2025-11-13T23:11:21.335365200] [INFO] [DatabaseReader] Loaded 5 charging stations.
+[2025-11-13T23:11:21.336372700] [INFO] [HMI] Database loaded.
+[2025-11-13T23:11:21.337396700] [INFO] [HMI]  - 8 AGVs
+[2025-11-13T23:11:21.338398200] [INFO] [HMI]  - 5 Charging Stations
+[2025-11-13T23:11:21.339907] [INFO] [HMI]  - 8 Storage Locations
+[2025-11-13T23:11:21.340907800] [INFO] [HMI]  - 10 Tasks
+[2025-11-13T23:11:21.346157900] [INFO] [ChargingManager] Initialized with 5 stations.
+[2025-11-13T23:11:21.350486700] [INFO] [StorageManagement] New storage location added: S1
+[2025-11-13T23:11:21.351659400] [INFO] [StorageManagement] New storage location added: S2
+[2025-11-13T23:11:21.352727200] [INFO] [StorageManagement] New storage location added: S3
+[2025-11-13T23:11:21.353725400] [INFO] [StorageManagement] New storage location added: S4
+[2025-11-13T23:11:21.354724900] [INFO] [StorageManagement] New storage location added: S5
+[2025-11-13T23:11:21.355724700] [INFO] [StorageManagement] New storage location added: S6
+[2025-11-13T23:11:21.356789400] [INFO] [StorageManagement] New storage location added: S7
+[2025-11-13T23:11:21.356789400] [INFO] [StorageManagement] New storage location added: S8
+[2025-11-13T23:11:21.360865100] [INFO] [TaskManager] Task added to queue: T-1001
+[2025-11-13T23:11:21.361867500] [INFO] [TaskManager] Task added to queue: T-1002
+[2025-11-13T23:11:21.362867100] [INFO] [TaskManager] Task added to queue: T-1003
+[2025-11-13T23:11:21.362867100] [INFO] [TaskManager] Task added to queue: T-1004
+[2025-11-13T23:11:21.363866400] [INFO] [TaskManager] Task added to queue: T-1005
+[2025-11-13T23:11:21.364866700] [INFO] [TaskManager] Task added to queue: T-1006
+[2025-11-13T23:11:21.364866700] [INFO] [TaskManager] Task added to queue: T-1007
+[2025-11-13T23:11:21.366073600] [INFO] [TaskManager] Task added to queue: T-1008
+[2025-11-13T23:11:21.367083500] [INFO] [TaskManager] Task added to queue: T-1009
+[2025-11-13T23:11:21.368091500] [INFO] [TaskManager] Task added to queue: T-1010
+[2025-11-13T23:11:21.369089] [INFO] [HMI] System is ready.
+[2025-11-13T23:11:21.369089] [INFO] [HMI] System initialized successfully.
+[2025-11-13T23:11:25.013713600] [INFO] [HMI] Simulation started.
+[2025-11-13T23:11:25.014786500] [INFO] [HMI] Simulation started.
+[2025-11-13T23:11:25.016820700] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-13T23:11:25.020370500] [INFO] [TaskManager] Assigned task: Task ID: T-1001 ,MOVE, From: S1 To: S2, Status: IN_PROGRESS
+[2025-11-13T23:11:25.024387600] [INFO] [ChargingManager] AGV AGV-A1 added to queue.
+[2025-11-13T23:11:25.033055] [INFO] [HMI] Added 1 item to S1
+[2025-11-13T23:11:25.036054100] [INFO] [StorageManagement] 1 items added to location S1
+[2025-11-13T23:11:25.038055300] [INFO] [HMI] AGV AGV-A1 sent to charging.
+[2025-11-13T23:11:25.038055300] [INFO] [TaskManager] Assigned task: Task ID: T-1002 ,LOAD, From: S2 To: S3, Status: IN_PROGRESS
+[2025-11-13T23:11:25.039054200] [INFO] [ChargingManager] Assigning AGV AGV-A1 to ST-01
+[2025-11-13T23:11:25.041574] [INFO] [TaskManager] Assigned task: Task ID: T-1003 ,UNLOAD, From: S3 To: S1, Status: IN_PROGRESS
+[2025-11-13T23:11:25.043576] [INFO] [TaskManager] Assigned task: Task ID: T-1004 ,CHARGE, From: ST-02 To: ST-03, Status: IN_PROGRESS
+[2025-11-13T23:11:25.044575300] [INFO] [TaskManager] Assigned task: Task ID: T-1005 ,MOVE, From: S5 To: S6, Status: IN_PROGRESS
+[2025-11-13T23:11:25.046574900] [INFO] [TaskManager] Assigned task: Task ID: T-1006 ,LOAD, From: S4 To: S7, Status: IN_PROGRESS
+[2025-11-13T23:11:25.047574800] [INFO] [TaskManager] Assigned task: Task ID: T-1007 ,UNLOAD, From: S8 To: S2, Status: IN_PROGRESS
+[2025-11-13T23:11:25.048575800] [INFO] [TaskManager] Assigned task: Task ID: T-1008 ,CHARGE, From: ST-04 To: ST-05, Status: IN_PROGRESS
+[2025-11-13T23:11:25.051084100] [INFO] [TaskManager] Assigned task: Task ID: T-1009 ,MOVE, From: S6 To: S1, Status: IN_PROGRESS
+[2025-11-13T23:11:25.052087300] [INFO] [TaskManager] Assigned task: Task ID: T-1010 ,LOAD, From: S7 To: S8, Status: IN_PROGRESS
+[2025-11-13T23:11:25.053092600] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A1
+[2025-11-13T23:11:25.054093600] [INFO] [HMI] TaskManager started processing queue.
+[2025-11-13T23:11:25.852667300] [INFO] [HMI] Removed 1 item from S1
+[2025-11-13T23:11:25.853844] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T23:11:25.853844] [INFO] [HMI] Added 1 item to S2
+[2025-11-13T23:11:25.854844300] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T23:11:25.855845500] [INFO] [StorageManagement] 1 items added to location S2
+[2025-11-13T23:11:25.856844100] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T23:11:25.857960300] [INFO] [StorageManagement] 1 items removed from location S1
+[2025-11-13T23:11:26.039729400] [INFO] [TaskManager] Completed task: T-1001
+[2025-11-13T23:11:26.055172200] [INFO] [ChargingManager] AGV AGV-A2 added to queue.
+[2025-11-13T23:11:26.055172200] [INFO] [TaskManager] Completed task: T-1002
+[2025-11-13T23:11:26.055172200] [INFO] [TaskManager] Completed task: T-1003
+[2025-11-13T23:11:26.056325400] [INFO] [HMI] AGV AGV-A2 sent to charging.
+[2025-11-13T23:11:26.056325400] [INFO] [ChargingManager] Assigning AGV AGV-A2 to ST-01
+[2025-11-13T23:11:26.058392600] [INFO] [Station-ST-01] Starting charging for AGV-AGV-A2
+[2025-11-13T23:11:26.216569100] [INFO] [HMI] Stopping simulation...
+[2025-11-13T23:11:26.217571300] [INFO] [ChargingManager] Shutting down...
+[2025-11-13T23:11:26.277100700] [INFO] [Station-ST-01] Finished chargingAGV-A1
+[2025-11-13T23:11:26.656933900] [INFO] [HMI] Removed 1 item from S2
+[2025-11-13T23:11:26.656933900] [INFO] [RoboticArm] Set active state to: true
+[2025-11-13T23:11:26.657940500] [INFO] [StorageManagement] 1 items added to location S3
+[2025-11-13T23:11:26.657940500] [INFO] [RoboticArm] Moving to storage...
+[2025-11-13T23:11:26.657940500] [INFO] [HMI] Added 1 item to S3
+[2025-11-13T23:11:26.659231400] [INFO] [RoboticArm] Deactivated.
+[2025-11-13T23:11:26.660225] [INFO] [StorageManagement] 1 items removed from location S2
+[2025-11-13T23:11:27.042167200] [INFO] [TaskManager] Completed task: T-1004
+[2025-11-13T23:11:27.056902800] [INFO] [TaskManager] Completed task: T-1005
+[2025-11-13T23:11:27.056902800] [INFO] [TaskManager] Completed task: T-1006
+[2025-11-13T23:11:27.349634100] [INFO] [Station-ST-01] Finished chargingAGV-A2
+[2025-11-13T23:11:27.350639900] [INFO] [ChargingManager] Stopped.
+[2025-11-13T23:11:27.352000200] [INFO] [StorageManagement] Shutting down storage manager...
+[2025-11-13T23:11:27.353004900] [INFO] [StorageManagement] Storage manager stopped.
+[2025-11-13T23:11:27.353004900] [INFO] [TaskManager] Executor service shutdown.
+[2025-11-13T23:11:27.354513400] [INFO] [HMI] Simulation ended.
+[2025-11-13T23:11:27.355565300] [INFO] [HMI] Simulation stopped.
+[2025-11-13T23:11:27.460252800] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@4ff785e[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@2494b901[Wrapped task = StorageManagement.StorageManager$2@5078e9dc]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:11:27.461763100] [ERROR] [HMI] Task java.util.concurrent.FutureTask@4ff785e[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@2494b901[Wrapped task = StorageManagement.StorageManager$2@5078e9dc]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:11:27.559966800] [INFO] [TaskManager] Task added to queue: T-159
+[2025-11-13T23:11:27.560999600] [INFO] [HMI] Task created: T-159 (UNLOAD)
+[2025-11-13T23:11:28.043344500] [INFO] [TaskManager] Completed task: T-1007
+[2025-11-13T23:11:28.059540900] [INFO] [TaskManager] Completed task: T-1008
+[2025-11-13T23:11:28.059540900] [INFO] [TaskManager] Completed task: T-1009
+[2025-11-13T23:11:28.258075400] [INFO] [TaskManager] Assigned task: Task ID: T-159 ,UNLOAD, From: ZONE-A To: ZONE-B, Status: IN_PROGRESS
+[2025-11-13T23:11:28.259078] [INFO] [HMI] Task assigned: T-159
+[2025-11-13T23:11:29.054824200] [INFO] [TaskManager] Completed task: T-1010
+[2025-11-13T23:11:29.359639800] [INFO] [HMI] Error adding stock: Task java.util.concurrent.FutureTask@683bbbda[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@43420b04[Wrapped task = StorageManagement.StorageManager$1@5e22312c]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:11:30.058818800] [INFO] [HMI] No task in progress.
+[2025-11-13T23:11:30.803545300] [INFO] [HMI] No task in progress.
+[2025-11-13T23:11:31.636098300] [INFO] [HMI] Error removing stock: Task java.util.concurrent.FutureTask@273a7fb3[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@bfdd187[Wrapped task = StorageManagement.StorageManager$2@38337a71]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:11:49.563799900] [INFO] [HMI] No task in progress.
+[2025-11-13T23:11:51.045243400] [INFO] [HMI] No task in progress.
+[2025-11-13T23:11:52.140537500] [INFO] [HMI] No task in progress.
+[2025-11-13T23:11:54.088836500] [INFO] [HMI] Simulation started.
+[2025-11-13T23:11:54.089958600] [INFO] [HMI] Simulation started.
+[2025-11-13T23:11:54.090956900] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@3b4f027b[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@31b7690b[Wrapped task = StorageManagement.StorageManager$1@3f70914d]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:11:54.091960500] [INFO] [HMI] TaskManager started processing queue.
+[2025-11-13T23:11:54.091960500] [ERROR] [HMI] Task java.util.concurrent.FutureTask@3b4f027b[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@31b7690b[Wrapped task = StorageManagement.StorageManager$1@3f70914d]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:11:54.092958600] [INFO] [DatabaseReader] Loaded 8 records from src/main/resources/database/agv.csv
+[2025-11-13T23:11:54.094958] [INFO] [ChargingManager] AGV AGV-A1 added to queue.
+[2025-11-13T23:11:55.609307900] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@4ff947b6[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@7e4d9b76[Wrapped task = StorageManagement.StorageManager$1@74384a85]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:11:55.610317800] [ERROR] [HMI] Task java.util.concurrent.FutureTask@4ff947b6[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@7e4d9b76[Wrapped task = StorageManagement.StorageManager$1@74384a85]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:11:57.118083800] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@28b86912[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@c66c8e8[Wrapped task = StorageManagement.StorageManager$1@1e626439]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:11:57.119083800] [ERROR] [HMI] Task java.util.concurrent.FutureTask@28b86912[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@c66c8e8[Wrapped task = StorageManagement.StorageManager$1@1e626439]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:11:58.622218800] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@1a2c1ee2[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@2df94f44[Wrapped task = StorageManagement.StorageManager$1@1762e39b]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:11:58.623221200] [ERROR] [HMI] Task java.util.concurrent.FutureTask@1a2c1ee2[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@2df94f44[Wrapped task = StorageManagement.StorageManager$1@1762e39b]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:00.126632400] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@162db12b[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@71b7044c[Wrapped task = StorageManagement.StorageManager$1@16d3f651]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:00.127633600] [ERROR] [HMI] Task java.util.concurrent.FutureTask@162db12b[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@71b7044c[Wrapped task = StorageManagement.StorageManager$1@16d3f651]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:01.633916100] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@2c38913e[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@6c0c7602[Wrapped task = StorageManagement.StorageManager$1@25d08aab]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:01.634919] [ERROR] [HMI] Task java.util.concurrent.FutureTask@2c38913e[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@6c0c7602[Wrapped task = StorageManagement.StorageManager$1@25d08aab]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:03.137641900] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@79f04590[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@5767c97b[Wrapped task = StorageManagement.StorageManager$1@58d419f3]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:03.142608] [ERROR] [HMI] Task java.util.concurrent.FutureTask@79f04590[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@5767c97b[Wrapped task = StorageManagement.StorageManager$1@58d419f3]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:04.658845100] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@8f20c1[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@11298af1[Wrapped task = StorageManagement.StorageManager$1@786ca5be]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:04.659848600] [ERROR] [HMI] Task java.util.concurrent.FutureTask@8f20c1[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@11298af1[Wrapped task = StorageManagement.StorageManager$1@786ca5be]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:06.167580600] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@3b574a29[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@7b283985[Wrapped task = StorageManagement.StorageManager$1@268b4a13]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:06.168650200] [ERROR] [HMI] Task java.util.concurrent.FutureTask@3b574a29[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@7b283985[Wrapped task = StorageManagement.StorageManager$1@268b4a13]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:07.416199600] [INFO] [TaskManager] Task added to queue: T-186
+[2025-11-13T23:12:07.417201400] [INFO] [HMI] Task created: T-186 (LOAD)
+[2025-11-13T23:12:07.682647100] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@45e17a4[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@42a7ecaa[Wrapped task = StorageManagement.StorageManager$1@7879116a]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:07.683644900] [ERROR] [HMI] Task java.util.concurrent.FutureTask@45e17a4[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@42a7ecaa[Wrapped task = StorageManagement.StorageManager$1@7879116a]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:09.185945300] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@4824c18e[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@5d90304[Wrapped task = StorageManagement.StorageManager$1@78667da9]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:09.186951] [ERROR] [HMI] Task java.util.concurrent.FutureTask@4824c18e[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@5d90304[Wrapped task = StorageManagement.StorageManager$1@78667da9]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:10.689847] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@3a7f4903[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@3cb30c19[Wrapped task = StorageManagement.StorageManager$1@71bff9a8]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:10.690850700] [ERROR] [HMI] Task java.util.concurrent.FutureTask@3a7f4903[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@3cb30c19[Wrapped task = StorageManagement.StorageManager$1@71bff9a8]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:10.907589] [INFO] [HMI] Error adding stock: Task java.util.concurrent.FutureTask@3ed8933d[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@2c077b5c[Wrapped task = StorageManagement.StorageManager$1@397a9699]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:12.193552] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@7eb20f21[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@54b9d773[Wrapped task = StorageManagement.StorageManager$1@704eda39]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:12.194550300] [ERROR] [HMI] Task java.util.concurrent.FutureTask@7eb20f21[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@54b9d773[Wrapped task = StorageManagement.StorageManager$1@704eda39]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:13.705755700] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@2244a5f1[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@3e4566a5[Wrapped task = StorageManagement.StorageManager$1@245d3c51]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:13.705755700] [ERROR] [HMI] Task java.util.concurrent.FutureTask@2244a5f1[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@3e4566a5[Wrapped task = StorageManagement.StorageManager$1@245d3c51]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:15.192379400] [INFO] [TaskManager] Assigned task: Task ID: T-186 ,LOAD, From: ZONE-A To: ZONE-B, Status: IN_PROGRESS
+[2025-11-13T23:12:15.193378600] [INFO] [HMI] Task assigned: T-186
+[2025-11-13T23:12:15.220950] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@14764a2d[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@4c616d9f[Wrapped task = StorageManagement.StorageManager$1@59844af8]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:15.221950800] [ERROR] [HMI] Task java.util.concurrent.FutureTask@14764a2d[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@4c616d9f[Wrapped task = StorageManagement.StorageManager$1@59844af8]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:16.734336500] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@2f78d7fe[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@131a0e7f[Wrapped task = StorageManagement.StorageManager$1@54d09416]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:16.735337400] [ERROR] [HMI] Task java.util.concurrent.FutureTask@2f78d7fe[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@131a0e7f[Wrapped task = StorageManagement.StorageManager$1@54d09416]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:17.225735] [INFO] [HMI] Error removing stock: Task java.util.concurrent.FutureTask@91201d1[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@78bd9eec[Wrapped task = StorageManagement.StorageManager$2@6b129b96]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:18.242384700] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@1a7314d0[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@9f9c71e[Wrapped task = StorageManagement.StorageManager$1@4a5359a8]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:18.243382200] [ERROR] [HMI] Task java.util.concurrent.FutureTask@1a7314d0[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@9f9c71e[Wrapped task = StorageManagement.StorageManager$1@4a5359a8]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:18.427953300] [INFO] [HMI] No task in progress.
+[2025-11-13T23:12:19.744738700] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@64158e3f[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@73dde747[Wrapped task = StorageManagement.StorageManager$1@34db0f15]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:19.745739900] [ERROR] [HMI] Task java.util.concurrent.FutureTask@64158e3f[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@73dde747[Wrapped task = StorageManagement.StorageManager$1@34db0f15]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:21.259766100] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@1676fc4c[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@66c2c3f9[Wrapped task = StorageManagement.StorageManager$1@7a39f7b9]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:21.260770100] [ERROR] [HMI] Task java.util.concurrent.FutureTask@1676fc4c[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@66c2c3f9[Wrapped task = StorageManagement.StorageManager$1@7a39f7b9]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:22.773666500] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@1b469faa[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@5edafccb[Wrapped task = StorageManagement.StorageManager$1@2e7721e2]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:22.773666500] [ERROR] [HMI] Task java.util.concurrent.FutureTask@1b469faa[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@5edafccb[Wrapped task = StorageManagement.StorageManager$1@2e7721e2]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:24.290354] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@24a94498[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@3af38412[Wrapped task = StorageManagement.StorageManager$1@33460b23]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:24.291357300] [ERROR] [HMI] Task java.util.concurrent.FutureTask@24a94498[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@3af38412[Wrapped task = StorageManagement.StorageManager$1@33460b23]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:24.475345700] [INFO] [HMI] No task in progress.
+[2025-11-13T23:12:25.793440100] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@2e54eb80[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@bbd2468[Wrapped task = StorageManagement.StorageManager$1@2d48e219]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:25.794441200] [ERROR] [HMI] Task java.util.concurrent.FutureTask@2e54eb80[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@bbd2468[Wrapped task = StorageManagement.StorageManager$1@2d48e219]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:27.298628] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@48797326[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@4037e756[Wrapped task = StorageManagement.StorageManager$1@224b055c]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:27.299725200] [ERROR] [HMI] Task java.util.concurrent.FutureTask@48797326[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@4037e756[Wrapped task = StorageManagement.StorageManager$1@224b055c]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:28.810223600] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@44914814[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@41f89942[Wrapped task = StorageManagement.StorageManager$1@3e8adb7c]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:28.811356800] [ERROR] [HMI] Task java.util.concurrent.FutureTask@44914814[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@41f89942[Wrapped task = StorageManagement.StorageManager$1@3e8adb7c]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:30.320423900] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@2a7c22c9[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@47f2f3e3[Wrapped task = StorageManagement.StorageManager$1@42c540d6]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:30.321587100] [ERROR] [HMI] Task java.util.concurrent.FutureTask@2a7c22c9[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@47f2f3e3[Wrapped task = StorageManagement.StorageManager$1@42c540d6]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:31.452117700] [INFO] [HMI] Simulation already running.
+[2025-11-13T23:12:31.836322] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@5cf5a143[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@64e30e7a[Wrapped task = StorageManagement.StorageManager$1@345e94ee]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:31.837481300] [ERROR] [HMI] Task java.util.concurrent.FutureTask@5cf5a143[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@64e30e7a[Wrapped task = StorageManagement.StorageManager$1@345e94ee]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:33.349054500] [INFO] [HMI] Storage operation failed: Task java.util.concurrent.FutureTask@2b81e65d[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@17d4aa7e[Wrapped task = StorageManagement.StorageManager$1@6bb8e620]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:33.350608200] [ERROR] [HMI] Task java.util.concurrent.FutureTask@2b81e65d[Not completed, task = java.util.concurrent.Executors$RunnableAdapter@17d4aa7e[Wrapped task = StorageManagement.StorageManager$1@6bb8e620]] rejected from java.util.concurrent.ThreadPoolExecutor@104a33be[Terminated, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 5]
+[2025-11-13T23:12:33.594365600] [INFO] [HMI] Stopping simulation...
+[2025-11-13T23:12:33.596720100] [INFO] [ChargingManager] Shutting down...
+[2025-11-13T23:12:33.597719300] [INFO] [ChargingManager] Stopped.
+[2025-11-13T23:12:33.597719300] [INFO] [StorageManagement] Shutting down storage manager...
+[2025-11-13T23:12:33.599201600] [INFO] [StorageManagement] Storage manager stopped.
+[2025-11-13T23:12:33.600200300] [INFO] [TaskManager] Executor service shutdown.
+[2025-11-13T23:12:33.601267900] [INFO] [HMI] Simulation ended.
+[2025-11-13T23:12:33.601267900] [INFO] [HMI] Simulation stopped.
+[2025-11-13T23:20:04.426292] [INFO] [ChargingManager] Initialized with 3 stations.
+[2025-11-13T23:20:04.712751600] [INFO] [StorageManagement] New storage location added: LOC-1
+[2025-11-13T23:20:04.715750900] [INFO] [StorageManagement] New storage location added: LOC-2
+[2025-11-13T23:20:04.723858300] [INFO] [StorageManagement] 25 items added to location LOC-1
+[2025-11-13T23:20:04.725224700] [INFO] [StorageManagement] New storage location added: LOC-3
+[2025-11-13T23:20:04.726224200] [INFO] [StorageManagement] 25 items added to location LOC-2
+[2025-11-13T23:20:04.727346600] [INFO] [StorageManagement] New storage location added: LOC-4
+[2025-11-13T23:20:04.728436300] [INFO] [StorageManagement] 16 items added to location LOC-3
+[2025-11-13T23:20:04.729441200] [INFO] [StorageManagement] New storage location added: LOC-5
+[2025-11-13T23:20:04.730950800] [INFO] [StorageManagement] 11 items added to location LOC-4
+[2025-11-13T23:20:04.732037100] [INFO] [StorageManagement] New storage location added: LOC-6
+[2025-11-13T23:20:04.733044600] [INFO] [StorageManagement] 18 items added to location LOC-5
+[2025-11-13T23:20:04.734048500] [INFO] [StorageManagement] 26 items added to location LOC-6
+[2025-11-13T23:20:04.758919600] [INFO] [HMI] Sample storage locations created.
+[2025-11-13T23:20:04.765460800] [INFO] [HMI] Sample AGVs seeded into charging queue.
+[2025-11-13T23:20:22.359248500] [INFO] [TaskManager] Created task: Task ID: PICK ,LOC-1, From: DISPATCH To: PENDING, Status: 2025-11-13 23:20:22
+[2025-11-13T23:20:22.371879300] [INFO] [HMI] Order enqueued by Mrunal for 100 from LOC-1 => ORD-1763072422354
+[2025-11-13T23:20:43.248781] [INFO] [HMI] Restart requested.
+[2025-11-13T23:20:48.379200500] [INFO] [HMI] Stop requested.
+[2025-11-13T23:26:59.177995300] [INFO] [ChargingManager] Initialized with 3 stations.
+[2025-11-13T23:26:59.454454900] [INFO] [StorageManagement] New storage location added: LOC-1
+[2025-11-13T23:26:59.458622200] [INFO] [StorageManagement] New storage location added: LOC-2
+[2025-11-13T23:26:59.460624100] [INFO] [StorageManagement] New storage location added: LOC-3
+[2025-11-13T23:26:59.469299900] [INFO] [StorageManagement] 22 items added to location LOC-1
+[2025-11-13T23:26:59.470300] [INFO] [StorageManagement] New storage location added: LOC-4
+[2025-11-13T23:26:59.471300900] [INFO] [StorageManagement] 18 items added to location LOC-2
+[2025-11-13T23:26:59.472301700] [INFO] [StorageManagement] 29 items added to location LOC-3
+[2025-11-13T23:26:59.473367500] [INFO] [StorageManagement] New storage location added: LOC-5
+[2025-11-13T23:26:59.474372500] [INFO] [StorageManagement] 14 items added to location LOC-4
+[2025-11-13T23:26:59.475393500] [INFO] [StorageManagement] New storage location added: LOC-6
+[2025-11-13T23:26:59.476398900] [INFO] [StorageManagement] 16 items added to location LOC-5
+[2025-11-13T23:26:59.477398800] [INFO] [StorageManagement] 25 items added to location LOC-6
+[2025-11-13T23:26:59.502381900] [INFO] [HMI] Sample storage locations created.
+[2025-11-13T23:26:59.511086200] [INFO] [HMI] Sample AGVs seeded into charging queue.
+[2025-11-13T23:27:17.971747600] [INFO] [TaskManager] Created task: Task ID: PICK ,LOC-5, From: DISPATCH To: PENDING, Status: 2025-11-13 23:27:17
+[2025-11-13T23:27:17.989166100] [INFO] [HMI] Order enqueued by Mrunal for 1 from LOC-5 => ORD-1763072837965
+[2025-11-13T23:28:37.827564900] [INFO] [TaskManager] Created task: Task ID: PICK ,LOC-4, From: DISPATCH To: PENDING, Status: 2025-11-13 23:28:37
+[2025-11-13T23:28:37.829248700] [INFO] [HMI] Order enqueued by Mrunal for 1 from LOC-4 => ORD-1763072917827
+[2025-11-13T23:45:52.680782800] [INFO] [HMI] Restart requested.
+[2025-11-13T23:46:02.268720900] [INFO] [HMI] Stop requested.
