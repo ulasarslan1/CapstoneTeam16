@@ -38,13 +38,11 @@ The system is organized into several cohesive modules, each responsible for a sp
 
 ### **2.5 Logging System**
 
-* Classes: `Logger`, `SystemLogger`, `OrderLogger`, `LogEntry`
+* Classes: Logger, SystemLogger, OrderLogger, LogEntry
 * Maintains detailed logs of all system activities, including:
 
-  * System events
-  * Order processing history
-  * Storage and robotic operations
-* Logs are stored in the `/logs` directory.
+ * System event
+ * Logs are stored in the "logs" directory.
 
 ### **2.6 Exception Handling**
 
@@ -70,6 +68,8 @@ This section explains how the system operates internally based on the Java class
   * Inventory
   * Storage Manager
   * Order Manager
+  * Task Manager
+  * Charging AGVs
   * Loggers
   * HMI interface
 
