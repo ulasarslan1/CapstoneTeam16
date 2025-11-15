@@ -140,12 +140,12 @@ public class HMI extends JFrame {
         startBtn.addActionListener(e -> {
             if (!running.get()) {
                 startSystemComponents();
+                seedSampleData();
                 startBackgroundRefresh();
                 startClock();
                 startAgvSimulationThread();
             }
         });
-        seedSampleData();
         stopBtn.addActionListener(e -> stopSystemComponents());
         headerRight.add(startBtn); headerRight.add(stopBtn);
 
